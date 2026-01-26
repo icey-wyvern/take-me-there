@@ -1,0 +1,6 @@
+[
+  { "id": "banks", "displayName": "Banks" },
+  { "id": "cities", "displayName": "Cities" },
+  { "id": "shooting-stars", "displayName": "Shooting Stars" },
+  { "id": "misc", "displayName": "Misc" }
+]

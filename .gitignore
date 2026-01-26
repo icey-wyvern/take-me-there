@@ -1,5 +1,6 @@
 .gradle
 build
+build/libs/
 .idea/
 .project
 .settings/
@@ -7,3 +8,4 @@ build
 nbactions.xml
 nb-configuration.xml
 nbproject/
+mvn/
