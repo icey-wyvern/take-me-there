@@ -1,0 +1,793 @@
+[
+  {
+    "id": "dungeons:abandoned-mine",
+    "name": "Abandoned Mine",
+    "x": 3440,
+    "y": 3232,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:ah-za-rhoon",
+    "name": "Ah Za Rhoon",
+    "x": 2922,
+    "y": 3000,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:ancient-cavern",
+    "name": "Ancient Cavern",
+    "x": 2511,
+    "y": 3512,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:ape-atoll-dungeon",
+    "name": "Ape Atoll Dungeon",
+    "x": 2763,
+    "y": 2703,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:asgarnian-ice-dungeon",
+    "name": "Asgarnian Ice Dungeon",
+    "x": 3008,
+    "y": 3152,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:barrows",
+    "name": "Barrows",
+    "x": 3567,
+    "y": 3291,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:basement-of-doom",
+    "name": "Basement of Doom",
+    "x": 3078,
+    "y": 3495,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:brimhaven-dungeon",
+    "name": "Brimhaven Dungeon",
+    "x": 2752,
+    "y": 3109,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:brimstails-cave",
+    "name": "Brimstail's cave",
+    "x": 2402,
+    "y": 3419,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:buccaneers-laboratory",
+    "name": "Buccaneers' Laboratory",
+    "x": 2080,
+    "y": 3687,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:catacombs-of-kourend",
+    "name": "Catacombs of Kourend",
+    "x": 1558,
+    "y": 3756,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:chambers-of-xeric",
+    "name": "Chambers of Xeric",
+    "x": 1245,
+    "y": 3557,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:chaos-druid-tower-dungeon",
+    "name": "Chaos Druid Tower Dungeon",
+    "x": 2563,
+    "y": 3356,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:charred-dungeon",
+    "name": "Charred Dungeon",
+    "x": 2647,
+    "y": 2406,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:chasm-of-fire",
+    "name": "Chasm of Fire",
+    "x": 1435,
+    "y": 3668,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:corporeal-beasts-lair",
+    "name": "Corporeal Beast's Lair",
+    "x": 3201,
+    "y": 3681,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:corsair-cove-dungeon",
+    "name": "Corsair Cove Dungeon",
+    "x": 2523,
+    "y": 2861,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:crabclaw-caves",
+    "name": "Crabclaw Caves",
+    "x": 1644,
+    "y": 3449,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:crandor-and-karamja-dungeon",
+    "name": "Crandor and Karamja Dungeon",
+    "x": 2867,
+    "y": 9600,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:crash-site-cavern",
+    "name": "Crash Site Cavern",
+    "x": 2436,
+    "y": 3520,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:crypt-of-tonali",
+    "name": "Crypt of Tonali",
+    "x": 1307,
+    "y": 3078,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:deep-wilderness-dungeon",
+    "name": "Deep Wilderness Dungeon",
+    "x": 3045,
+    "y": 3925,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:deepfin-mine",
+    "name": "Deepfin Mine",
+    "x": 1948,
+    "y": 2784,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:dragon-nest",
+    "name": "Dragon Nest",
+    "x": 1290,
+    "y": 3135,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:draynor-sewers",
+    "name": "Draynor Sewers",
+    "x": 3084,
+    "y": 3274,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:dwarven-mine",
+    "name": "Dwarven Mine",
+    "x": 3018,
+    "y": 3452,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:edgeville-dungeon",
+    "name": "Edgeville Dungeon",
+    "x": 3097,
+    "y": 3471,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:elemental-workshop",
+    "name": "Elemental Workshop",
+    "x": 2710,
+    "y": 3497,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:elven-rabbit-cave",
+    "name": "Elven rabbit cave",
+    "x": 2264,
+    "y": 3420,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:enakhras-temple",
+    "name": "Enakhra's Temple",
+    "x": 3104,
+    "y": 9312,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:entrana-dungeon",
+    "name": "Entrana Dungeon",
+    "x": 2820,
+    "y": 3376,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:experiment-cave",
+    "name": "Experiment cave",
+    "x": 3575,
+    "y": 3526,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:ferox-enclave-dungeon",
+    "name": "Ferox Enclave Dungeon",
+    "x": 3168,
+    "y": 10016,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:forthos-dungeon",
+    "name": "Forthos Dungeon",
+    "x": 1690,
+    "y": 3575,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:fremennik-slayer-dungeon",
+    "name": "Fremennik Slayer Dungeon",
+    "x": 2797,
+    "y": 3618,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:ghorrock-dungeon",
+    "name": "Ghorrock Dungeon",
+    "x": 2919,
+    "y": 10328,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:giants-den",
+    "name": "Giants' Den",
+    "x": 1420,
+    "y": 3590,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:glarials-tomb",
+    "name": "Glarial's Tomb",
+    "x": 2556,
+    "y": 3445,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:goblin-cave",
+    "name": "Goblin Cave",
+    "x": 2622,
+    "y": 3395,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:goblin-temple",
+    "name": "Goblin Temple",
+    "x": 3744,
+    "y": 4320,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:god-wars-dungeon",
+    "name": "God Wars Dungeon",
+    "x": 2918,
+    "y": 3745,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:grimstone-dungeon",
+    "name": "Grimstone Dungeon",
+    "x": 2913,
+    "y": 4074,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:gryphons-dungeon",
+    "name": "Gryphons (dungeon)",
+    "x": 3177,
+    "y": 2465,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:h-a-m-hideout",
+    "name": "H.A.M. Hideout",
+    "x": 3200,
+    "y": 3235,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:headless-beasts-lair",
+    "name": "Headless Beast's Lair",
+    "x": 1211,
+    "y": 3649,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:here-be-minotaurs",
+    "name": "Here be minotaurs",
+    "x": 1953,
+    "y": 3105,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:ice-troll-caves",
+    "name": "Ice Troll Caves",
+    "x": 2360,
+    "y": 3891,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:iorwerth-camp-cave",
+    "name": "Iorwerth Camp cave",
+    "x": 2204,
+    "y": 9677,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:iorwerth-dungeon",
+    "name": "Iorwerth Dungeon",
+    "x": 3225,
+    "y": 6045,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:isle-of-souls-dungeon",
+    "name": "Isle of Souls Dungeon",
+    "x": 2309,
+    "y": 2919,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:jatizso-mine",
+    "name": "Jatizso mine",
+    "x": 2397,
+    "y": 3812,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:jormungands-prison",
+    "name": "Jormungand's Prison",
+    "x": 2621,
+    "y": 3691,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:kalphite-cave",
+    "name": "Kalphite Cave",
+    "x": 3320,
+    "y": 3122,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:karamjan-temple",
+    "name": "Karamjan Temple",
+    "x": 2943,
+    "y": 2896,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:kendals-lair",
+    "name": "Kendal's Lair",
+    "x": 2809,
+    "y": 3705,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:kraken-cove",
+    "name": "Kraken Cove",
+    "x": 2278,
+    "y": 3611,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:kruks-dungeon",
+    "name": "Kruk's Dungeon",
+    "x": 2715,
+    "y": 2789,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:kurask-lair",
+    "name": "Kurask Lair",
+    "x": 1191,
+    "y": 2788,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:lighthouse",
+    "name": "Lighthouse",
+    "x": 2509,
+    "y": 3641,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:lizardman-caves",
+    "name": "Lizardman Caves",
+    "x": 1420,
+    "y": 3586,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:lumbridge-swamp-caves",
+    "name": "Lumbridge Swamp Caves",
+    "x": 3169,
+    "y": 3174,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:lunar-isle-mine",
+    "name": "Lunar Isle mine",
+    "x": 2142,
+    "y": 3944,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:melzars-maze",
+    "name": "Melzar's Maze",
+    "x": 2932,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:miscellania-and-etceteria-dungeon",
+    "name": "Miscellania and Etceteria dungeon",
+    "x": 2564,
+    "y": 3865,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:mogre-camp",
+    "name": "Mogre Camp",
+    "x": 2975,
+    "y": 9507,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:morytania-spider-cave",
+    "name": "Morytania Spider Cave",
+    "x": 3657,
+    "y": 3409,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:mos-leharmless-cave",
+    "name": "Mos Le'Harmless Cave",
+    "x": 3748,
+    "y": 2976,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:mourner-tunnels",
+    "name": "Mourner Tunnels",
+    "x": 2041,
+    "y": 4672,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:neypotzli",
+    "name": "Neypotzli",
+    "x": 1440,
+    "y": 9602,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:observatory-dungeon",
+    "name": "Observatory Dungeon",
+    "x": 2459,
+    "y": 3184,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:ourania-cave",
+    "name": "Ourania Cave",
+    "x": 2452,
+    "y": 3231,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:pandemonium-cave",
+    "name": "Pandemonium Cave",
+    "x": 3046,
+    "y": 2998,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:paterdomus-temple",
+    "name": "Paterdomus Temple",
+    "x": 3416,
+    "y": 3487,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:port-khazard",
+    "name": "Port Khazard",
+    "x": 2653,
+    "y": 3159,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:pothole-dungeon",
+    "name": "Pothole Dungeon",
+    "x": 2825,
+    "y": 3118,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:quidamortem-cave",
+    "name": "Quidamortem Cave",
+    "x": 1214,
+    "y": 3559,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:rashiliyias-tomb",
+    "name": "Rashiliyia's Tomb",
+    "x": 2914,
+    "y": 3088,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:red-chinchompa-hunting-ground",
+    "name": "Red chinchompa hunting ground",
+    "x": 2526,
+    "y": 2894,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:ruins-of-mokhaiotl",
+    "name": "Ruins of Mokhaiotl",
+    "x": 1311,
+    "y": 9520,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:ruins-of-tapoyauik",
+    "name": "Ruins of Tapoyauik",
+    "x": 1694,
+    "y": 3232,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:scabaras-dungeon",
+    "name": "Scabaras Dungeon",
+    "x": 3408,
+    "y": 2850,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:scrubfoots-cave",
+    "name": "Scrubfoot's cave",
+    "x": 1941,
+    "y": 6218,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:shade-catacombs",
+    "name": "Shade Catacombs",
+    "x": 3485,
+    "y": 3321,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:shadow-dungeon",
+    "name": "Shadow Dungeon",
+    "x": 2547,
+    "y": 3421,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:shaman-caves",
+    "name": "Shaman Caves",
+    "x": 2782,
+    "y": 2935,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:shayzien-crypts",
+    "name": "Shayzien Crypts",
+    "x": 1483,
+    "y": 3552,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:shellbane-gryphon-cave",
+    "name": "Shellbane Gryphon Cave",
+    "x": 3176,
+    "y": 2477,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:smoke-devil-dungeon",
+    "name": "Smoke Devil Dungeon",
+    "x": 2412,
+    "y": 3061,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:smoke-dungeon",
+    "name": "Smoke Dungeon",
+    "x": 3310,
+    "y": 2962,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:sourhog-cave",
+    "name": "Sourhog Cave",
+    "x": 3150,
+    "y": 3347,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:stalker-den",
+    "name": "Stalker Den",
+    "x": 1325,
+    "y": 3364,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:stronghold-slayer-cave",
+    "name": "Stronghold Slayer Cave",
+    "x": 2428,
+    "y": 3427,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:sunbleak-cave",
+    "name": "Sunbleak Cave",
+    "x": 2209,
+    "y": 2332,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:taverley-dungeon",
+    "name": "Taverley Dungeon",
+    "x": 2884,
+    "y": 3398,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:temple-of-ikov",
+    "name": "Temple of Ikov",
+    "x": 2668,
+    "y": 3458,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:the-warrens",
+    "name": "The Warrens",
+    "x": 1813,
+    "y": 3747,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:tolnas-rift",
+    "name": "Tolna's rift",
+    "x": 3311,
+    "y": 3452,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:tomb-of-bervirius",
+    "name": "Tomb of Bervirius",
+    "x": 2763,
+    "y": 2986,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:tree-gnome-village-dungeon",
+    "name": "Tree Gnome Village Dungeon",
+    "x": 2533,
+    "y": 3155,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:trollweiss-dungeon",
+    "name": "Trollweiss Dungeon",
+    "x": 2822,
+    "y": 3744,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:tunnel-of-chaos",
+    "name": "Tunnel of Chaos",
+    "x": 3284,
+    "y": 3468,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:underground-pass",
+    "name": "Underground Pass",
+    "x": 2449,
+    "y": 3312,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:underwater-tunnel",
+    "name": "Underwater Tunnel",
+    "x": 3808,
+    "y": 9255,
+    "plane": 1
+  },
+  {
+    "id": "dungeons:viyeldi-caves",
+    "name": "Viyeldi caves",
+    "x": 2782,
+    "y": 2935,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:water-mill-cellar",
+    "name": "Water mill cellar",
+    "x": 3230,
+    "y": 3286,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:waterfall-dungeon",
+    "name": "Waterfall Dungeon",
+    "x": 2512,
+    "y": 3464,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:white-knights-castle-crypt",
+    "name": "White Knights' Castle Crypt",
+    "x": 2965,
+    "y": 3331,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:wilderness-god-wars-dungeon",
+    "name": "Wilderness God Wars Dungeon",
+    "x": 3016,
+    "y": 3739,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:wilderness-slayer-cave",
+    "name": "Wilderness Slayer Cave",
+    "x": 3276,
+    "y": 3716,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:witchaven-dungeon",
+    "name": "Witchaven Dungeon",
+    "x": 2696,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:wyvern-cave",
+    "name": "Wyvern Cave",
+    "x": 3678,
+    "y": 3856,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:yanille-agility-dungeon",
+    "name": "Yanille Agility Dungeon",
+    "x": 2587,
+    "y": 3103,
+    "plane": 0
+  },
+  {
+    "id": "dungeons:ynysdail-cavern",
+    "name": "Ynysdail Cavern",
+    "x": 2220,
+    "y": 3477,
+    "plane": 0
+  }
+]

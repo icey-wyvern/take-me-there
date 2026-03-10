@@ -1,0 +1,170 @@
+[
+  {
+    "id": "misc-farming-patches:al-kharid-cactus",
+    "name": "Al Kharid (cactus)",
+    "x": 3316,
+    "y": 3203,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:anglers-retreat-hardwood",
+    "name": "Anglers' Retreat (hardwood)",
+    "x": 2471,
+    "y": 2703,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:auburnvale-belladonna",
+    "name": "Auburnvale (belladonna)",
+    "x": 1450,
+    "y": 3354,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:burthorpe-unferths-patch",
+    "name": "Burthorpe (unferths patch)",
+    "x": 2918,
+    "y": 3564,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:coral-nurseries-coral-nursery",
+    "name": "Coral Nurseries (coral nursery)",
+    "x": 3297,
+    "y": 8861,
+    "plane": 1
+  },
+  {
+    "id": "misc-farming-patches:draynor-manor-belladonna",
+    "name": "Draynor Manor (belladonna)",
+    "x": 3087,
+    "y": 3355,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:farming-guild-anima",
+    "name": "Farming Guild (anima)",
+    "x": 1232,
+    "y": 3723,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:farming-guild-cactus",
+    "name": "Farming Guild (cactus)",
+    "x": 1265,
+    "y": 3748,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:farming-guild-celastrus",
+    "name": "Farming Guild (celastrus)",
+    "x": 1244,
+    "y": 3750,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:farming-guild-hespori",
+    "name": "Farming Guild (hespori)",
+    "x": 1183,
+    "y": 10071,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:farming-guild-redwood",
+    "name": "Farming Guild (redwood)",
+    "x": 1229,
+    "y": 3755,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:fossil-island-mushroom-forest-hardwood",
+    "name": "Fossil Island Mushroom Forest (hardwood)",
+    "x": 3709,
+    "y": 3835,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:hosidius-vinery-grape",
+    "name": "Hosidius Vinery (grape)",
+    "x": 1808,
+    "y": 3556,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:kastori-calquat",
+    "name": "Kastori (calquat)",
+    "x": 1367,
+    "y": 3032,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:keldagrim-kelda-hops",
+    "name": "Keldagrim (kelda hops)",
+    "x": 2855,
+    "y": 10205,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:lletya-elder-cadantine",
+    "name": "Lletya (elder cadantine)",
+    "x": 2322,
+    "y": 3152,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:locus-oasis-hardwood",
+    "name": "Locus Oasis (hardwood)",
+    "x": 1687,
+    "y": 2972,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:north-of-tai-bwo-wannai-calquat",
+    "name": "North of Tai Bwo Wannai (calquat)",
+    "x": 2796,
+    "y": 3101,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:prifddinas-crystal-tree",
+    "name": "Prifddinas (crystal tree)",
+    "x": 3292,
+    "y": 6119,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:taverley-magic-beans",
+    "name": "Taverley (magic beans)",
+    "x": 2922,
+    "y": 3425,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:the-summer-shore-calquat",
+    "name": "The Summer Shore (calquat)",
+    "x": 3128,
+    "y": 2405,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:underwater-seaweed",
+    "name": "Underwater (seaweed)",
+    "x": 3734,
+    "y": 10271,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:west-of-canifis-mushroom",
+    "name": "West of Canifis (mushroom)",
+    "x": 3452,
+    "y": 3473,
+    "plane": 0
+  },
+  {
+    "id": "misc-farming-patches:white-knights-castle-enriched-snapdragon",
+    "name": "White Knights' Castle (enriched snapdragon)",
+    "x": 2963,
+    "y": 3339,
+    "plane": 3
+  }
+]

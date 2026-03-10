@@ -1,0 +1,933 @@
+[
+  {
+    "id": "hunter-spots:barb-tailed-kebbit-feldip-hunter-area-a-k-s",
+    "name": "Barb-tailed kebbit (Feldip Hunter area ( A K S ))",
+    "x": 2574,
+    "y": 2909,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:black-chinchompa-south-east-of-the-lava-maze",
+    "name": "Black chinchompa (South-east of the Lava Maze)",
+    "x": 3146,
+    "y": 3779,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:black-salamander-boneyard-hunter-area",
+    "name": "Black salamander (Boneyard Hunter area)",
+    "x": 3295,
+    "y": 3674,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:black-warlock-crypt-of-tonali-hunter-area-1",
+    "name": "Black warlock (Crypt of Tonali hunter area [ 1 ])",
+    "x": 1284,
+    "y": 3023,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:black-warlock-feldip-hunter-area-a-k-s",
+    "name": "Black warlock (Feldip Hunter area ( A K S ))",
+    "x": 2549,
+    "y": 2905,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:black-warlock-in-and-around-the-farming-guild",
+    "name": "Black warlock (In and around the Farming Guild)",
+    "x": 1240,
+    "y": 3756,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:black-warlock-shimmering-atoll",
+    "name": "Black warlock (Shimmering Atoll)",
+    "x": 1567,
+    "y": 2787,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:black-warlock-the-great-conch",
+    "name": "Black warlock (The Great Conch)",
+    "x": 3177,
+    "y": 2455,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:black-warlock-tlati-rainforest",
+    "name": "Black warlock (Tlati Rainforest)",
+    "x": 1305,
+    "y": 3094,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:blue-crab-east-coast-of-the-great-conch",
+    "name": "Blue crab (East coast of The Great Conch)",
+    "x": 3213,
+    "y": 2516,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:blue-crab-north-coast-of-the-great-conch",
+    "name": "Blue crab (North coast of The Great Conch)",
+    "x": 3251,
+    "y": 2434,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:carnivorous-chinchompa-chinchompa-island",
+    "name": "Carnivorous chinchompa (Chinchompa Island)",
+    "x": 1884,
+    "y": 3433,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:carnivorous-chinchompa-feldip-hunter-area-a-k-s",
+    "name": "Carnivorous chinchompa (Feldip Hunter area ( A K S ))",
+    "x": 2528,
+    "y": 2910,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:carnivorous-chinchompa-gwenith-hunter-area",
+    "name": "Carnivorous chinchompa (Gwenith Hunter area)",
+    "x": 2272,
+    "y": 3409,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:carnivorous-chinchompa-red-chinchompa-hunting-ground-1",
+    "name": "Carnivorous chinchompa (Red chinchompa hunting ground [ 1 ])",
+    "x": 2520,
+    "y": 9298,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:carnivorous-chinchompa-the-great-conch-c-j-q",
+    "name": "Carnivorous chinchompa (The Great Conch ( C J Q ))",
+    "x": 3258,
+    "y": 2378,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:carnivorous-chinchompa-tlati-rainforest",
+    "name": "Carnivorous chinchompa (Tlati Rainforest)",
+    "x": 1318,
+    "y": 3170,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:cerulean-twitch-mons-gratia",
+    "name": "Cerulean twitch (Mons Gratia)",
+    "x": 1441,
+    "y": 3241,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:cerulean-twitch-rellekka-hunter-area-ground-level",
+    "name": "Cerulean twitch (Rellekka Hunter area (Ground level))",
+    "x": 2727,
+    "y": 3772,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:cerulean-twitch-rellekka-hunter-area-upper-level",
+    "name": "Cerulean twitch (Rellekka Hunter area (Upper level))",
+    "x": 2712,
+    "y": 3822,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:chinchompa-isle-of-souls-b-j-p",
+    "name": "Chinchompa (Isle of Souls ( B J P ))",
+    "x": 2128,
+    "y": 2953,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:chinchompa-kourend-woodland",
+    "name": "Chinchompa (Kourend Woodland)",
+    "x": 1483,
+    "y": 3506,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:chinchompa-piscatoris-hunter-area-a-k-q",
+    "name": "Chinchompa (Piscatoris Hunter area ( A K Q ))",
+    "x": 2339,
+    "y": 3585,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:common-kebbit-north-woodlands-near-eagles-peak",
+    "name": "Common kebbit (North Woodlands near Eagles' Peak)",
+    "x": 2331,
+    "y": 3571,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:copper-longtail-aldarin",
+    "name": "Copper longtail (Aldarin)",
+    "x": 1359,
+    "y": 2978,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:copper-longtail-anglers-retreat",
+    "name": "Copper longtail (Anglers' Retreat)",
+    "x": 2480,
+    "y": 2702,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:copper-longtail-auburnvale",
+    "name": "Copper longtail (Auburnvale)",
+    "x": 1348,
+    "y": 3345,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:copper-longtail-isle-of-souls",
+    "name": "Copper longtail (Isle of Souls)",
+    "x": 2207,
+    "y": 2965,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:copper-longtail-kourend-woodland",
+    "name": "Copper longtail (Kourend Woodland)",
+    "x": 1557,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:copper-longtail-piscatoris-hunter-area-a-k-q",
+    "name": "Copper longtail (Piscatoris Hunter area ( A K Q ))",
+    "x": 2334,
+    "y": 3596,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:crimson-swift-eastern-feldip-hunter-area",
+    "name": "Crimson swift (Eastern Feldip Hunter area)",
+    "x": 2600,
+    "y": 2911,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:crimson-swift-north-east-tlati-rainforest",
+    "name": "Crimson swift (North-east Tlati Rainforest)",
+    "x": 1372,
+    "y": 3133,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:crimson-swift-south-east-of-the-ruins-of-ullek",
+    "name": "Crimson swift (South-east of the Ruins of Ullek)",
+    "x": 3437,
+    "y": 2794,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:crimson-swift-south-west-coast-of-the-kebos-lowlands",
+    "name": "Crimson swift (South-west coast of the Kebos Lowlands)",
+    "x": 1185,
+    "y": 3596,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:crimson-swift-south-west-isle-of-souls",
+    "name": "Crimson swift (South-west Isle of Souls)",
+    "x": 2158,
+    "y": 2825,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:dark-kebbit-piscatoris-falconry-area-a-k-q",
+    "name": "Dark kebbit (Piscatoris falconry area ( A K Q ))",
+    "x": 2377,
+    "y": 3588,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:dashing-kebbit-piscatoris-falconry-area-a-k-q",
+    "name": "Dashing kebbit (Piscatoris falconry area ( A K Q ))",
+    "x": 2378,
+    "y": 3584,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:desert-devil-uzer-hunter-area",
+    "name": "Desert devil (Uzer Hunter area)",
+    "x": 3399,
+    "y": 3120,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:embertailed-jerboa-north-west-of-the-locus-oasis",
+    "name": "Embertailed jerboa (North-west of the Locus Oasis)",
+    "x": 1667,
+    "y": 3003,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:embertailed-jerboa-west-of-hunter-guild",
+    "name": "Embertailed jerboa (West of Hunter Guild)",
+    "x": 1517,
+    "y": 3048,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:feldip-weasel-feldip-hunter-area",
+    "name": "Feldip Weasel (Feldip Hunter area)",
+    "x": 2539,
+    "y": 2887,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:ferret-ardougne-zoo",
+    "name": "Ferret (Ardougne Zoo)",
+    "x": 2607,
+    "y": 3262,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:ferret-piscatoris-hunter-area",
+    "name": "Ferret (Piscatoris Hunter area)",
+    "x": 2312,
+    "y": 3511,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:golden-warbler-uzer-hunter-area",
+    "name": "Golden warbler (Uzer Hunter area)",
+    "x": 3402,
+    "y": 3126,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:herbiboar-mushroom-forest-on-fossil-island",
+    "name": "Herbiboar (Mushroom Forest on Fossil Island)",
+    "x": 3717,
+    "y": 3844,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:horned-graahk-karamja-hunter-area-c-k-r",
+    "name": "Horned graahk (Karamja Hunter area ( C K R ))",
+    "x": 2773,
+    "y": 3006,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-al-kharid-mine",
+    "name": "Imp (Al Kharid mine)",
+    "x": 3299,
+    "y": 3275,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-avium-savannah",
+    "name": "Imp (Avium Savannah)",
+    "x": 1624,
+    "y": 3020,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-citlalli-s-basement",
+    "name": "Imp (Citlalli 's basement)",
+    "x": 1381,
+    "y": 9453,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-draynor-village",
+    "name": "Imp (Draynor Village)",
+    "x": 3073,
+    "y": 3252,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-east-of-ardougne-monastery",
+    "name": "Imp (East of Ardougne Monastery)",
+    "x": 2632,
+    "y": 3223,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-east-of-kingstown",
+    "name": "Imp (East of Kingstown)",
+    "x": 1723,
+    "y": 3697,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-edgeville",
+    "name": "Imp (Edgeville)",
+    "x": 3075,
+    "y": 3482,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-farming-guild",
+    "name": "Imp (Farming Guild)",
+    "x": 1283,
+    "y": 3722,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-fortis-aqueduct",
+    "name": "Imp (Fortis Aqueduct)",
+    "x": 1577,
+    "y": 3160,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-gloomthorn-trail",
+    "name": "Imp (Gloomthorn Trail)",
+    "x": 1370,
+    "y": 3205,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-god-wars-dungeon",
+    "name": "Imp (God Wars Dungeon)",
+    "x": 2882,
+    "y": 5340,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-isle-of-souls",
+    "name": "Imp (Isle of Souls)",
+    "x": 2266,
+    "y": 2844,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-karamja-volcano",
+    "name": "Imp (Karamja Volcano)",
+    "x": 2845,
+    "y": 3176,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-lumbridge-castle",
+    "name": "Imp (Lumbridge Castle)",
+    "x": 3217,
+    "y": 3228,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-north-of-kourend-castle",
+    "name": "Imp (North of Kourend Castle)",
+    "x": 1616,
+    "y": 3706,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-north-of-lumbridge",
+    "name": "Imp (North of Lumbridge)",
+    "x": 3227,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-north-of-the-woodcutting-guild",
+    "name": "Imp (North of the Woodcutting Guild)",
+    "x": 1631,
+    "y": 3540,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-north-of-yanille",
+    "name": "Imp (North of Yanille)",
+    "x": 2608,
+    "y": 3127,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-outer-fortis",
+    "name": "Imp (Outer Fortis)",
+    "x": 1727,
+    "y": 3061,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-outside-the-chasm-of-fire",
+    "name": "Imp (Outside the Chasm of Fire)",
+    "x": 1435,
+    "y": 3672,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-rimmington",
+    "name": "Imp (Rimmington)",
+    "x": 2941,
+    "y": 3238,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-scattered-around-varrock",
+    "name": "Imp (Scattered around Varrock)",
+    "x": 3198,
+    "y": 3439,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-south-of-falador",
+    "name": "Imp (South of Falador)",
+    "x": 3012,
+    "y": 3312,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-south-of-port-piscarilius",
+    "name": "Imp (South of Port Piscarilius)",
+    "x": 1793,
+    "y": 3653,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-south-of-stonecutter-outpost",
+    "name": "Imp (South of Stonecutter Outpost)",
+    "x": 1750,
+    "y": 2944,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-south-west-civitas-illa-fortis",
+    "name": "Imp (South-west Civitas illa Fortis)",
+    "x": 1638,
+    "y": 3093,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-sunset-coast",
+    "name": "Imp (Sunset Coast)",
+    "x": 1534,
+    "y": 2999,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-west-of-tithe-farm",
+    "name": "Imp (West of Tithe Farm)",
+    "x": 1766,
+    "y": 3495,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-western-falador",
+    "name": "Imp (Western Falador)",
+    "x": 2949,
+    "y": 3346,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:imp-wilderness-god-wars-dungeon",
+    "name": "Imp (Wilderness God Wars Dungeon)",
+    "x": 2966,
+    "y": 10104,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:maniacal-monkey-kruks-dungeon",
+    "name": "Maniacal monkey (Kruk's Dungeon)",
+    "x": 2911,
+    "y": 9126,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:moonlight-antelope-hunters-guild-underground",
+    "name": "Moonlight antelope (Hunters' Guild (underground))",
+    "x": 1558,
+    "y": 9421,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:moonlight-moth-hunter-guild",
+    "name": "Moonlight moth (Hunter Guild)",
+    "x": 1563,
+    "y": 9438,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:moonlight-moth-neypotzli-ancient-prison",
+    "name": "Moonlight moth (Neypotzli - Ancient Prison)",
+    "x": 1355,
+    "y": 9566,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:moonlight-moth-neypotzli-earthbound-cavern",
+    "name": "Moonlight moth (Neypotzli - Earthbound Cavern)",
+    "x": 1381,
+    "y": 9695,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:moonlight-moth-neypotzli-streambound-cavern",
+    "name": "Moonlight moth (Neypotzli - Streambound Cavern)",
+    "x": 1502,
+    "y": 9694,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:moonlight-moth-ruins-of-tapoyauik-bottom-level",
+    "name": "Moonlight moth (Ruins of Tapoyauik - bottom level)",
+    "x": 1631,
+    "y": 9632,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:moonlight-moth-tonali-cavern-central-section",
+    "name": "Moonlight moth (Tonali Cavern - Central Section)",
+    "x": 1312,
+    "y": 9430,
+    "plane": 2
+  },
+  {
+    "id": "hunter-spots:moonlight-moth-tonali-cavern-entrance-staircase",
+    "name": "Moonlight moth (Tonali Cavern - Entrance Staircase)",
+    "x": 1339,
+    "y": 9362,
+    "plane": 1
+  },
+  {
+    "id": "hunter-spots:moonlight-moth-tonali-cavern-moon-chamber",
+    "name": "Moonlight moth (Tonali Cavern - Moon Chamber)",
+    "x": 1295,
+    "y": 9447,
+    "plane": 1
+  },
+  {
+    "id": "hunter-spots:moonlight-moth-tonali-cavern-southern-cavern",
+    "name": "Moonlight moth (Tonali Cavern - Southern Cavern)",
+    "x": 1310,
+    "y": 9389,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:moonlight-moth-tonali-cavern-sun-chamber",
+    "name": "Moonlight moth (Tonali Cavern - Sun Chamber)",
+    "x": 1328,
+    "y": 9448,
+    "plane": 1
+  },
+  {
+    "id": "hunter-spots:orange-salamander-necropolis-hunter-area-a-k-p",
+    "name": "Orange salamander (Necropolis Hunter area ( A K P ))",
+    "x": 3286,
+    "y": 2741,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:orange-salamander-the-great-conch-c-j-q",
+    "name": "Orange salamander (The Great Conch ( C J Q ))",
+    "x": 3122,
+    "y": 2532,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:orange-salamander-uzer-hunter-area-d-l-q",
+    "name": "Orange salamander (Uzer Hunter area ( D L Q ))",
+    "x": 3409,
+    "y": 3105,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:polar-kebbit-rellekka-hunter-area-d-k-s",
+    "name": "Polar Kebbit (Rellekka Hunter area ( D K S ))",
+    "x": 2714,
+    "y": 3826,
+    "plane": 1
+  },
+  {
+    "id": "hunter-spots:prickly-kebbit-piscatoris-hunter-area-a-k-q",
+    "name": "Prickly kebbit (Piscatoris Hunter area ( A K Q ))",
+    "x": 2325,
+    "y": 3621,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:pyre-fox-avium-savannah-a-j-p",
+    "name": "Pyre Fox (Avium Savannah ( A J P ))",
+    "x": 1616,
+    "y": 3000,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:rainbow-crab-the-crown-jewel",
+    "name": "Rainbow crab (The Crown Jewel)",
+    "x": 1758,
+    "y": 2665,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:razor-backed-kebbit-piscatoris-hunter-area-a-k-q",
+    "name": "Razor-backed kebbit (Piscatoris hunter area ( A K Q ))",
+    "x": 2356,
+    "y": 3611,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:red-crab-the-pandemonium",
+    "name": "Red crab (The Pandemonium)",
+    "x": 3036,
+    "y": 2976,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:red-salamander-charred-island",
+    "name": "Red salamander (Charred Island)",
+    "x": 2644,
+    "y": 2403,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:red-salamander-ourania-hunter-area",
+    "name": "Red salamander (Ourania Hunter area)",
+    "x": 2462,
+    "y": 3238,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:ruby-harvest-aldarin",
+    "name": "Ruby harvest (Aldarin)",
+    "x": 1342,
+    "y": 2937,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:ruby-harvest-anglers-retreat",
+    "name": "Ruby harvest (Anglers' Retreat)",
+    "x": 2478,
+    "y": 2713,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:ruby-harvest-auburn-valley",
+    "name": "Ruby harvest (Auburn Valley)",
+    "x": 1459,
+    "y": 3323,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:ruby-harvest-auburnvale",
+    "name": "Ruby harvest (Auburnvale)",
+    "x": 1406,
+    "y": 3376,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:ruby-harvest-farming-guild",
+    "name": "Ruby harvest (Farming Guild)",
+    "x": 1241,
+    "y": 3741,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:ruby-harvest-kourend-woodland",
+    "name": "Ruby harvest (Kourend Woodland)",
+    "x": 1514,
+    "y": 3480,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:ruby-harvest-piscatoris-hunter-area-a-k-q",
+    "name": "Ruby harvest (Piscatoris Hunter area ( A K Q ))",
+    "x": 2336,
+    "y": 3574,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:sabre-toothed-kebbit-rellekka-hunter-area-d-k-s",
+    "name": "Sabre-toothed kebbit (Rellekka Hunter area ( D K S ))",
+    "x": 2712,
+    "y": 3774,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:sabre-toothed-kyatt-rellekka-hunter-area-d-k-s",
+    "name": "Sabre-toothed kyatt (Rellekka Hunter area ( D K S ))",
+    "x": 2718,
+    "y": 3790,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:sapphire-glacialis-farming-guild",
+    "name": "Sapphire glacialis (Farming Guild)",
+    "x": 1247,
+    "y": 3748,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:sapphire-glacialis-mons-gratia",
+    "name": "Sapphire glacialis (Mons Gratia)",
+    "x": 1442,
+    "y": 3249,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:sapphire-glacialis-rellekka-hunter-area-d-k-s",
+    "name": "Sapphire glacialis (Rellekka Hunter area D K S)",
+    "x": 2720,
+    "y": 3808,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:snowy-knight-brittle-isle",
+    "name": "Snowy knight (Brittle Isle)",
+    "x": 1953,
+    "y": 4069,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:snowy-knight-farming-guild",
+    "name": "Snowy knight (Farming Guild)",
+    "x": 1230,
+    "y": 3733,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:snowy-knight-mons-gratia",
+    "name": "Snowy knight (Mons Gratia)",
+    "x": 1439,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:snowy-knight-rellekka-hunter-area-d-k-s",
+    "name": "Snowy knight (Rellekka Hunter area ( D K S ))",
+    "x": 2716,
+    "y": 3792,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:snowy-knight-rellekka-hunter-area-upper-level-d-k-s",
+    "name": "Snowy knight (Rellekka Hunter area (Upper level) ( D K S ))",
+    "x": 2719,
+    "y": 3821,
+    "plane": 1
+  },
+  {
+    "id": "hunter-spots:snowy-knight-weiss",
+    "name": "Snowy knight (Weiss)",
+    "x": 2869,
+    "y": 3956,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:spined-larupia-feldip-hunter-area-a-k-s",
+    "name": "Spined larupia (Feldip Hunter area ( A K S ))",
+    "x": 2558,
+    "y": 2898,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:spotted-kebbit-piscatoris-falconry-area-a-k-q",
+    "name": "Spotted kebbit (Piscatoris falconry area ( A K Q ))",
+    "x": 2380,
+    "y": 3590,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:sunlight-antelope-avium-savannah-a-j-p",
+    "name": "Sunlight antelope (Avium Savannah ( A J P ))",
+    "x": 1745,
+    "y": 3010,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:sunlight-moth-avium-savannah",
+    "name": "Sunlight Moth (Avium Savannah)",
+    "x": 1595,
+    "y": 3043,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:sunlight-moth-neypotzli",
+    "name": "Sunlight Moth (Neypotzli)",
+    "x": 1439,
+    "y": 9633,
+    "plane": 1
+  },
+  {
+    "id": "hunter-spots:swamp-lizard-canifis-hunter-area-a-l-q",
+    "name": "Swamp lizard (Canifis Hunter area ( A L Q ))",
+    "x": 3547,
+    "y": 3446,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:swamp-lizard-north-west-of-slepe",
+    "name": "Swamp lizard (North-west of Slepe)",
+    "x": 3688,
+    "y": 3408,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:tecu-salamander-ralos-rise",
+    "name": "Tecu salamander (Ralos' Rise)",
+    "x": 1474,
+    "y": 3095,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:tropical-wagtail-feldip-hunter-area-a-k-s",
+    "name": "Tropical wagtail (Feldip Hunter area ( A K S ))",
+    "x": 2522,
+    "y": 2912,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:tropical-wagtail-minotaurs-rest",
+    "name": "Tropical wagtail (Minotaurs' Rest)",
+    "x": 1965,
+    "y": 3103,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:tropical-wagtail-shimmering-atoll",
+    "name": "Tropical wagtail (Shimmering Atoll)",
+    "x": 1572,
+    "y": 2798,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:tropical-wagtail-the-great-conch-c-j-q",
+    "name": "Tropical wagtail (The Great Conch ( C J Q ))",
+    "x": 3143,
+    "y": 2485,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:tropical-wagtail-tlati-rainforest",
+    "name": "Tropical wagtail (Tlati Rainforest)",
+    "x": 1267,
+    "y": 3103,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:white-rabbit-piscatoris-hunter-area",
+    "name": "White rabbit (Piscatoris Hunter area)",
+    "x": 2324,
+    "y": 3582,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:wild-kebbit-auburnvale",
+    "name": "Wild kebbit (Auburnvale)",
+    "x": 1388,
+    "y": 3394,
+    "plane": 0
+  },
+  {
+    "id": "hunter-spots:wild-kebbit-piscatoris-hunter-area-a-k-q",
+    "name": "Wild kebbit (Piscatoris Hunter area ( A K Q ))",
+    "x": 2334,
+    "y": 3552,
+    "plane": 0
+  }
+]

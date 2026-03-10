@@ -1,0 +1,100 @@
+[
+  {
+    "id": "guilds:champions-guild",
+    "name": "Champions' Guild",
+    "x": 3191,
+    "y": 3357,
+    "plane": 0
+  },
+  {
+    "id": "guilds:cooks-guild",
+    "name": "Cooks' Guild",
+    "x": 3143,
+    "y": 3449,
+    "plane": 0
+  },
+  {
+    "id": "guilds:crafting-guild",
+    "name": "Crafting Guild",
+    "x": 2932,
+    "y": 3281,
+    "plane": 0
+  },
+  {
+    "id": "guilds:farming-guild",
+    "name": "Farming Guild",
+    "x": 1249,
+    "y": 3737,
+    "plane": 0
+  },
+  {
+    "id": "guilds:fishing-guild",
+    "name": "Fishing Guild",
+    "x": 2609,
+    "y": 3424,
+    "plane": 0
+  },
+  {
+    "id": "guilds:heroes-guild",
+    "name": "Heroes' Guild",
+    "x": 2893,
+    "y": 3510,
+    "plane": 0
+  },
+  {
+    "id": "guilds:hunter-guild",
+    "name": "Hunter Guild",
+    "x": 1559,
+    "y": 3048,
+    "plane": 0
+  },
+  {
+    "id": "guilds:legends-guild",
+    "name": "Legends' Guild",
+    "x": 2729,
+    "y": 3368,
+    "plane": 0
+  },
+  {
+    "id": "guilds:mining-guild",
+    "name": "Mining Guild",
+    "x": 3019,
+    "y": 3339,
+    "plane": 0
+  },
+  {
+    "id": "guilds:myths-guild",
+    "name": "Myths' Guild",
+    "x": 2457,
+    "y": 2846,
+    "plane": 0
+  },
+  {
+    "id": "guilds:ranging-guild",
+    "name": "Ranging Guild",
+    "x": 2668,
+    "y": 3428,
+    "plane": 0
+  },
+  {
+    "id": "guilds:warriors-guild",
+    "name": "Warriors' Guild",
+    "x": 2857,
+    "y": 3545,
+    "plane": 0
+  },
+  {
+    "id": "guilds:wizards-guild",
+    "name": "Wizards' Guild",
+    "x": 2591,
+    "y": 3088,
+    "plane": 0
+  },
+  {
+    "id": "guilds:woodcutting-guild",
+    "name": "Woodcutting Guild",
+    "x": 1610,
+    "y": 3495,
+    "plane": 0
+  }
+]

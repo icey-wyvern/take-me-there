@@ -1,6 +1,70 @@
 [
-  { "id": "banks", "displayName": "Banks" },
-  { "id": "cities", "displayName": "Cities" },
-  { "id": "shooting-stars", "displayName": "Shooting Stars" },
-  { "id": "misc", "displayName": "Misc" }
+  {
+    "id": "allotments",
+    "displayName": "Allotments"
+  },
+  {
+    "id": "banks",
+    "displayName": "Banks"
+  },
+  {
+    "id": "bushes",
+    "displayName": "Bushes"
+  },
+  {
+    "id": "cities",
+    "displayName": "Cities"
+  },
+  {
+    "id": "dungeons",
+    "displayName": "Dungeons"
+  },
+  {
+    "id": "flowers",
+    "displayName": "Flowers"
+  },
+  {
+    "id": "fruit-trees",
+    "displayName": "Fruit Trees"
+  },
+  {
+    "id": "guilds",
+    "displayName": "Guilds"
+  },
+  {
+    "id": "herbs",
+    "displayName": "Herbs"
+  },
+  {
+    "id": "hops",
+    "displayName": "Hops"
+  },
+  {
+    "id": "hunter-spots",
+    "displayName": "Hunter Spots"
+  },
+  {
+    "id": "mines",
+    "displayName": "Mines"
+  },
+  {
+    "id": "misc-farming-patches",
+    "displayName": "Misc Farming Patches"
+  },
+  {
+    "id": "shooting-stars",
+    "displayName": "Shooting Stars"
+  },
+  {
+    "id": "slayer-masters",
+    "displayName": "Slayer Masters"
+  },
+  {
+    "id": "spirit-trees",
+    "displayName": "Spirit Trees"
+  },
+  {
+    "id": "trees",
+    "displayName": "Trees"
+  }
 ]

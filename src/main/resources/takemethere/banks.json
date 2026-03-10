@@ -1,3 +1,989 @@
 [
-  { "id": "banks:test-bank", "name": "Test Bank", "x": 3000, "y": 3100, "plane": 0 }
+  {
+    "id": "banks:al-kharid",
+    "name": "Al Kharid",
+    "x": 3269,
+    "y": 3167,
+    "plane": 0
+  },
+  {
+    "id": "banks:alchemical-society-chest",
+    "name": "Alchemical Society chest",
+    "x": 1399,
+    "y": 9315,
+    "plane": 0
+  },
+  {
+    "id": "banks:aldarin",
+    "name": "Aldarin",
+    "x": 1399,
+    "y": 2927,
+    "plane": 0
+  },
+  {
+    "id": "banks:ancient-prison",
+    "name": "Ancient Prison",
+    "x": 2904,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": "banks:ape-atoll",
+    "name": "Ape Atoll",
+    "x": 2781,
+    "y": 2784,
+    "plane": 0
+  },
+  {
+    "id": "banks:arceuus",
+    "name": "Arceuus",
+    "x": 1630,
+    "y": 3745,
+    "plane": 0
+  },
+  {
+    "id": "banks:ardougne-north",
+    "name": "Ardougne north",
+    "x": 2617,
+    "y": 3333,
+    "plane": 0
+  },
+  {
+    "id": "banks:ardougne-south",
+    "name": "Ardougne south",
+    "x": 2653,
+    "y": 3284,
+    "plane": 0
+  },
+  {
+    "id": "banks:auburnvale",
+    "name": "Auburnvale",
+    "x": 1416,
+    "y": 3353,
+    "plane": 0
+  },
+  {
+    "id": "banks:bank-boat",
+    "name": "Bank boat",
+    "x": 2280,
+    "y": 2546,
+    "plane": 0
+  },
+  {
+    "id": "banks:bank-chest-wreck",
+    "name": "Bank Chest-wreck",
+    "x": 3772,
+    "y": 3898,
+    "plane": 0
+  },
+  {
+    "id": "banks:barbarian-outpost-chest",
+    "name": "Barbarian Outpost chest",
+    "x": 2537,
+    "y": 3574,
+    "plane": 0
+  },
+  {
+    "id": "banks:blast-furnace",
+    "name": "Blast Furnace",
+    "x": 2931,
+    "y": 10195,
+    "plane": 0
+  },
+  {
+    "id": "banks:blast-mine-chests",
+    "name": "Blast mine chests",
+    "x": 1489,
+    "y": 3864,
+    "plane": 0
+  },
+  {
+    "id": "banks:buccaneers-haven-chest",
+    "name": "Buccaneers' Haven chest",
+    "x": 2097,
+    "y": 3689,
+    "plane": 0
+  },
+  {
+    "id": "banks:burgh-de-rott",
+    "name": "Burgh de Rott",
+    "x": 3496,
+    "y": 3211,
+    "plane": 0
+  },
+  {
+    "id": "banks:cam-torum",
+    "name": "Cam Torum",
+    "x": 1456,
+    "y": 9568,
+    "plane": 0
+  },
+  {
+    "id": "banks:camdozaal-chest",
+    "name": "Camdozaal chest",
+    "x": 2978,
+    "y": 5799,
+    "plane": 0
+  },
+  {
+    "id": "banks:camelot-pvp-chest",
+    "name": "Camelot PvP chest",
+    "x": 2757,
+    "y": 3478,
+    "plane": 0
+  },
+  {
+    "id": "banks:canifis",
+    "name": "Canifis",
+    "x": 3512,
+    "y": 3478,
+    "plane": 0
+  },
+  {
+    "id": "banks:castle-wars-lobby-chest",
+    "name": "Castle Wars lobby chest",
+    "x": 2445,
+    "y": 3082,
+    "plane": 0
+  },
+  {
+    "id": "banks:catherby",
+    "name": "Catherby",
+    "x": 2810,
+    "y": 3442,
+    "plane": 0
+  },
+  {
+    "id": "banks:chambers-of-xeric-lobby-chest",
+    "name": "Chambers of Xeric lobby chest",
+    "x": 3305,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": "banks:charcoal-camp-chest",
+    "name": "Charcoal camp chest",
+    "x": 1717,
+    "y": 3464,
+    "plane": 0
+  },
+  {
+    "id": "banks:charred-island-chest",
+    "name": "Charred Island chest",
+    "x": 2655,
+    "y": 2389,
+    "plane": 0
+  },
+  {
+    "id": "banks:clan-hall",
+    "name": "Clan Hall",
+    "x": 1744,
+    "y": 5475,
+    "plane": 0
+  },
+  {
+    "id": "banks:clan-hall-bank",
+    "name": "Clan Hall bank",
+    "x": 1748,
+    "y": 5476,
+    "plane": 0
+  },
+  {
+    "id": "banks:cooks-guild",
+    "name": "Cook's Guild",
+    "x": 3148,
+    "y": 3448,
+    "plane": 0
+  },
+  {
+    "id": "banks:corsair-cove",
+    "name": "Corsair Cove",
+    "x": 2570,
+    "y": 2865,
+    "plane": 0
+  },
+  {
+    "id": "banks:crafting-guild-chest",
+    "name": "Crafting Guild chest",
+    "x": 2936,
+    "y": 3280,
+    "plane": 0
+  },
+  {
+    "id": "banks:culinaromancer-s-chest",
+    "name": "Culinaromancer\u2019s Chest",
+    "x": 3219,
+    "y": 9623,
+    "plane": 0
+  },
+  {
+    "id": "banks:daimons-crater-chests",
+    "name": "Daimon's Crater chests",
+    "x": 3426,
+    "y": 4064,
+    "plane": 0
+  },
+  {
+    "id": "banks:darkmeyer",
+    "name": "Darkmeyer",
+    "x": 3602,
+    "y": 3366,
+    "plane": 0
+  },
+  {
+    "id": "banks:deepfin-mine-eastern-chest",
+    "name": "Deepfin Mine eastern chest",
+    "x": 2093,
+    "y": 9199,
+    "plane": 0
+  },
+  {
+    "id": "banks:deepfin-mine-western-chest",
+    "name": "Deepfin Mine western chest",
+    "x": 2011,
+    "y": 9187,
+    "plane": 0
+  },
+  {
+    "id": "banks:deepfin-point-chest",
+    "name": "Deepfin Point chest",
+    "x": 1936,
+    "y": 2756,
+    "plane": 0
+  },
+  {
+    "id": "banks:deposit-pool",
+    "name": "Deposit Pool",
+    "x": 3609,
+    "y": 9487,
+    "plane": 0
+  },
+  {
+    "id": "banks:deposit-pot",
+    "name": "Deposit pot",
+    "x": 3546,
+    "y": 5154,
+    "plane": 0
+  },
+  {
+    "id": "banks:dorgesh-kaan",
+    "name": "Dorgesh-Kaan",
+    "x": 2702,
+    "y": 5350,
+    "plane": 0
+  },
+  {
+    "id": "banks:draynor",
+    "name": "Draynor",
+    "x": 3093,
+    "y": 3244,
+    "plane": 0
+  },
+  {
+    "id": "banks:dwarven-ferryman",
+    "name": "Dwarven Ferryman",
+    "x": 2847,
+    "y": 10136,
+    "plane": 0
+  },
+  {
+    "id": "banks:edgeville",
+    "name": "Edgeville",
+    "x": 3095,
+    "y": 3494,
+    "plane": 0
+  },
+  {
+    "id": "banks:edgeville-pvp-chest",
+    "name": "Edgeville PvP chest",
+    "x": 3094,
+    "y": 3469,
+    "plane": 0
+  },
+  {
+    "id": "banks:emerald-benedicts",
+    "name": "Emerald Benedict's",
+    "x": 3042,
+    "y": 4972,
+    "plane": 0
+  },
+  {
+    "id": "banks:emirs-arena",
+    "name": "Emir's Arena",
+    "x": 3384,
+    "y": 3270,
+    "plane": 0
+  },
+  {
+    "id": "banks:ent-dungeon-chest",
+    "name": "Ent dungeon chest",
+    "x": 1549,
+    "y": 9875,
+    "plane": 0
+  },
+  {
+    "id": "banks:etceteria",
+    "name": "Etceteria",
+    "x": 2620,
+    "y": 3895,
+    "plane": 0
+  },
+  {
+    "id": "banks:falador-east",
+    "name": "Falador east",
+    "x": 3015,
+    "y": 3357,
+    "plane": 0
+  },
+  {
+    "id": "banks:falador-pvp-chest",
+    "name": "Falador PvP chest",
+    "x": 2970,
+    "y": 3342,
+    "plane": 0
+  },
+  {
+    "id": "banks:falador-west",
+    "name": "Falador west",
+    "x": 2946,
+    "y": 3367,
+    "plane": 0
+  },
+  {
+    "id": "banks:farming-guild",
+    "name": "Farming Guild",
+    "x": 1249,
+    "y": 3761,
+    "plane": 0
+  },
+  {
+    "id": "banks:farming-guild-chest",
+    "name": "Farming Guild chest",
+    "x": 1253,
+    "y": 3742,
+    "plane": 0
+  },
+  {
+    "id": "banks:ferox-enclave",
+    "name": "Ferox Enclave",
+    "x": 3130,
+    "y": 3632,
+    "plane": 0
+  },
+  {
+    "id": "banks:ferox-enclave-mercenary",
+    "name": "Ferox Enclave mercenary",
+    "x": 3130,
+    "y": 3629,
+    "plane": 0
+  },
+  {
+    "id": "banks:fishing-guild",
+    "name": "Fishing Guild",
+    "x": 2588,
+    "y": 3416,
+    "plane": 0
+  },
+  {
+    "id": "banks:fortis-colosseum-chest",
+    "name": "Fortis Colosseum chest",
+    "x": 1805,
+    "y": 9503,
+    "plane": 0
+  },
+  {
+    "id": "banks:fortis-east",
+    "name": "Fortis east",
+    "x": 1780,
+    "y": 3096,
+    "plane": 0
+  },
+  {
+    "id": "banks:fortis-west",
+    "name": "Fortis west",
+    "x": 1648,
+    "y": 3118,
+    "plane": 0
+  },
+  {
+    "id": "banks:fossil-island",
+    "name": "Fossil Island",
+    "x": 3741,
+    "y": 3804,
+    "plane": 0
+  },
+  {
+    "id": "banks:gauntlet",
+    "name": "Gauntlet",
+    "x": 3038,
+    "y": 6129,
+    "plane": 1
+  },
+  {
+    "id": "banks:giants-foundry-chest",
+    "name": "Giants' Foundry chest",
+    "x": 3462,
+    "y": 9588,
+    "plane": 0
+  },
+  {
+    "id": "banks:gnome-stronghold-north",
+    "name": "Gnome Stronghold north",
+    "x": 2444,
+    "y": 3485,
+    "plane": 1
+  },
+  {
+    "id": "banks:gnome-stronghold-south",
+    "name": "Gnome Stronghold south",
+    "x": 2446,
+    "y": 3424,
+    "plane": 0
+  },
+  {
+    "id": "banks:grand-exchange",
+    "name": "Grand Exchange",
+    "x": 3165,
+    "y": 3490,
+    "plane": 0
+  },
+  {
+    "id": "banks:guardians-of-the-rift-chest",
+    "name": "Guardians of the Rift chest",
+    "x": 3619,
+    "y": 9473,
+    "plane": 0
+  },
+  {
+    "id": "banks:gwenith",
+    "name": "Gwenith",
+    "x": 2202,
+    "y": 3409,
+    "plane": 0
+  },
+  {
+    "id": "banks:hallowed-sepulchre",
+    "name": "Hallowed Sepulchre",
+    "x": 2400,
+    "y": 5983,
+    "plane": 0
+  },
+  {
+    "id": "banks:hosidius",
+    "name": "Hosidius",
+    "x": 1748,
+    "y": 3599,
+    "plane": 0
+  },
+  {
+    "id": "banks:hosidius-kitchen-chest",
+    "name": "Hosidius Kitchen chest",
+    "x": 1676,
+    "y": 3616,
+    "plane": 0
+  },
+  {
+    "id": "banks:hunter-guild",
+    "name": "Hunter Guild",
+    "x": 1542,
+    "y": 3040,
+    "plane": 0
+  },
+  {
+    "id": "banks:jatizso",
+    "name": "Jatizso",
+    "x": 2417,
+    "y": 3801,
+    "plane": 0
+  },
+  {
+    "id": "banks:keldagrim",
+    "name": "Keldagrim",
+    "x": 2838,
+    "y": 10210,
+    "plane": 0
+  },
+  {
+    "id": "banks:kourend-castle",
+    "name": "Kourend Castle",
+    "x": 1612,
+    "y": 3682,
+    "plane": 2
+  },
+  {
+    "id": "banks:lands-end-chest",
+    "name": "Land's End chest",
+    "x": 1513,
+    "y": 3421,
+    "plane": 0
+  },
+  {
+    "id": "banks:legends-guild",
+    "name": "Legends' Guild",
+    "x": 2733,
+    "y": 3379,
+    "plane": 2
+  },
+  {
+    "id": "banks:lletya",
+    "name": "Lletya",
+    "x": 2352,
+    "y": 3162,
+    "plane": 0
+  },
+  {
+    "id": "banks:lovakengj",
+    "name": "Lovakengj",
+    "x": 1526,
+    "y": 3739,
+    "plane": 0
+  },
+  {
+    "id": "banks:lovakengj-mine",
+    "name": "Lovakengj mine",
+    "x": 1438,
+    "y": 3829,
+    "plane": 0
+  },
+  {
+    "id": "banks:lumbridge-castle",
+    "name": "Lumbridge Castle",
+    "x": 3209,
+    "y": 3219,
+    "plane": 2
+  },
+  {
+    "id": "banks:lumbridge-pvp-chest",
+    "name": "Lumbridge PvP chest",
+    "x": 3221,
+    "y": 3219,
+    "plane": 0
+  },
+  {
+    "id": "banks:lunar-isle",
+    "name": "Lunar Isle",
+    "x": 2101,
+    "y": 3919,
+    "plane": 0
+  },
+  {
+    "id": "banks:mage-arena",
+    "name": "Mage Arena",
+    "x": 3090,
+    "y": 3956,
+    "plane": 0
+  },
+  {
+    "id": "banks:mage-training-arena-chest",
+    "name": "Mage Training Arena chest",
+    "x": 3367,
+    "y": 3320,
+    "plane": 1
+  },
+  {
+    "id": "banks:mausoleum",
+    "name": "Mausoleum",
+    "x": 1927,
+    "y": 5004,
+    "plane": 0
+  },
+  {
+    "id": "banks:mine-cart",
+    "name": "mine cart",
+    "x": 3308,
+    "y": 12445,
+    "plane": 0
+  },
+  {
+    "id": "banks:mining-guild-chest",
+    "name": "Mining Guild chest",
+    "x": 3012,
+    "y": 9718,
+    "plane": 0
+  },
+  {
+    "id": "banks:mistrock",
+    "name": "Mistrock",
+    "x": 1382,
+    "y": 2866,
+    "plane": 0
+  },
+  {
+    "id": "banks:mor-ul-rek-east",
+    "name": "Mor Ul Rek east",
+    "x": 2543,
+    "y": 5144,
+    "plane": 0
+  },
+  {
+    "id": "banks:mos-le-harmless",
+    "name": "Mos Le\u2019Harmless",
+    "x": 3681,
+    "y": 2982,
+    "plane": 0
+  },
+  {
+    "id": "banks:motherload-mine-chest",
+    "name": "Motherload Mine chest",
+    "x": 3119,
+    "y": 9698,
+    "plane": 0
+  },
+  {
+    "id": "banks:mount-karuulm-chest",
+    "name": "Mount Karuulm chest",
+    "x": 1324,
+    "y": 3824,
+    "plane": 0
+  },
+  {
+    "id": "banks:mount-quidamortem",
+    "name": "Mount Quidamortem",
+    "x": 1254,
+    "y": 3572,
+    "plane": 0
+  },
+  {
+    "id": "banks:myths-guild-chest",
+    "name": "Myths' Guild chest",
+    "x": 2463,
+    "y": 2848,
+    "plane": 1
+  },
+  {
+    "id": "banks:nardah",
+    "name": "Nardah",
+    "x": 3427,
+    "y": 2891,
+    "plane": 0
+  },
+  {
+    "id": "banks:neitiznot",
+    "name": "Neitiznot",
+    "x": 2337,
+    "y": 3807,
+    "plane": 0
+  },
+  {
+    "id": "banks:nemus-retreat",
+    "name": "Nemus Retreat",
+    "x": 1387,
+    "y": 3313,
+    "plane": 0
+  },
+  {
+    "id": "banks:nutcracker-chest",
+    "name": "Nutcracker chest",
+    "x": 2190,
+    "y": 6227,
+    "plane": 0
+  },
+  {
+    "id": "banks:ourania",
+    "name": "Ourania",
+    "x": 3016,
+    "y": 5625,
+    "plane": 0
+  },
+  {
+    "id": "banks:peer-the-seer",
+    "name": "Peer the Seer",
+    "x": 2634,
+    "y": 3668,
+    "plane": 0
+  },
+  {
+    "id": "banks:piscatoris",
+    "name": "Piscatoris",
+    "x": 2330,
+    "y": 3690,
+    "plane": 0
+  },
+  {
+    "id": "banks:port-khazard-chest",
+    "name": "Port Khazard chest",
+    "x": 2662,
+    "y": 3161,
+    "plane": 0
+  },
+  {
+    "id": "banks:port-phasmatys",
+    "name": "Port Phasmatys",
+    "x": 3692,
+    "y": 3468,
+    "plane": 0
+  },
+  {
+    "id": "banks:port-piscarilius",
+    "name": "Port Piscarilius",
+    "x": 1803,
+    "y": 3788,
+    "plane": 0
+  },
+  {
+    "id": "banks:port-roberts",
+    "name": "Port Roberts",
+    "x": 1883,
+    "y": 3316,
+    "plane": 0
+  },
+  {
+    "id": "banks:port-sarim",
+    "name": "Port Sarim",
+    "x": 3045,
+    "y": 3234,
+    "plane": 0
+  },
+  {
+    "id": "banks:prifddinas-north",
+    "name": "Prifddinas north",
+    "x": 3257,
+    "y": 6108,
+    "plane": 0
+  },
+  {
+    "id": "banks:prifddinas-south",
+    "name": "Prifddinas south",
+    "x": 3297,
+    "y": 6060,
+    "plane": 0
+  },
+  {
+    "id": "banks:quetzacalli-gorge",
+    "name": "Quetzacalli Gorge",
+    "x": 1520,
+    "y": 3229,
+    "plane": 0
+  },
+  {
+    "id": "banks:rionasta",
+    "name": "Rionasta",
+    "x": 2782,
+    "y": 3094,
+    "plane": 0
+  },
+  {
+    "id": "banks:saltpetre-mine",
+    "name": "Saltpetre mine",
+    "x": 1702,
+    "y": 3527,
+    "plane": 0
+  },
+  {
+    "id": "banks:seers-village",
+    "name": "Seers\u2019 Village",
+    "x": 2725,
+    "y": 3492,
+    "plane": 0
+  },
+  {
+    "id": "banks:shantay-pass",
+    "name": "Shantay Pass",
+    "x": 3308,
+    "y": 3119,
+    "plane": 0
+  },
+  {
+    "id": "banks:shayzien",
+    "name": "Shayzien",
+    "x": 1487,
+    "y": 3593,
+    "plane": 0
+  },
+  {
+    "id": "banks:shayzien-encampment-bank-chest",
+    "name": "Shayzien Encampment bank chest",
+    "x": 1485,
+    "y": 3646,
+    "plane": 0
+  },
+  {
+    "id": "banks:shilo-village",
+    "name": "Shilo Village",
+    "x": 2852,
+    "y": 2955,
+    "plane": 0
+  },
+  {
+    "id": "banks:sophanem",
+    "name": "Sophanem",
+    "x": 3312,
+    "y": 2799,
+    "plane": 0
+  },
+  {
+    "id": "banks:sulphur-mine-chest",
+    "name": "Sulphur mine chest",
+    "x": 1455,
+    "y": 3860,
+    "plane": 0
+  },
+  {
+    "id": "banks:sunbleak-island-chest",
+    "name": "Sunbleak Island chest",
+    "x": 2194,
+    "y": 2316,
+    "plane": 0
+  },
+  {
+    "id": "banks:tal-teklan",
+    "name": "Tal Teklan",
+    "x": 1244,
+    "y": 3121,
+    "plane": 0
+  },
+  {
+    "id": "banks:tarns-lair",
+    "name": "Tarn's Lair",
+    "x": 3195,
+    "y": 4570,
+    "plane": 0
+  },
+  {
+    "id": "banks:the-darkfrost",
+    "name": "The Darkfrost",
+    "x": 1526,
+    "y": 3295,
+    "plane": 0
+  },
+  {
+    "id": "banks:the-great-conch",
+    "name": "The Great Conch",
+    "x": 3182,
+    "y": 2419,
+    "plane": 0
+  },
+  {
+    "id": "banks:the-node",
+    "name": "The Node",
+    "x": 3096,
+    "y": 3027,
+    "plane": 0
+  },
+  {
+    "id": "banks:the-onyx-crest-chest",
+    "name": "The Onyx Crest chest",
+    "x": 2985,
+    "y": 2270,
+    "plane": 0
+  },
+  {
+    "id": "banks:the-pandemonium-bank-crab",
+    "name": "The Pandemonium bank crab",
+    "x": 3039,
+    "y": 3002,
+    "plane": 0
+  },
+  {
+    "id": "banks:tombs-of-amascut",
+    "name": "Tombs of Amascut",
+    "x": 3345,
+    "y": 2725,
+    "plane": 0
+  },
+  {
+    "id": "banks:trouble-brewing-chest",
+    "name": "Trouble Brewing chest",
+    "x": 3810,
+    "y": 3020,
+    "plane": 0
+  },
+  {
+    "id": "banks:tutorial-island",
+    "name": "Tutorial Island",
+    "x": 3122,
+    "y": 3124,
+    "plane": 0
+  },
+  {
+    "id": "banks:tzhaar-city",
+    "name": "Tzhaar City",
+    "x": 2446,
+    "y": 5179,
+    "plane": 0
+  },
+  {
+    "id": "banks:unkah-chest",
+    "name": "Unkah chest",
+    "x": 3156,
+    "y": 2837,
+    "plane": 0
+  },
+  {
+    "id": "banks:varrock-east",
+    "name": "Varrock east",
+    "x": 3254,
+    "y": 3421,
+    "plane": 0
+  },
+  {
+    "id": "banks:varrock-west",
+    "name": "Varrock west",
+    "x": 3185,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": "banks:ver-sinhaza",
+    "name": "Ver Sinhaza",
+    "x": 3651,
+    "y": 3206,
+    "plane": 0
+  },
+  {
+    "id": "banks:vinery-chest",
+    "name": "Vinery chest",
+    "x": 1809,
+    "y": 3567,
+    "plane": 0
+  },
+  {
+    "id": "banks:void-knights-outpost",
+    "name": "Void Knights' Outpost",
+    "x": 2667,
+    "y": 2653,
+    "plane": 0
+  },
+  {
+    "id": "banks:volcanic-mine-chest",
+    "name": "Volcanic Mine chest",
+    "x": 3819,
+    "y": 3809,
+    "plane": 0
+  },
+  {
+    "id": "banks:warriors-guild",
+    "name": "Warriors\u2019 Guild",
+    "x": 2843,
+    "y": 3543,
+    "plane": 0
+  },
+  {
+    "id": "banks:wintertodt-chest",
+    "name": "Wintertodt chest",
+    "x": 1640,
+    "y": 3944,
+    "plane": 0
+  },
+  {
+    "id": "banks:woodcutting-guild-chest",
+    "name": "Woodcutting Guild chest",
+    "x": 1591,
+    "y": 3478,
+    "plane": 0
+  },
+  {
+    "id": "banks:yanille",
+    "name": "Yanille",
+    "x": 2613,
+    "y": 3093,
+    "plane": 0
+  },
+  {
+    "id": "banks:zanaris",
+    "name": "Zanaris",
+    "x": 2383,
+    "y": 4459,
+    "plane": 0
+  }
 ]

@@ -1,3 +1,576 @@
 [
-  { "id": "shooting-stars:test-star", "name": "Test Star", "x": 3000, "y": 3200, "plane": 0 }
+  {
+    "id": "shooting-stars:abandoned-mine",
+    "name": "Abandoned Mine",
+    "x": 3451,
+    "y": 3235,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:agility-pyramid-mine",
+    "name": "Agility Pyramid mine",
+    "x": 3316,
+    "y": 2869,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:al-kharid",
+    "name": "Al Kharid",
+    "x": 3276,
+    "y": 3166,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:al-kharid-mine",
+    "name": "Al Kharid mine",
+    "x": 3296,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:arandar-mine",
+    "name": "Arandar mine",
+    "x": 2318,
+    "y": 3271,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:bandit-camp-mine",
+    "name": "Bandit Camp mine",
+    "x": 3093,
+    "y": 3758,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:burgh-de-rott",
+    "name": "Burgh de Rott",
+    "x": 3500,
+    "y": 3221,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:canifis",
+    "name": "Canifis",
+    "x": 3505,
+    "y": 3487,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:catherby",
+    "name": "Catherby",
+    "x": 2804,
+    "y": 3436,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:central-fremennik-isles-mine",
+    "name": "Central Fremennik Isles mine",
+    "x": 2375,
+    "y": 3834,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:civitas-illa-fortis",
+    "name": "Civitas illa Fortis",
+    "x": 1771,
+    "y": 3104,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:coal-trucks",
+    "name": "Coal Trucks",
+    "x": 2589,
+    "y": 3480,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:corsair-cove",
+    "name": "Corsair Cove",
+    "x": 2567,
+    "y": 2860,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:corsair-cove-resource-area",
+    "name": "Corsair Cove Resource Area",
+    "x": 2483,
+    "y": 2888,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:crafting-guild",
+    "name": "Crafting Guild",
+    "x": 2940,
+    "y": 3282,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:custodia-mountains",
+    "name": "Custodia Mountains",
+    "x": 1287,
+    "y": 3415,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:daeyalt-essence-mine",
+    "name": "Daeyalt essence mine",
+    "x": 3635,
+    "y": 3342,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:dense-essence-mine",
+    "name": "Dense essence mine",
+    "x": 1760,
+    "y": 3855,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:desert-quarry",
+    "name": "Desert quarry",
+    "x": 3171,
+    "y": 2912,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:draynor-village",
+    "name": "Draynor Village",
+    "x": 3094,
+    "y": 3237,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:dwarven-mine",
+    "name": "Dwarven Mine",
+    "x": 3018,
+    "y": 3446,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:east-lumbridge-swamp-mine",
+    "name": "East Lumbridge Swamp mine",
+    "x": 3230,
+    "y": 3157,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:emirs-arena",
+    "name": "Emir's Arena",
+    "x": 3351,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:feldip-hunter-area",
+    "name": "Feldip Hunter area",
+    "x": 2571,
+    "y": 2966,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:fossil-island-mine",
+    "name": "Fossil Island mine",
+    "x": 3774,
+    "y": 3816,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:grand-tree",
+    "name": "Grand Tree",
+    "x": 2444,
+    "y": 3492,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:hosidius-mine",
+    "name": "Hosidius mine",
+    "x": 1778,
+    "y": 3495,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:isafdar-mine",
+    "name": "Isafdar mine",
+    "x": 2269,
+    "y": 3160,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:isle-of-souls-mine",
+    "name": "Isle of Souls mine",
+    "x": 2200,
+    "y": 2794,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:jatizso-mine",
+    "name": "Jatizso mine",
+    "x": 2393,
+    "y": 3816,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:karamja-jungle-mine",
+    "name": "Karamja Jungle mine",
+    "x": 2845,
+    "y": 3039,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:kebos-lowlands-mine",
+    "name": "Kebos Lowlands mine",
+    "x": 1210,
+    "y": 3653,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:keldagrim-entrance-mine",
+    "name": "Keldagrim entrance mine",
+    "x": 2727,
+    "y": 3685,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:lava-maze-runite-mine",
+    "name": "Lava Maze runite mine",
+    "x": 3057,
+    "y": 3889,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:legends-guild-mine",
+    "name": "Legends' Guild mine",
+    "x": 2705,
+    "y": 3335,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:lletya",
+    "name": "Lletya",
+    "x": 2329,
+    "y": 3165,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:lovakengj",
+    "name": "Lovakengj",
+    "x": 1534,
+    "y": 3749,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:lovakite-mine",
+    "name": "Lovakite mine",
+    "x": 1437,
+    "y": 3842,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:lunar-isle-mine",
+    "name": "Lunar Isle mine",
+    "x": 2139,
+    "y": 3940,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:mage-arena",
+    "name": "Mage Arena",
+    "x": 3091,
+    "y": 3964,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:mining-guild",
+    "name": "Mining Guild",
+    "x": 3030,
+    "y": 3350,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:miscellania-mine",
+    "name": "Miscellania mine",
+    "x": 2528,
+    "y": 3889,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:mistrock",
+    "name": "Mistrock",
+    "x": 1422,
+    "y": 2875,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:mos-leharmless",
+    "name": "Mos Le'Harmless",
+    "x": 3686,
+    "y": 2971,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:mount-karuulm",
+    "name": "Mount Karuulm",
+    "x": 1322,
+    "y": 3818,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:mount-karuulm-mine",
+    "name": "Mount Karuulm mine",
+    "x": 1279,
+    "y": 3819,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:mount-quidamortem",
+    "name": "Mount Quidamortem",
+    "x": 1258,
+    "y": 3566,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:mynydd-mine",
+    "name": "Mynydd mine",
+    "x": 2173,
+    "y": 3411,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:myths-guild",
+    "name": "Myths' Guild",
+    "x": 2468,
+    "y": 2844,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:nardah",
+    "name": "Nardah",
+    "x": 3434,
+    "y": 2891,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:north-brimhaven-mine",
+    "name": "North Brimhaven mine",
+    "x": 2736,
+    "y": 3223,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:north-crandor-mine",
+    "name": "North Crandor mine",
+    "x": 2835,
+    "y": 3298,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:pirates-hideout-mine",
+    "name": "Pirates' Hideout mine",
+    "x": 3049,
+    "y": 3942,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:piscarilius-mine",
+    "name": "Piscarilius mine",
+    "x": 1769,
+    "y": 3711,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:piscatoris-mine",
+    "name": "Piscatoris mine",
+    "x": 2341,
+    "y": 3637,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:port-khazard-mine",
+    "name": "Port Khazard mine",
+    "x": 2624,
+    "y": 3143,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:ralos-rise",
+    "name": "Ralos' Rise",
+    "x": 1486,
+    "y": 3091,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:rantzs-cave",
+    "name": "Rantz's cave",
+    "x": 2630,
+    "y": 2995,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:rellekka-mine",
+    "name": "Rellekka mine",
+    "x": 2683,
+    "y": 3701,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:resource-area",
+    "name": "Resource Area",
+    "x": 3188,
+    "y": 3934,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:rimmington-mine",
+    "name": "Rimmington mine",
+    "x": 2974,
+    "y": 3243,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:salvager-overlook",
+    "name": "Salvager Overlook",
+    "x": 1625,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:shayzien-mine",
+    "name": "Shayzien mine",
+    "x": 1597,
+    "y": 3650,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:shilo-village-mine",
+    "name": "Shilo Village mine",
+    "x": 2827,
+    "y": 3001,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:south-brimhaven-mine",
+    "name": "South Brimhaven mine",
+    "x": 2742,
+    "y": 3145,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:south-crandor-mine",
+    "name": "South Crandor mine",
+    "x": 2822,
+    "y": 3240,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:south-wilderness-mine",
+    "name": "South Wilderness mine",
+    "x": 3108,
+    "y": 3571,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:south-east-ardougne-mine",
+    "name": "South-east Ardougne mine",
+    "x": 2608,
+    "y": 3235,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:south-east-varrock-mine",
+    "name": "South-east Varrock mine",
+    "x": 3290,
+    "y": 3355,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:south-west-varrock-mine",
+    "name": "South-west Varrock mine",
+    "x": 3175,
+    "y": 3364,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:south-west-wilderness-mine",
+    "name": "South-west Wilderness mine",
+    "x": 3018,
+    "y": 3595,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:stonecutter-outpost",
+    "name": "Stonecutter Outpost",
+    "x": 1742,
+    "y": 2956,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:taverley",
+    "name": "Taverley",
+    "x": 2882,
+    "y": 3476,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:trahaearn-mine",
+    "name": "Trahaearn mine",
+    "x": 2253,
+    "y": 3301,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:tree-gnome-stronghold",
+    "name": "Tree Gnome Stronghold",
+    "x": 2448,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:uzer-mine",
+    "name": "Uzer mine",
+    "x": 3424,
+    "y": 3162,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:varrock",
+    "name": "Varrock",
+    "x": 3258,
+    "y": 3410,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:ver-sinhaza",
+    "name": "Ver Sinhaza",
+    "x": 3650,
+    "y": 3216,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:volcanic-mine",
+    "name": "Volcanic Mine",
+    "x": 3818,
+    "y": 3803,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:west-falador-mine",
+    "name": "West Falador mine",
+    "x": 2906,
+    "y": 3357,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:west-lumbridge-swamp-mine",
+    "name": "West Lumbridge Swamp mine",
+    "x": 3153,
+    "y": 3152,
+    "plane": 0
+  },
+  {
+    "id": "shooting-stars:yanille",
+    "name": "Yanille",
+    "x": 2602,
+    "y": 3088,
+    "plane": 0
+  }
 ]

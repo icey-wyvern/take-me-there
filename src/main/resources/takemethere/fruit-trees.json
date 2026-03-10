@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fruit-trees:east-of-catherby",
+    "name": "East of Catherby",
+    "x": 2861,
+    "y": 3434,
+    "plane": 0
+  },
+  {
+    "id": "fruit-trees:farming-guild-85-farming-required",
+    "name": "Farming Guild ( 85 Farming required)",
+    "x": 1243,
+    "y": 3759,
+    "plane": 0
+  },
+  {
+    "id": "fruit-trees:kastori",
+    "name": "Kastori",
+    "x": 1350,
+    "y": 3057,
+    "plane": 0
+  },
+  {
+    "id": "fruit-trees:lletya",
+    "name": "Lletya",
+    "x": 2347,
+    "y": 3162,
+    "plane": 0
+  },
+  {
+    "id": "fruit-trees:north-of-brimhaven",
+    "name": "North of Brimhaven",
+    "x": 2765,
+    "y": 3213,
+    "plane": 0
+  },
+  {
+    "id": "fruit-trees:tree-gnome-stronghold",
+    "name": "Tree Gnome Stronghold",
+    "x": 2476,
+    "y": 3446,
+    "plane": 0
+  },
+  {
+    "id": "fruit-trees:west-of-tree-gnome-maze",
+    "name": "West of Tree Gnome maze",
+    "x": 2490,
+    "y": 3180,
+    "plane": 0
+  }
+]

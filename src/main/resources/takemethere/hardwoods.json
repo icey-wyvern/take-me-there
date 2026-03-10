@@ -1,0 +1,23 @@
+[
+  {
+    "id": "hardwoods:anglers-retreat",
+    "name": "Anglers' Retreat",
+    "x": 2471,
+    "y": 2703,
+    "plane": 0
+  },
+  {
+    "id": "hardwoods:fossil-island-mushroom-forest",
+    "name": "Fossil Island Mushroom Forest",
+    "x": 3709,
+    "y": 3835,
+    "plane": 0
+  },
+  {
+    "id": "hardwoods:locus-oasis",
+    "name": "Locus Oasis",
+    "x": 1687,
+    "y": 2972,
+    "plane": 0
+  }
+]

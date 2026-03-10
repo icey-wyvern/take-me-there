@@ -1,0 +1,23 @@
+[
+  {
+    "id": "calquats:kastori",
+    "name": "Kastori",
+    "x": 1367,
+    "y": 3032,
+    "plane": 0
+  },
+  {
+    "id": "calquats:north-of-tai-bwo-wannai",
+    "name": "North of Tai Bwo Wannai",
+    "x": 2796,
+    "y": 3101,
+    "plane": 0
+  },
+  {
+    "id": "calquats:the-summer-shore",
+    "name": "The Summer Shore",
+    "x": 3128,
+    "y": 2405,
+    "plane": 0
+  }
+]

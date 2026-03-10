@@ -1,0 +1,93 @@
+[
+  {
+    "id": "slayer-masters:achtryn",
+    "name": "Achtryn",
+    "x": 3511,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": "slayer-masters:aya",
+    "name": "Aya",
+    "x": 2931,
+    "y": 3536,
+    "plane": 0
+  },
+  {
+    "id": "slayer-masters:chaeldar",
+    "name": "Chaeldar",
+    "x": 2444,
+    "y": 4431,
+    "plane": 0
+  },
+  {
+    "id": "slayer-masters:duradel",
+    "name": "Duradel",
+    "x": 2869,
+    "y": 2982,
+    "plane": 1
+  },
+  {
+    "id": "slayer-masters:konar-quo-maten",
+    "name": "Konar quo Maten",
+    "x": 1309,
+    "y": 3785,
+    "plane": 0
+  },
+  {
+    "id": "slayer-masters:krystilia",
+    "name": "Krystilia",
+    "x": 3109,
+    "y": 3518,
+    "plane": 0
+  },
+  {
+    "id": "slayer-masters:kuradal",
+    "name": "Kuradal",
+    "x": 2869,
+    "y": 2982,
+    "plane": 1
+  },
+  {
+    "id": "slayer-masters:mazchna",
+    "name": "Mazchna",
+    "x": 3511,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": "slayer-masters:nieve",
+    "name": "Nieve",
+    "x": 2432,
+    "y": 3425,
+    "plane": 0
+  },
+  {
+    "id": "slayer-masters:spria",
+    "name": "Spria",
+    "x": 3091,
+    "y": 3269,
+    "plane": 0
+  },
+  {
+    "id": "slayer-masters:steve",
+    "name": "Steve",
+    "x": 2432,
+    "y": 3425,
+    "plane": 0
+  },
+  {
+    "id": "slayer-masters:turael",
+    "name": "Turael",
+    "x": 2931,
+    "y": 3536,
+    "plane": 0
+  },
+  {
+    "id": "slayer-masters:vannaka",
+    "name": "Vannaka",
+    "x": 1697,
+    "y": 12516,
+    "plane": 0
+  }
+]

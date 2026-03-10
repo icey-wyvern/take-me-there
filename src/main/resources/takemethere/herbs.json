@@ -1,0 +1,72 @@
+[
+  {
+    "id": "herbs:farming-guild-65-farming-required",
+    "name": "Farming Guild ( 65 Farming required)",
+    "x": 1239,
+    "y": 3727,
+    "plane": 0
+  },
+  {
+    "id": "herbs:harmony-island-elite-morytania-diary-required",
+    "name": "Harmony Island ( Elite Morytania Diary required)",
+    "x": 3790,
+    "y": 2838,
+    "plane": 0
+  },
+  {
+    "id": "herbs:morytania-west-of-port-phasmatys",
+    "name": "Morytania, West of Port Phasmatys",
+    "x": 3602,
+    "y": 3526,
+    "plane": 0
+  },
+  {
+    "id": "herbs:north-of-ardougne",
+    "name": "North of Ardougne",
+    "x": 2667,
+    "y": 3375,
+    "plane": 0
+  },
+  {
+    "id": "herbs:north-of-catherby",
+    "name": "North of Catherby",
+    "x": 2810,
+    "y": 3464,
+    "plane": 0
+  },
+  {
+    "id": "herbs:roof-of-the-troll-stronghold",
+    "name": "Roof of the Troll Stronghold",
+    "x": 2828,
+    "y": 3696,
+    "plane": 0
+  },
+  {
+    "id": "herbs:south-of-falador",
+    "name": "South of Falador",
+    "x": 3055,
+    "y": 3308,
+    "plane": 0
+  },
+  {
+    "id": "herbs:south-west-corner-of-hosidius",
+    "name": "South-west corner of Hosidius",
+    "x": 1735,
+    "y": 3555,
+    "plane": 0
+  },
+  {
+    "id": "herbs:weiss",
+    "name": "Weiss",
+    "x": 2847,
+    "y": 3933,
+    "plane": 0
+  },
+  {
+    "id": "herbs:west-of-civitas-illa-fortis",
+    "name": "West of Civitas illa Fortis",
+    "x": 1586,
+    "y": 3099,
+    "plane": 0
+  }
+]

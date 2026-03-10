@@ -1,0 +1,37 @@
+[
+  {
+    "id": "spirit-trees:east-of-port-sarim",
+    "name": "East of Port Sarim",
+    "x": 3060,
+    "y": 3258,
+    "plane": 0
+  },
+  {
+    "id": "spirit-trees:north-of-brimhaven",
+    "name": "North of Brimhaven",
+    "x": 2802,
+    "y": 3203,
+    "plane": 0
+  },
+  {
+    "id": "spirit-trees:northern-section-of-the-farming-guild-85-farming-is-required-to-enter-even-if-planted-via-boost",
+    "name": "Northern section of the Farming Guild (85 Farming is required to enter, even if planted via boost)",
+    "x": 1253,
+    "y": 3750,
+    "plane": 0
+  },
+  {
+    "id": "spirit-trees:south-east-etceteria",
+    "name": "South-east Etceteria",
+    "x": 2613,
+    "y": 3858,
+    "plane": 0
+  },
+  {
+    "id": "spirit-trees:south-west-of-hosidius",
+    "name": "South-west of Hosidius",
+    "x": 1693,
+    "y": 3542,
+    "plane": 0
+  }
+]

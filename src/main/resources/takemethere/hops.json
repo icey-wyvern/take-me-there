@@ -1,0 +1,37 @@
+[
+  {
+    "id": "hops:aldarin",
+    "name": "Aldarin",
+    "x": 1365,
+    "y": 2939,
+    "plane": 0
+  },
+  {
+    "id": "hops:entrana",
+    "name": "Entrana",
+    "x": 2811,
+    "y": 3337,
+    "plane": 0
+  },
+  {
+    "id": "hops:north-of-lumbridge-farm",
+    "name": "North of Lumbridge farm",
+    "x": 3229,
+    "y": 3315,
+    "plane": 0
+  },
+  {
+    "id": "hops:north-of-mcgrubors-wood",
+    "name": "North of McGrubor's Wood",
+    "x": 2667,
+    "y": 3526,
+    "plane": 0
+  },
+  {
+    "id": "hops:yanille",
+    "name": "Yanille",
+    "x": 2576,
+    "y": 3105,
+    "plane": 0
+  }
+]

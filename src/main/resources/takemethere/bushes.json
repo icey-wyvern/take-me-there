@@ -1,0 +1,37 @@
+[
+  {
+    "id": "bushes:farming-guild",
+    "name": "Farming Guild",
+    "x": 1261,
+    "y": 3734,
+    "plane": 0
+  },
+  {
+    "id": "bushes:rimmington",
+    "name": "Rimmington",
+    "x": 2941,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": "bushes:south-of-ardougne",
+    "name": "South of Ardougne",
+    "x": 2618,
+    "y": 3226,
+    "plane": 0
+  },
+  {
+    "id": "bushes:south-west-etceteria",
+    "name": "South-west Etceteria",
+    "x": 2592,
+    "y": 3864,
+    "plane": 0
+  },
+  {
+    "id": "bushes:west-of-champions-guild",
+    "name": "West of Champions' Guild",
+    "x": 3182,
+    "y": 3358,
+    "plane": 0
+  }
+]

@@ -1,3 +1,499 @@
 [
-  { "id": "cities:test-city", "name": "Test City", "x": 3000, "y": 3150, "plane": 0 }
+  {
+    "id": "cities:al-kharid",
+    "name": "Al Kharid",
+    "x": 3290,
+    "y": 3185,
+    "plane": 0
+  },
+  {
+    "id": "cities:arceuus",
+    "name": "Arceuus",
+    "x": 1700,
+    "y": 3800,
+    "plane": 0
+  },
+  {
+    "id": "cities:ardougne",
+    "name": "Ardougne",
+    "x": 2662,
+    "y": 3305,
+    "plane": 0
+  },
+  {
+    "id": "cities:auburnvale",
+    "name": "Auburnvale",
+    "x": 1417,
+    "y": 3360,
+    "plane": 0
+  },
+  {
+    "id": "cities:bandit-camp",
+    "name": "Bandit Camp",
+    "x": 3171,
+    "y": 2979,
+    "plane": 0
+  },
+  {
+    "id": "cities:barbarian-village",
+    "name": "Barbarian Village",
+    "x": 3078,
+    "y": 3426,
+    "plane": 0
+  },
+  {
+    "id": "cities:bedabin-camp",
+    "name": "Bedabin Camp",
+    "x": 3169,
+    "y": 3036,
+    "plane": 0
+  },
+  {
+    "id": "cities:brimhaven",
+    "name": "Brimhaven",
+    "x": 2760,
+    "y": 3184,
+    "plane": 0
+  },
+  {
+    "id": "cities:burgh-de-rott",
+    "name": "Burgh de Rott",
+    "x": 3502,
+    "y": 3210,
+    "plane": 0
+  },
+  {
+    "id": "cities:burthorpe",
+    "name": "Burthorpe",
+    "x": 2881,
+    "y": 3539,
+    "plane": 0
+  },
+  {
+    "id": "cities:cam-torum",
+    "name": "Cam Torum",
+    "x": 1453,
+    "y": 9565,
+    "plane": 0
+  },
+  {
+    "id": "cities:camelot",
+    "name": "Camelot",
+    "x": 2757,
+    "y": 3479,
+    "plane": 0
+  },
+  {
+    "id": "cities:canifis",
+    "name": "Canifis",
+    "x": 3493,
+    "y": 3488,
+    "plane": 0
+  },
+  {
+    "id": "cities:castle-wars",
+    "name": "Castle Wars",
+    "x": 2407,
+    "y": 3105,
+    "plane": 0
+  },
+  {
+    "id": "cities:catherby",
+    "name": "Catherby",
+    "x": 2814,
+    "y": 3443,
+    "plane": 0
+  },
+  {
+    "id": "cities:civitas-illa-fortis",
+    "name": "Civitas illa Fortis",
+    "x": 1681,
+    "y": 3133,
+    "plane": 0
+  },
+  {
+    "id": "cities:darkmeyer",
+    "name": "Darkmeyer",
+    "x": 3597,
+    "y": 3360,
+    "plane": 0
+  },
+  {
+    "id": "cities:digsite",
+    "name": "Digsite",
+    "x": 3341,
+    "y": 3445,
+    "plane": 0
+  },
+  {
+    "id": "cities:dorgesh-kaan",
+    "name": "Dorgesh-Kaan",
+    "x": 2723,
+    "y": 5314,
+    "plane": 0
+  },
+  {
+    "id": "cities:draynor-village",
+    "name": "Draynor Village",
+    "x": 3103,
+    "y": 3259,
+    "plane": 0
+  },
+  {
+    "id": "cities:east-ardougne",
+    "name": "East Ardougne",
+    "x": 2662,
+    "y": 3305,
+    "plane": 0
+  },
+  {
+    "id": "cities:edgeville",
+    "name": "Edgeville",
+    "x": 3080,
+    "y": 3492,
+    "plane": 0
+  },
+  {
+    "id": "cities:etceteria",
+    "name": "Etceteria",
+    "x": 2604,
+    "y": 3873,
+    "plane": 0
+  },
+  {
+    "id": "cities:falador",
+    "name": "Falador",
+    "x": 2964,
+    "y": 3378,
+    "plane": 0
+  },
+  {
+    "id": "cities:fortis-colosseum",
+    "name": "Fortis Colosseum",
+    "x": 1824,
+    "y": 3107,
+    "plane": 0
+  },
+  {
+    "id": "cities:grand-exchange",
+    "name": "Grand Exchange",
+    "x": 3165,
+    "y": 3490,
+    "plane": 0
+  },
+  {
+    "id": "cities:gutanoth",
+    "name": "Gu'Tanoth",
+    "x": 2524,
+    "y": 3035,
+    "plane": 0
+  },
+  {
+    "id": "cities:hemenster",
+    "name": "Hemenster",
+    "x": 2636,
+    "y": 3430,
+    "plane": 0
+  },
+  {
+    "id": "cities:hosidius",
+    "name": "Hosidius",
+    "x": 1762,
+    "y": 3598,
+    "plane": 0
+  },
+  {
+    "id": "cities:iorwerth-camp",
+    "name": "Iorwerth Camp",
+    "x": 2198,
+    "y": 3253,
+    "plane": 0
+  },
+  {
+    "id": "cities:jatizso",
+    "name": "Jatizso",
+    "x": 2405,
+    "y": 3805,
+    "plane": 0
+  },
+  {
+    "id": "cities:keldagrim",
+    "name": "Keldagrim",
+    "x": 2879,
+    "y": 10176,
+    "plane": 0
+  },
+  {
+    "id": "cities:lletya",
+    "name": "Lletya",
+    "x": 2338,
+    "y": 3171,
+    "plane": 0
+  },
+  {
+    "id": "cities:lovakengj",
+    "name": "Lovakengj",
+    "x": 1505,
+    "y": 3801,
+    "plane": 0
+  },
+  {
+    "id": "cities:lumbridge",
+    "name": "Lumbridge",
+    "x": 3221,
+    "y": 3218,
+    "plane": 0
+  },
+  {
+    "id": "cities:lunar-isle",
+    "name": "Lunar Isle",
+    "x": 2117,
+    "y": 3903,
+    "plane": 0
+  },
+  {
+    "id": "cities:marim",
+    "name": "Marim",
+    "x": 2765,
+    "y": 2786,
+    "plane": 0
+  },
+  {
+    "id": "cities:meiyerditch",
+    "name": "Meiyerditch",
+    "x": 3615,
+    "y": 3250,
+    "plane": 0
+  },
+  {
+    "id": "cities:miscellania",
+    "name": "Miscellania",
+    "x": 2560,
+    "y": 3870,
+    "plane": 0
+  },
+  {
+    "id": "cities:mor-ul-rek",
+    "name": "Mor Ul Rek",
+    "x": 2856,
+    "y": 3168,
+    "plane": 0
+  },
+  {
+    "id": "cities:mortton",
+    "name": "Mort'ton",
+    "x": 3487,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": "cities:nardah",
+    "name": "Nardah",
+    "x": 3427,
+    "y": 2911,
+    "plane": 0
+  },
+  {
+    "id": "cities:neitiznot",
+    "name": "Neitiznot",
+    "x": 2331,
+    "y": 3802,
+    "plane": 0
+  },
+  {
+    "id": "cities:piscatoris",
+    "name": "Piscatoris",
+    "x": 2333,
+    "y": 3576,
+    "plane": 0
+  },
+  {
+    "id": "cities:pollnivneach",
+    "name": "Pollnivneach",
+    "x": 3358,
+    "y": 2974,
+    "plane": 0
+  },
+  {
+    "id": "cities:port-khazard",
+    "name": "Port Khazard",
+    "x": 2653,
+    "y": 3159,
+    "plane": 0
+  },
+  {
+    "id": "cities:port-phasmatys",
+    "name": "Port Phasmatys",
+    "x": 3679,
+    "y": 3486,
+    "plane": 0
+  },
+  {
+    "id": "cities:port-piscarilius",
+    "name": "Port Piscarilius",
+    "x": 1803,
+    "y": 3752,
+    "plane": 0
+  },
+  {
+    "id": "cities:port-sarim",
+    "name": "Port Sarim",
+    "x": 3029,
+    "y": 3221,
+    "plane": 0
+  },
+  {
+    "id": "cities:prifddinas",
+    "name": "Prifddinas",
+    "x": 3263,
+    "y": 6083,
+    "plane": 0
+  },
+  {
+    "id": "cities:proudspire",
+    "name": "Proudspire",
+    "x": 1570,
+    "y": 3235,
+    "plane": 0
+  },
+  {
+    "id": "cities:ralos-rise",
+    "name": "Ralos' Rise",
+    "x": 1450,
+    "y": 3140,
+    "plane": 0
+  },
+  {
+    "id": "cities:rellekka",
+    "name": "Rellekka",
+    "x": 2658,
+    "y": 3677,
+    "plane": 0
+  },
+  {
+    "id": "cities:rimmington",
+    "name": "Rimmington",
+    "x": 2956,
+    "y": 3232,
+    "plane": 0
+  },
+  {
+    "id": "cities:seers-village",
+    "name": "Seers' Village",
+    "x": 2710,
+    "y": 3485,
+    "plane": 0
+  },
+  {
+    "id": "cities:shayzien",
+    "name": "Shayzien",
+    "x": 1517,
+    "y": 3592,
+    "plane": 0
+  },
+  {
+    "id": "cities:shilo-village",
+    "name": "Shilo Village",
+    "x": 2849,
+    "y": 2972,
+    "plane": 0
+  },
+  {
+    "id": "cities:sophanem",
+    "name": "Sophanem",
+    "x": 3297,
+    "y": 2783,
+    "plane": 0
+  },
+  {
+    "id": "cities:tai-bwo-wannai",
+    "name": "Tai Bwo Wannai",
+    "x": 2795,
+    "y": 3065,
+    "plane": 0
+  },
+  {
+    "id": "cities:taverley",
+    "name": "Taverley",
+    "x": 2910,
+    "y": 3451,
+    "plane": 0
+  },
+  {
+    "id": "cities:tempestus",
+    "name": "Tempestus",
+    "x": 1285,
+    "y": 3256,
+    "plane": 0
+  },
+  {
+    "id": "cities:tree-gnome-stronghold",
+    "name": "Tree Gnome Stronghold",
+    "x": 2440,
+    "y": 3460,
+    "plane": 0
+  },
+  {
+    "id": "cities:tyras-camp",
+    "name": "Tyras Camp",
+    "x": 2185,
+    "y": 3145,
+    "plane": 0
+  },
+  {
+    "id": "cities:uzer",
+    "name": "Uzer",
+    "x": 3480,
+    "y": 3095,
+    "plane": 0
+  },
+  {
+    "id": "cities:varrock",
+    "name": "Varrock",
+    "x": 3213,
+    "y": 3424,
+    "plane": 0
+  },
+  {
+    "id": "cities:ver-sinhaza",
+    "name": "Ver Sinhaza",
+    "x": 3663,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": "cities:weiss",
+    "name": "Weiss",
+    "x": 2846,
+    "y": 3938,
+    "plane": 0
+  },
+  {
+    "id": "cities:west-ardougne",
+    "name": "West Ardougne",
+    "x": 2500,
+    "y": 3305,
+    "plane": 0
+  },
+  {
+    "id": "cities:witchaven",
+    "name": "Witchaven",
+    "x": 2720,
+    "y": 3287,
+    "plane": 0
+  },
+  {
+    "id": "cities:yanille",
+    "name": "Yanille",
+    "x": 2546,
+    "y": 3114,
+    "plane": 0
+  },
+  {
+    "id": "cities:zul-andra",
+    "name": "Zul-Andra",
+    "x": 2193,
+    "y": 3060,
+    "plane": 0
+  }
 ]

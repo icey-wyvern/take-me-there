@@ -1,0 +1,65 @@
+[
+  {
+    "id": "allotments:farming-guild",
+    "name": "Farming Guild",
+    "x": 1266,
+    "y": 3730,
+    "plane": 0
+  },
+  {
+    "id": "allotments:harmony-island",
+    "name": "Harmony Island",
+    "x": 3794,
+    "y": 2836,
+    "plane": 0
+  },
+  {
+    "id": "allotments:morytania-west-of-port-phasmatys",
+    "name": "Morytania, West of Port Phasmatys",
+    "x": 3602,
+    "y": 3526,
+    "plane": 0
+  },
+  {
+    "id": "allotments:north-of-ardougne",
+    "name": "North of Ardougne",
+    "x": 2667,
+    "y": 3375,
+    "plane": 0
+  },
+  {
+    "id": "allotments:north-of-catherby",
+    "name": "North of Catherby",
+    "x": 2810,
+    "y": 3464,
+    "plane": 0
+  },
+  {
+    "id": "allotments:prifddinas",
+    "name": "Prifddinas",
+    "x": 3291,
+    "y": 6100,
+    "plane": 0
+  },
+  {
+    "id": "allotments:south-of-falador",
+    "name": "South of Falador",
+    "x": 3055,
+    "y": 3308,
+    "plane": 0
+  },
+  {
+    "id": "allotments:south-west-corner-of-hosidius",
+    "name": "South-west corner of Hosidius",
+    "x": 1735,
+    "y": 3555,
+    "plane": 0
+  },
+  {
+    "id": "allotments:west-of-civitas-illa-fortis",
+    "name": "West of Civitas illa Fortis",
+    "x": 1586,
+    "y": 3099,
+    "plane": 0
+  }
+]

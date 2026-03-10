@@ -1,0 +1,51 @@
+[
+  {
+    "id": "trees:falador-park-t-1",
+    "name": "Falador Park [ t 1 ]",
+    "x": 3004,
+    "y": 3373,
+    "plane": 0
+  },
+  {
+    "id": "trees:farming-guild-65-farming-required",
+    "name": "Farming Guild ( 65 Farming required)",
+    "x": 1232,
+    "y": 3736,
+    "plane": 0
+  },
+  {
+    "id": "trees:gnome-stronghold",
+    "name": "Gnome Stronghold",
+    "x": 2436,
+    "y": 3415,
+    "plane": 0
+  },
+  {
+    "id": "trees:nemus-retreat",
+    "name": "Nemus Retreat",
+    "x": 1366,
+    "y": 3321,
+    "plane": 0
+  },
+  {
+    "id": "trees:taverley",
+    "name": "Taverley",
+    "x": 2936,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": "trees:varrock-castle-courtyard",
+    "name": "Varrock Castle courtyard",
+    "x": 3229,
+    "y": 3459,
+    "plane": 0
+  },
+  {
+    "id": "trees:west-of-lumbridge-castle",
+    "name": "West of Lumbridge Castle",
+    "x": 3193,
+    "y": 3231,
+    "plane": 0
+  }
+]
