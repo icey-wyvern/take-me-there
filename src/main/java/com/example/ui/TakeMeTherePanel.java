@@ -4,13 +4,11 @@ import com.example.DestinationService;
 import com.example.custom.CustomLocation;
 import com.example.custom.CustomLocationsStore;
 import com.example.custom.ui.CustomLocationsManagerDialog;
-import com.example.data.LocationCatalogLoader;
 import com.example.favourites.FavouritesStore;
 import com.example.model.CategoryDefinition;
 import com.example.model.LocationCatalog;
 import com.example.model.LocationDefinition;
 import net.runelite.api.coords.WorldPoint;
-import net.runelite.client.config.ConfigManager;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.FontManager;
 import net.runelite.client.ui.PluginPanel;
@@ -63,11 +61,6 @@ public class TakeMeTherePanel extends PluginPanel
 
 	private final Map<String, CustomLocation> customLocationsById = new LinkedHashMap<>();
 
-	public TakeMeTherePanel()
-	{
-		this(new LocationCatalogLoader().load(), null, null, null);
-	}
-
 	public TakeMeTherePanel(LocationCatalog catalog)
 	{
 		this(catalog, null, null, null);
@@ -87,12 +80,12 @@ public class TakeMeTherePanel extends PluginPanel
 		LocationCatalog catalog,
 		FavouritesStore favouritesStore,
 		DestinationService destinationService,
-		ConfigManager configManager)
+		CustomLocationsStore customLocationsStore)
 	{
 		this.catalog = catalog;
 		this.favouritesStore = favouritesStore;
 		this.destinationService = destinationService;
-		this.customLocationsStore = configManager == null ? null : new CustomLocationsStore(configManager);
+		this.customLocationsStore = customLocationsStore;
 
 		setLayout(new BorderLayout());
 		setBackground(ColorScheme.DARK_GRAY_COLOR);

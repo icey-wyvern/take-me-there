@@ -19,11 +19,6 @@ public final class CustomLocationsStore
 	private final ConfigManager configManager;
 	private final Gson gson;
 
-	public CustomLocationsStore(ConfigManager configManager)
-	{
-		this(configManager, new Gson());
-	}
-
 	public CustomLocationsStore(ConfigManager configManager, Gson gson)
 	{
 		this.configManager = Objects.requireNonNull(configManager, "configManager");

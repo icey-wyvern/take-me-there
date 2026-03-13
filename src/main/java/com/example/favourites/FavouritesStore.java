@@ -19,11 +19,6 @@ public final class FavouritesStore
 	private final ConfigManager configManager;
 	private final Gson gson;
 
-	public FavouritesStore(ConfigManager configManager)
-	{
-		this(configManager, new Gson());
-	}
-
 	public FavouritesStore(ConfigManager configManager, Gson gson)
 	{
 		this.configManager = Objects.requireNonNull(configManager, "configManager");

@@ -20,11 +20,6 @@ public final class LocationCatalogLoader
 
 	private final Gson gson;
 
-	public LocationCatalogLoader()
-	{
-		this(new Gson());
-	}
-
 	public LocationCatalogLoader(Gson gson)
 	{
 		this.gson = Objects.requireNonNull(gson, "gson");
