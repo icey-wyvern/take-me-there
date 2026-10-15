@@ -3,7 +3,6 @@ plugins {
 }
 
 repositories {
-	mavenLocal()
 	maven {
 		url = 'https://repo.runelite.net'
 		content {
@@ -19,9 +18,6 @@ def runMainClass = 'com.example.TakeMeTherePluginTest'
 
 dependencies {
 	compileOnly group: 'net.runelite', name: 'client', version: runeLiteVersion
-
-	compileOnly 'org.projectlombok:lombok:1.18.30'
-	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
 	testImplementation 'junit:junit:4.12'
 	testImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
@@ -49,19 +45,12 @@ tasks.register('run', JavaExec) {
 }
 
 tasks.register('shadowJar', Jar) {
-	dependsOn configurations.testRuntimeClasspath
 	manifest {
 		attributes('Main-Class': pluginClass, 'Multi-Release': true)
 	}
 
 	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 	from sourceSets.main.output
-	from sourceSets.test.output
-	from {
-		configurations.testRuntimeClasspath.collect { file ->
-			file.isDirectory() ? file : zipTree(file)
-		}
-	}
 
 	exclude 'META-INF/INDEX.LIST'
 	exclude 'META-INF/*.SF'
@@ -71,5 +60,4 @@ tasks.register('shadowJar', Jar) {
 
 	group = BasePlugin.BUILD_GROUP
 	archiveClassifier.set('shadow')
-	archiveFileName.set("${rootProject.name}-${project.version}-all.jar")
 }
