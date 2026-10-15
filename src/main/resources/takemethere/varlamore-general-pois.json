@@ -1,0 +1,205 @@
+[
+  {
+    "id": "varlamore-general-pois:amoxliatl",
+    "name": "Amoxliatl",
+    "x": 1693,
+    "y": 3232,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:civitas-illa-fortis-pottery-wheel_1763_3096_0",
+    "name": "Civitas illa Fortis Pottery Wheel",
+    "x": 1763,
+    "y": 3096,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:colossal-wyrm-agility-course",
+    "name": "Colossal Wyrm Agility Course",
+    "x": 1640,
+    "y": 2921,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:doom-of-mokhaiotl",
+    "name": "Doom of Mokhaiotl",
+    "x": 1309,
+    "y": 3104,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:exposed-altar",
+    "name": "Exposed altar",
+    "x": 1436,
+    "y": 3143,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:fortis-colosseum",
+    "name": "Fortis Colosseum",
+    "x": 1795,
+    "y": 3106,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:gemstone-crab_1275_3160_0",
+    "name": "Gemstone Crab",
+    "x": 1275,
+    "y": 3160,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:hunter-guild-hunters-rumours",
+    "name": "Hunter Guild / Hunters' Rumours",
+    "x": 1559,
+    "y": 3048,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:libation-bowl",
+    "name": "Libation bowl",
+    "x": 1458,
+    "y": 3188,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:mastering-mixology",
+    "name": "Mastering Mixology",
+    "x": 1389,
+    "y": 2918,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:moons-of-peril-entrance",
+    "name": "Moons of Peril entrance",
+    "x": 1435,
+    "y": 3128,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-aldarin",
+    "name": "Quetzal landing - Aldarin",
+    "x": 1389,
+    "y": 2899,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-auburnvale",
+    "name": "Quetzal landing - Auburnvale",
+    "x": 1410,
+    "y": 3363,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-cam-torum",
+    "name": "Quetzal landing - Cam Torum",
+    "x": 1448,
+    "y": 3108,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-civitas-illa-fortis",
+    "name": "Quetzal landing - Civitas illa Fortis",
+    "x": 1696,
+    "y": 3141,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-colossal-wyrm-remains",
+    "name": "Quetzal landing - Colossal Wyrm Remains",
+    "x": 1672,
+    "y": 2933,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-fortis-colosseum",
+    "name": "Quetzal landing - Fortis Colosseum",
+    "x": 1776,
+    "y": 3111,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-hunter-guild",
+    "name": "Quetzal landing - Hunter Guild",
+    "x": 1584,
+    "y": 3055,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-kastori",
+    "name": "Quetzal landing - Kastori",
+    "x": 1343,
+    "y": 3020,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-outer-fortis",
+    "name": "Quetzal landing - Outer Fortis",
+    "x": 1703,
+    "y": 3037,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-quetzacalli-gorge",
+    "name": "Quetzal landing - Quetzacalli Gorge",
+    "x": 1512,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-salvager-overlook",
+    "name": "Quetzal landing - Salvager Overlook",
+    "x": 1613,
+    "y": 3302,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-sunset-coast",
+    "name": "Quetzal landing - Sunset Coast",
+    "x": 1548,
+    "y": 2997,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-tal-teklan",
+    "name": "Quetzal landing - Tal Teklan",
+    "x": 1225,
+    "y": 3090,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:quetzal-landing-the-teomat",
+    "name": "Quetzal landing - The Teomat",
+    "x": 1437,
+    "y": 3169,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:shrine-of-ralos_1701_3085_0",
+    "name": "Shrine of Ralos",
+    "x": 1701,
+    "y": 3085,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:stealing-valuables_1680_3102_0",
+    "name": "Stealing valuables",
+    "x": 1680,
+    "y": 3102,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:the-hueycoatl",
+    "name": "The Hueycoatl",
+    "x": 1509,
+    "y": 3289,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-general-pois:vale-totems",
+    "name": "Vale Totems",
+    "x": 1365,
+    "y": 3370,
+    "plane": 0
+  }
+]

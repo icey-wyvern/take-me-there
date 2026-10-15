@@ -1,0 +1,37 @@
+[
+  {
+    "id": "kandarin-mining-sites:coal-trucks",
+    "name": "Coal Trucks",
+    "x": 2597,
+    "y": 3490,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-mining-sites:fight-arena-mine",
+    "name": "Fight Arena mine",
+    "x": 2630,
+    "y": 3145,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-mining-sites:legends-guild-mine",
+    "name": "Legends' Guild mine",
+    "x": 2702,
+    "y": 3333,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-mining-sites:piscatoris-mine",
+    "name": "Piscatoris mine",
+    "x": 2338,
+    "y": 3640,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-mining-sites:south-east-ardougne-mine",
+    "name": "South-east Ardougne mine",
+    "x": 2600,
+    "y": 3232,
+    "plane": 0
+  }
+]

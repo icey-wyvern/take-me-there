@@ -1,0 +1,37 @@
+[
+  {
+    "id": "morytania-snail-locations:bark-blamish-snail-mort-myre-swamp_3439_3354_0",
+    "name": "Bark Blamish Snail - Mort Myre Swamp",
+    "x": 3439,
+    "y": 3354,
+    "plane": 0
+  },
+  {
+    "id": "morytania-snail-locations:blood-blamish-snail-mort-myre-swamp_3519_3439_0",
+    "name": "Blood Blamish Snail - Mort Myre Swamp",
+    "x": 3519,
+    "y": 3439,
+    "plane": 0
+  },
+  {
+    "id": "morytania-snail-locations:bruise-blamish-snail-mort-myre-swamp_3517_3437_0",
+    "name": "Bruise Blamish Snail - Mort Myre Swamp",
+    "x": 3517,
+    "y": 3437,
+    "plane": 0
+  },
+  {
+    "id": "morytania-snail-locations:myre-blamish-snail-mort-myre-swamp_3463_3404_0",
+    "name": "Myre Blamish Snail - Mort Myre Swamp",
+    "x": 3463,
+    "y": 3404,
+    "plane": 0
+  },
+  {
+    "id": "morytania-snail-locations:ochre-blamish-snail-mort-myre-swamp_3467_3404_0",
+    "name": "Ochre Blamish Snail - Mort Myre Swamp",
+    "x": 3467,
+    "y": 3404,
+    "plane": 0
+  }
+]

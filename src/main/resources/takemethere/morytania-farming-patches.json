@@ -1,0 +1,44 @@
+[
+  {
+    "id": "morytania-farming-patches:harmony-island-elite-morytania-diary-required-herb",
+    "name": "Harmony Island ( Elite Morytania Diary required) (herb)",
+    "x": 3790,
+    "y": 2838,
+    "plane": 0
+  },
+  {
+    "id": "morytania-farming-patches:harmony-island-allotment",
+    "name": "Harmony Island (allotment)",
+    "x": 3794,
+    "y": 2836,
+    "plane": 0
+  },
+  {
+    "id": "morytania-farming-patches:morytania-west-of-port-phasmatys-allotment",
+    "name": "Morytania, West of Port Phasmatys (allotment)",
+    "x": 3602,
+    "y": 3526,
+    "plane": 0
+  },
+  {
+    "id": "morytania-farming-patches:morytania-west-of-port-phasmatys-flower",
+    "name": "Morytania, West of Port Phasmatys (flower)",
+    "x": 3602,
+    "y": 3526,
+    "plane": 0
+  },
+  {
+    "id": "morytania-farming-patches:morytania-west-of-port-phasmatys-herb",
+    "name": "Morytania, West of Port Phasmatys (herb)",
+    "x": 3602,
+    "y": 3526,
+    "plane": 0
+  },
+  {
+    "id": "morytania-farming-patches:west-of-canifis-mushroom",
+    "name": "West of Canifis (mushroom)",
+    "x": 3452,
+    "y": 3473,
+    "plane": 0
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "id": "zeah-shops:allannas-farming-shop-farming-guild",
+    "name": "Allanna's Farming Shop - Farming Guild",
+    "x": 1250,
+    "y": 3735,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:alry-the-anglers-angling-accessories-molch-lake",
+    "name": "Alry the Angler's Angling Accessories - Molch lake",
+    "x": 1367,
+    "y": 3635,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:amelias-seed-shop-farming-guild",
+    "name": "Amelia's Seed Shop - Farming Guild",
+    "x": 1246,
+    "y": 3740,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:blairs-armour-shayzien",
+    "name": "Blair's Armour - Shayzien",
+    "x": 1561,
+    "y": 3572,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:brigets-weapons-shayzien",
+    "name": "Briget's Weapons - Shayzien",
+    "x": 1567,
+    "y": 3545,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:construction-supplies-woodcutting-guild",
+    "name": "Construction supplies - Woodcutting Guild",
+    "x": 1622,
+    "y": 3500,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:daryls-ranging-surplus-shayzien",
+    "name": "Daryl's Ranging Surplus - Shayzien",
+    "x": 1538,
+    "y": 3559,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:farmer-gricollers-rewards-hosidius",
+    "name": "Farmer Gricoller's Rewards - Hosidius",
+    "x": 1800,
+    "y": 3501,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:filaminas-wares-arceuus",
+    "name": "Filamina's Wares - Arceuus",
+    "x": 1664,
+    "y": 3732,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:frankies-fishing-emporium-port-piscarilius",
+    "name": "Frankie's Fishing Emporium - Port Piscarilius",
+    "x": 1829,
+    "y": 3724,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:garden-centre-farming-guild",
+    "name": "Garden Centre - Farming Guild",
+    "x": 1247,
+    "y": 3735,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:jennifers-general-supplies-shayzien",
+    "name": "Jennifer's General Supplies - Shayzien",
+    "x": 1517,
+    "y": 3594,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:kenelmes-wares-port-piscarilius",
+    "name": "Kenelme's Wares - Port Piscarilius",
+    "x": 1785,
+    "y": 3757,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:kourend-castle-bakers-stall",
+    "name": "Kourend Castle Baker's Stall",
+    "x": 1639,
+    "y": 3684,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:kourend-castle-gem-stall",
+    "name": "Kourend Castle Gem Stall",
+    "x": 1634,
+    "y": 3684,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:leenzs-general-supplies-port-piscarilius",
+    "name": "Leenz's General Supplies - Port Piscarilius",
+    "x": 1808,
+    "y": 3726,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:little-muntys-little-shop-lovakengj",
+    "name": "Little Munty's Little Shop - Lovakengj",
+    "x": 1548,
+    "y": 3755,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:little-shop-of-horace-hosidius",
+    "name": "Little Shop of Horace - Hosidius",
+    "x": 1770,
+    "y": 3590,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:logava-gricollers-cooking-supplies-hosidius",
+    "name": "Logava Gricoller's Cooking Supplies - Hosidius",
+    "x": 1767,
+    "y": 3599,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:mount-karuulm-weapon-shop",
+    "name": "Mount Karuulm Weapon Shop",
+    "x": 1298,
+    "y": 3797,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:pelters-veg-stall-hosidius",
+    "name": "Pelters' Veg Stall - Hosidius",
+    "x": 1752,
+    "y": 3608,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:perrys-chop-chop-shop-woodcutting-guild",
+    "name": "Perry's Chop-chop Shop - Woodcutting Guild",
+    "x": 1649,
+    "y": 3502,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:regaths-wares-arceuus",
+    "name": "Regath's Wares - Arceuus",
+    "x": 1717,
+    "y": 3732,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:shayzien-styles",
+    "name": "Shayzien Styles",
+    "x": 1504,
+    "y": 3596,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:slayer-equipment-konar-quo-maten",
+    "name": "Slayer Equipment - Konar quo Maten",
+    "x": 1309,
+    "y": 3784,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:slayer-rewards-konar-quo-maten",
+    "name": "Slayer Rewards - Konar quo Maten",
+    "x": 1309,
+    "y": 3784,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:the-cloak-and-stagger-shayzien",
+    "name": "The Cloak and Stagger - Shayzien",
+    "x": 1548,
+    "y": 3569,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:the-deeper-lode-lovakengj",
+    "name": "The Deeper Lode - Lovakengj",
+    "x": 1561,
+    "y": 3767,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:the-golden-field-hosidius",
+    "name": "The Golden Field - Hosidius",
+    "x": 1737,
+    "y": 3623,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:the-legless-faun-kingstown",
+    "name": "The Legless Faun - Kingstown",
+    "x": 1766,
+    "y": 3687,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:thirus-urkars-fine-dynamite-store-lovakengj",
+    "name": "Thirus Urkar's Fine Dynamite Store - Lovakengj",
+    "x": 1517,
+    "y": 3834,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:thyrias-wares-arceuus",
+    "name": "Thyria's Wares - Arceuus",
+    "x": 1716,
+    "y": 3750,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:toothys-pickaxes-lovakengj",
+    "name": "Toothy's Pickaxes - Lovakengj",
+    "x": 1454,
+    "y": 3858,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:trader-stans-trading-post-lands-end",
+    "name": "Trader Stan's Trading Post - Land's End",
+    "x": 1495,
+    "y": 3403,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:trader-stans-trading-post-port-piscarilius",
+    "name": "Trader Stan's Trading Post - Port Piscarilius",
+    "x": 1809,
+    "y": 3679,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:tynans-fishing-supplies-port-piscarilius",
+    "name": "Tynan's Fishing Supplies - Port Piscarilius",
+    "x": 1841,
+    "y": 3786,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:vannahs-farming-stall-hosidius",
+    "name": "Vannah's Farming Stall - Hosidius",
+    "x": 1763,
+    "y": 3594,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:warrens-fish-monger-the-warrens",
+    "name": "Warrens Fish Monger - The Warrens",
+    "x": 1812,
+    "y": 3745,
+    "plane": 0
+  },
+  {
+    "id": "zeah-shops:warrens-general-store-the-warrens",
+    "name": "Warrens General Store - The Warrens",
+    "x": 1812,
+    "y": 3745,
+    "plane": 0
+  }
+]

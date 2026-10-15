@@ -1,0 +1,219 @@
+[
+  {
+    "id": "morytania-shop-locations:ak-haranus-exotic-shop-port-phasmatys-docks-bolt-racks",
+    "name": "Ak-Haranu's Exotic Shop - Port Phasmatys docks (Bolt racks)",
+    "x": 3691,
+    "y": 3496,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:alices-farming-shop",
+    "name": "Alice's Farming shop",
+    "x": 3628,
+    "y": 3526,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:aurels-supplies-burgh-de-rott-general-store",
+    "name": "Aurel's Supplies - Burgh de Rott (General store)",
+    "x": 3515,
+    "y": 3241,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:barkers-haberdashery-canifis-clothing",
+    "name": "Barkers' Haberdashery - Canifis (Clothing)",
+    "x": 3497,
+    "y": 3508,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:darkmeyer-general-store",
+    "name": "Darkmeyer General Store",
+    "x": 3641,
+    "y": 3336,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:darkmeyer-lantern-shop-candle-shop",
+    "name": "Darkmeyer Lantern Shop (Candle shop)",
+    "x": 3645,
+    "y": 3359,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:darkmeyer-meat-shop-food-shop",
+    "name": "Darkmeyer Meat Shop (Food shop)",
+    "x": 3620,
+    "y": 3387,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:darkmeyer-seamstress-clothes-shop",
+    "name": "Darkmeyer Seamstress (Clothes shop)",
+    "x": 3601,
+    "y": 3379,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:dodgy-mikes-second-hand-clothing-mos-leharmless-clothes-shop",
+    "name": "Dodgy Mike's Second Hand Clothing - Mos Le'Harmless (Clothes shop)",
+    "x": 3687,
+    "y": 2979,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:general-store-canifis",
+    "name": "General Store - Canifis",
+    "x": 3474,
+    "y": 3500,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:hair-of-the-dog-canifis-moonlight-mead",
+    "name": "Hair of the Dog - Canifis (Moonlight mead)",
+    "x": 3488,
+    "y": 3478,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:harpoon-joes-house-of-rum-mos-leharmless-pub",
+    "name": "Harpoon Joe's House of 'Rum' - Mos Le'Harmless (Pub)",
+    "x": 3666,
+    "y": 2993,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:honest-jimmys-house-of-stuff-trouble-brewing",
+    "name": "Honest Jimmy's House of Stuff - Trouble Brewing",
+    "x": 3810,
+    "y": 3023,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:mysterious-stranger-theatre-of-blood-teleports",
+    "name": "Mysterious Stranger - Theatre of Blood (Teleports)",
+    "x": 3673,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:port-phasmatys-general-store",
+    "name": "Port Phasmatys General Store",
+    "x": 3659,
+    "y": 3477,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:rat-and-bat-slepe-bloody-bracer",
+    "name": "Rat & Bat - Slepe (Bloody bracer)",
+    "x": 3746,
+    "y": 3301,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:razmire-builders-merchants-mortton-building-supplies",
+    "name": "Razmire Builders Merchants - Mort'ton (Building supplies)",
+    "x": 3489,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:razmire-general-store-mortton",
+    "name": "Razmire General Store - Mort'ton",
+    "x": 3489,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:rufus-meat-emporium-canifis-food",
+    "name": "Rufus' Meat Emporium - Canifis (Food)",
+    "x": 3505,
+    "y": 3499,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:skull-in-a-chest-inn-north-eastern-meiyerditch-none",
+    "name": "Skull in a Chest Inn - North-eastern Meiyerditch (None)",
+    "x": 3619,
+    "y": 3310,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:slayer-equipment-mazchna-achtryn",
+    "name": "Slayer Equipment - Mazchna/Achtryn",
+    "x": 3511,
+    "y": 3508,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:slayer-rewards-mazchna-achtryn",
+    "name": "Slayer Rewards - Mazchna/Achtryn",
+    "x": 3511,
+    "y": 3508,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:smithing-smiths-shop-mos-leharmless-sword-shop",
+    "name": "Smithing Smith's Shop - Mos Le'Harmless (Sword shop)",
+    "x": 3689,
+    "y": 2954,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:temple-supplies-temple-of-the-eye",
+    "name": "Temple Supplies - Temple of the Eye",
+    "x": 3619,
+    "y": 9475,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:the-crypt-darkmeyer-blood-pint",
+    "name": "The Crypt - Darkmeyer (Blood pint)",
+    "x": 3594,
+    "y": 3398,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:the-green-ghost-port-phasmatys-nothing",
+    "name": "The Green Ghost - Port Phasmatys (Nothing)",
+    "x": 3676,
+    "y": 3494,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:the-other-inn-mos-leharmless-pub",
+    "name": "The Other Inn - Mos Le'Harmless (Pub)",
+    "x": 3662,
+    "y": 2985,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:trader-stans-trading-post-mos-leharmless-general-store",
+    "name": "Trader Stan's Trading Post - Mos Le'Harmless (General store)",
+    "x": 3671,
+    "y": 2932,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:trader-stans-trading-post-port-phasmatys-general-store",
+    "name": "Trader Stan's Trading Post - Port Phasmatys (General store)",
+    "x": 3701,
+    "y": 3501,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:trader-svens-black-market-goods-meiyerditch-clothing",
+    "name": "Trader Sven's Black-market Goods - Meiyerditch (Clothing)",
+    "x": 3604,
+    "y": 3201,
+    "plane": 0
+  },
+  {
+    "id": "morytania-shop-locations:two-feet-charleys-fish-shop-mos-leharmless-fishing-shop",
+    "name": "Two Feet Charley's Fish Shop - Mos Le'Harmless (Fishing shop)",
+    "x": 3671,
+    "y": 2972,
+    "plane": 0
+  }
+]

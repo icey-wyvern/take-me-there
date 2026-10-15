@@ -1,0 +1,149 @@
+[
+  {
+    "id": "varlamore-thieving-spots:bakery-stall",
+    "name": "Bakery stall (Civitas illa Fortis)",
+    "x": 1688,
+    "y": 3111,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:cannonball-stall",
+    "name": "Cannonball stall (Port Roberts)",
+    "x": 1867,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:farmer-ortus-farm_1549_3120_0",
+    "name": "Farmer (Ortus Farm)",
+    "x": 1549,
+    "y": 3120,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:fish-stall",
+    "name": "Fish stall (Port Roberts)",
+    "x": 1861,
+    "y": 3292,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:fur-stall_1673_3111_0",
+    "name": "Fur stall (Civitas illa Fortis)",
+    "x": 1673,
+    "y": 3111,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:gem-stall_1674_3101_0",
+    "name": "Gem stall (Civitas illa Fortis)",
+    "x": 1674,
+    "y": 3101,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:guard-aldarin-market_1424_2971_0",
+    "name": "Guard (Aldarin market)",
+    "x": 1424,
+    "y": 2971,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:guard-auburnvale_1394_3344_0",
+    "name": "Guard (Auburnvale)",
+    "x": 1394,
+    "y": 3344,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:guard-civitas-illa-fortis_1683_3114_0",
+    "name": "Guard (Civitas illa Fortis)",
+    "x": 1683,
+    "y": 3114,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:guard-kastori_1347_3026_0",
+    "name": "Guard (Kastori)",
+    "x": 1347,
+    "y": 3026,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:guard-tal-teklan_1242_3104_0",
+    "name": "Guard (Tal Teklan)",
+    "x": 1242,
+    "y": 3104,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:jewellery-case-object_1631_3101_0",
+    "name": "Jewellery case (Civitas illa Fortis)",
+    "x": 1631,
+    "y": 3101,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:knight-of-varlamore-pickpocket_1659_3150_0",
+    "name": "Knight of Varlamore (Civitas illa Fortis)",
+    "x": 1659,
+    "y": 3150,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:master-farmer-ortus-farm",
+    "name": "Master Farmer (Ortus Farm)",
+    "x": 1582,
+    "y": 3131,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:master-farmer-outer-fortis_1682_3052_0",
+    "name": "Master Farmer (Outer Fortis)",
+    "x": 1682,
+    "y": 3052,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:ore-stall",
+    "name": "Ore stall (Port Roberts)",
+    "x": 1862,
+    "y": 3295,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:silk-stall_1676_3114_0",
+    "name": "Silk stall (Civitas illa Fortis)",
+    "x": 1676,
+    "y": 3114,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:silver-stall",
+    "name": "Silver stall (Port Roberts)",
+    "x": 1867,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:spice-stall_1685_3098_0",
+    "name": "Spice stall (Civitas illa Fortis)",
+    "x": 1685,
+    "y": 3098,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:veg-stall",
+    "name": "Vegetable stall (Port Roberts)",
+    "x": 1864,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-thieving-spots:wealthy-citizen-pickpocket_1680_3102_0",
+    "name": "Wealthy citizen (Civitas illa Fortis)",
+    "x": 1680,
+    "y": 3102,
+    "plane": 0
+  }
+]

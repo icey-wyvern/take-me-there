@@ -9,3 +9,5 @@ nbactions.xml
 nb-configuration.xml
 nbproject/
 mvn/
+dev-build*.log
+.validation/

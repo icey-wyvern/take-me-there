@@ -1,0 +1,30 @@
+[
+  {
+    "id": "kandarin-slayer-monsters:aberrant-spectre_2458_9780_0",
+    "name": "Aberrant spectre (Stronghold Slayer Cave)",
+    "x": 2458,
+    "y": 9780,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-slayer-monsters:bloodveld_2453_9822_0",
+    "name": "Bloodveld (Stronghold Slayer Cave)",
+    "x": 2453,
+    "y": 9822,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-slayer-monsters:cave-kraken_2266_10011_0",
+    "name": "Cave kraken (Kraken Cove)",
+    "x": 2278,
+    "y": 3611,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-slayer-monsters:hellhound_2430_9775_0",
+    "name": "Hellhound (Stronghold Slayer Cave)",
+    "x": 2430,
+    "y": 9775,
+    "plane": 0
+  }
+]

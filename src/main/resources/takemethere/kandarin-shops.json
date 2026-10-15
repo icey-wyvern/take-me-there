@@ -1,0 +1,485 @@
+[
+  {
+    "id": "kandarin-shops:aarons-archery-appendages-ranging-guild",
+    "name": "Aaron's Archery Appendages - Ranging Guild",
+    "x": 2666,
+    "y": 3440,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:aemads-adventuring-supplies-east-ardougne",
+    "name": "Aemad's Adventuring Supplies - East Ardougne",
+    "x": 2614,
+    "y": 3293,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:alecks-hunter-emporium-yanille",
+    "name": "Aleck's Hunter Emporium - Yanille",
+    "x": 2567,
+    "y": 3082,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:ardougne-bakers-stall-east-ardougne",
+    "name": "Ardougne Baker's Stall - East Ardougne",
+    "x": 2656,
+    "y": 3310,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:ardougne-fur-stall-east-ardougne",
+    "name": "Ardougne Fur Stall - East Ardougne",
+    "x": 2664,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:ardougne-gem-stall-east-ardougne",
+    "name": "Ardougne Gem Stall - East Ardougne",
+    "x": 2668,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:ardougne-silver-stall-east-ardougne",
+    "name": "Ardougne Silver Stall - East Ardougne",
+    "x": 2658,
+    "y": 3314,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:ardougne-spice-stall-east-ardougne",
+    "name": "Ardougne Spice Stall - East Ardougne",
+    "x": 2659,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:arheins-general-goods-catherby",
+    "name": "Arhein's General Goods - Catherby",
+    "x": 2803,
+    "y": 3432,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:armoury-combat-training-camp",
+    "name": "Armoury - Combat Training Camp",
+    "x": 2513,
+    "y": 3385,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:arnolds-eclectic-supplies-piscatoris-fishing-colony",
+    "name": "Arnold's Eclectic Supplies - Piscatoris Fishing Colony",
+    "x": 2329,
+    "y": 3689,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:authentic-throwing-weapons-ranging-guild",
+    "name": "Authentic Throwing Weapons - Ranging Guild",
+    "x": 2663,
+    "y": 3420,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:barbarian-assault-reward-shop",
+    "name": "Barbarian Assault Reward Shop",
+    "x": 2534,
+    "y": 3574,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:blurberry-bar-gnome-stronghold",
+    "name": "Blurberry Bar - Gnome Stronghold",
+    "x": 2418,
+    "y": 3497,
+    "plane": 1
+  },
+  {
+    "id": "kandarin-shops:blurberry-bar-grand-tree",
+    "name": "Blurberry Bar - Grand Tree",
+    "x": 2482,
+    "y": 3488,
+    "plane": 1
+  },
+  {
+    "id": "kandarin-shops:bolkoys-village-shop-tree-gnome-village",
+    "name": "Bolkoy's Village Shop - Tree Gnome Village,",
+    "x": 2527,
+    "y": 3161,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:candle-shop-catherby",
+    "name": "Candle Shop - Catherby",
+    "x": 2797,
+    "y": 3442,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:castle-wars-ticket-exchange",
+    "name": "Castle Wars Ticket Exchange",
+    "x": 2441,
+    "y": 3089,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:dagas-scimitar-smithy-ape-atoll",
+    "name": "Daga's Scimitar Smithy - Ape Atoll",
+    "x": 2759,
+    "y": 2774,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:dals-general-ogre-supplies-gutanoth",
+    "name": "Dal's General Ogre Supplies - Gu'Tanoth",
+    "x": 2521,
+    "y": 3036,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:dargauds-bow-and-arrows-ranging-guild",
+    "name": "Dargaud's Bow and Arrows - Ranging Guild",
+    "x": 2672,
+    "y": 3434,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:dom-onions-reward-shop-yanille",
+    "name": "Dom Onion's Reward Shop - Yanille",
+    "x": 2610,
+    "y": 3116,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:dragon-inn-yanille",
+    "name": "Dragon Inn - Yanille",
+    "x": 2553,
+    "y": 3080,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:fight-arena-bar-south-western-corner-of-the-fight-arena",
+    "name": "Fight Arena Bar - South-western corner of the Fight Arena",
+    "x": 2563,
+    "y": 3155,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:fine-fashions-grand-tree",
+    "name": "Fine Fashions - Grand Tree",
+    "x": 2482,
+    "y": 3510,
+    "plane": 1
+  },
+  {
+    "id": "kandarin-shops:fishing-guild-shop",
+    "name": "Fishing Guild Shop",
+    "x": 2590,
+    "y": 3403,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:flying-horse-inn-east-ardougne",
+    "name": "Flying Horse Inn - East Ardougne",
+    "x": 2572,
+    "y": 3327,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:foresters-arms-seers-village",
+    "name": "Forester's Arms - Seers' Village",
+    "x": 2695,
+    "y": 3493,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:forestry-shop-seers-village",
+    "name": "Forestry Shop - Seers' Village",
+    "x": 2728,
+    "y": 3478,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:frenitas-cookery-shop-yanille",
+    "name": "Frenita's Cookery Shop - Yanille",
+    "x": 2565,
+    "y": 3105,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:funchs-fine-groceries-grand-tree",
+    "name": "Funch's Fine Groceries - Grand Tree",
+    "x": 2491,
+    "y": 3488,
+    "plane": 1
+  },
+  {
+    "id": "kandarin-shops:giannes-restaurant-grand-tree",
+    "name": "Gianne's Restaurant - Grand Tree",
+    "x": 2449,
+    "y": 3502,
+    "plane": 1
+  },
+  {
+    "id": "kandarin-shops:grand-tree-groceries",
+    "name": "Grand Tree Groceries",
+    "x": 2448,
+    "y": 3508,
+    "plane": 1
+  },
+  {
+    "id": "kandarin-shops:gruds-herblore-stall-gutanoth",
+    "name": "Grud's Herblore Stall - Gu'Tanoth",
+    "x": 2527,
+    "y": 3048,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:gulluck-and-sons-grand-tree",
+    "name": "Gulluck and Sons - Grand Tree,",
+    "x": 2469,
+    "y": 3488,
+    "plane": 2
+  },
+  {
+    "id": "kandarin-shops:hamabs-crafting-emporium-ape-atoll",
+    "name": "Hamab's Crafting Emporium - Ape Atoll",
+    "x": 2781,
+    "y": 2792,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:harrys-fishing-shop-catherby",
+    "name": "Harry's Fishing Shop - Catherby",
+    "x": 2830,
+    "y": 3447,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:hicktons-archery-emporium-catherby",
+    "name": "Hickton's Archery Emporium - Catherby",
+    "x": 2823,
+    "y": 3443,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:ifabas-general-store-ape-atoll",
+    "name": "Ifaba's General Store - Ape Atoll",
+    "x": 2753,
+    "y": 2775,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:khazard-general-store-port-khazard",
+    "name": "Khazard General Store - Port Khazard",
+    "x": 2656,
+    "y": 3152,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:king-narnodes-royal-seed-pods-grand-tree",
+    "name": "King Narnode's Royal Seed Pods - Grand Tree",
+    "x": 2466,
+    "y": 3496,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:legends-guild-general-store-of-legends-guild",
+    "name": "Legends Guild General Store - of Legends' Guild",
+    "x": 2729,
+    "y": 3378,
+    "plane": 1
+  },
+  {
+    "id": "kandarin-shops:legends-guild-shop-of-useful-items-of-legends-guild",
+    "name": "Legends Guild Shop of Useful Items - of Legends' Guild",
+    "x": 2726,
+    "y": 3381,
+    "plane": 2
+  },
+  {
+    "id": "kandarin-shops:leons-prototype-crossbow-yanille",
+    "name": "Leon's Prototype Crossbow - Yanille",
+    "x": 2567,
+    "y": 3082,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:lost-property-shop-catherby",
+    "name": "Lost Property shop - Catherby",
+    "x": 2808,
+    "y": 3454,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:lovecrafts-tackle-witchaven",
+    "name": "Lovecraft's Tackle - Witchaven",
+    "x": 2731,
+    "y": 3295,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:magic-guild-store-wizards-guild_2595_3088_1",
+    "name": "Magic Guild Store - Wizards' Guild",
+    "x": 2595,
+    "y": 3088,
+    "plane": 1
+  },
+  {
+    "id": "kandarin-shops:mythical-cape-store-of-myths-guild",
+    "name": "Mythical Cape Store - of Myths' Guild",
+    "x": 2448,
+    "y": 2849,
+    "plane": 2
+  },
+  {
+    "id": "kandarin-shops:myths-guild-armoury-of-myths-guild",
+    "name": "Myths' Guild Armoury - of Myths' Guild",
+    "x": 2464,
+    "y": 2848,
+    "plane": 2
+  },
+  {
+    "id": "kandarin-shops:myths-guild-herbalist-myths-guild",
+    "name": "Myths' Guild Herbalist - Myths' Guild,",
+    "x": 2452,
+    "y": 2852,
+    "plane": 1
+  },
+  {
+    "id": "kandarin-shops:myths-guild-weaponry-of-myths-guild",
+    "name": "Myths' Guild Weaponry - of Myths' Guild",
+    "x": 2461,
+    "y": 2848,
+    "plane": 2
+  },
+  {
+    "id": "kandarin-shops:oobapohks-javelin-store-marim",
+    "name": "Oobapohk's Javelin Store - Marim",
+    "x": 2775,
+    "y": 2778,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:pelters-veg-stall-seers-village",
+    "name": "Pelters' Veg Stall - Seers' Village",
+    "x": 2683,
+    "y": 3486,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:pelters-veg-stall-yanille",
+    "name": "Pelters' Veg Stall - Yanille",
+    "x": 2606,
+    "y": 3102,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:proselyte-temple-knight-armoury-falador-park",
+    "name": "Proselyte Temple Knight Armoury - Falador Park",
+    "x": 2997,
+    "y": 3373,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:ranging-guild-ticket-exchange",
+    "name": "Ranging Guild Ticket Exchange",
+    "x": 2658,
+    "y": 3431,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:rasolo-the-wandering-merchant-south-of-baxtorian-falls",
+    "name": "Rasolo the Wandering Merchant - South of Baxtorian Falls",
+    "x": 2535,
+    "y": 3429,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:richards-farming-shop-north-of-east-ardougne",
+    "name": "Richard's Farming shop - North of East Ardougne",
+    "x": 2645,
+    "y": 3360,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:slayer-equipment-nieve-steve",
+    "name": "Slayer Equipment - Nieve/Steve",
+    "x": 2432,
+    "y": 3424,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:slayer-rewards-nieve-steve",
+    "name": "Slayer Rewards - Nieve/Steve",
+    "x": 2432,
+    "y": 3424,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:solihibs-food-stall-ape-atoll",
+    "name": "Solihib's Food Stall - Ape Atoll",
+    "x": 2769,
+    "y": 2789,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:trader-stans-trading-post-catherby",
+    "name": "Trader Stan's Trading Post - Catherby",
+    "x": 2795,
+    "y": 3414,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:trader-stans-trading-post-corsair-cove",
+    "name": "Trader Stan's Trading Post - Corsair Cove",
+    "x": 2588,
+    "y": 2851,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:trader-stans-trading-post-port-khazard",
+    "name": "Trader Stan's Trading Post - Port Khazard",
+    "x": 2674,
+    "y": 3144,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:tutabs-magical-market-ape-atoll",
+    "name": "Tutab's Magical Market - Ape Atoll",
+    "x": 2758,
+    "y": 2770,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:vanessas-farming-shop-catherby",
+    "name": "Vanessa's Farming shop - Catherby",
+    "x": 2820,
+    "y": 3462,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:west-ardougne-general-store",
+    "name": "West Ardougne General Store",
+    "x": 2467,
+    "y": 3287,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:zeneshas-plate-mail-body-shop-east-ardougne",
+    "name": "Zenesha's Plate Mail Body Shop - East Ardougne",
+    "x": 2649,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-shops:uglugs-stuffsies-jiggig",
+    "name": "~ Uglug's stuffsies ~ - Jiggig",
+    "x": 2445,
+    "y": 3049,
+    "plane": 0
+  }
+]

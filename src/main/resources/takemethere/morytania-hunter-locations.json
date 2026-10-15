@@ -1,0 +1,16 @@
+[
+  {
+    "id": "morytania-hunter-locations:swamp-lizard-canifis-hunter-area-a-l-q",
+    "name": "Swamp lizard (Canifis Hunter area ( A L Q ))",
+    "x": 3547,
+    "y": 3447,
+    "plane": 0
+  },
+  {
+    "id": "morytania-hunter-locations:swamp-lizard-north-west-of-slepe",
+    "name": "Swamp lizard (North-west of Slepe)",
+    "x": 3688,
+    "y": 3409,
+    "plane": 0
+  }
+]

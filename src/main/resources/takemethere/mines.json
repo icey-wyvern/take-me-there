@@ -65,7 +65,7 @@
   {
     "id": "mines:camdozaal",
     "name": "Camdozaal",
-    "x": 2925,
+    "x": 2923,
     "y": 5825,
     "plane": 0
   },
@@ -79,7 +79,7 @@
   {
     "id": "mines:coal-trucks",
     "name": "Coal Trucks",
-    "x": 2598,
+    "x": 2597,
     "y": 3490,
     "plane": 0
   },
@@ -462,13 +462,6 @@
     "plane": 0
   },
   {
-    "id": "mines:sunbleak-cave",
-    "name": "Sunbleak Cave",
-    "x": 2209,
-    "y": 2332,
-    "plane": 0
-  },
-  {
     "id": "mines:trahaearn",
     "name": "Trahaearn",
     "x": 3271,
@@ -514,7 +507,7 @@
     "id": "mines:west-lumbridge-swamp",
     "name": "West Lumbridge Swamp",
     "x": 3142,
-    "y": 3147,
+    "y": 3145,
     "plane": 0
   }
 ]

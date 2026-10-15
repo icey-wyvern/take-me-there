@@ -1,0 +1,121 @@
+[
+  {
+    "id": "kandarin-fishing-spots:ape-atoll-big-net-harpoon-fishing-spot_2694_2706_0",
+    "name": "Ape Atoll Big net/Harpoon fishing spot",
+    "x": 2694,
+    "y": 2706,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:barbarian-outpost-small-net-bait-fishing-spot_2511_3562_0",
+    "name": "Barbarian Outpost Small net/Bait fishing spot",
+    "x": 2511,
+    "y": 3562,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:catherby-big-net-harpoon-fishing-spot_2846_3429_0",
+    "name": "Catherby Big net/Harpoon fishing spot",
+    "x": 2846,
+    "y": 3429,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:catherby-cage-harpoon-fishing-spot",
+    "name": "Catherby Cage/Harpoon fishing spot",
+    "x": 2844,
+    "y": 3429,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:catherby-small-net-bait-fishing-spot",
+    "name": "Catherby Small net/Bait fishing spot",
+    "x": 2836,
+    "y": 3432,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:corsair-cove-resource-area-cage-harpoon-fishing-spot",
+    "name": "Corsair Cove Resource Area Cage/Harpoon fishing spot",
+    "x": 2453,
+    "y": 2891,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:fisher-realm-lure-bait-fishing-spot_2668_4710_0",
+    "name": "Fisher Realm Lure/Bait fishing spot",
+    "x": 2668,
+    "y": 4710,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:fishing-guild-big-net-harpoon-fishing-spot",
+    "name": "Fishing Guild Big net/Harpoon fishing spot",
+    "x": 2601,
+    "y": 3422,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:fishing-guild-cage-harpoon-fishing-spot_2599_3419_0",
+    "name": "Fishing Guild Cage/Harpoon fishing spot",
+    "x": 2599,
+    "y": 3419,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:fishing-platform-small-net-bait-fishing-spot",
+    "name": "Fishing Platform Small net/Bait fishing spot",
+    "x": 2789,
+    "y": 3273,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:north-of-ardougne-lure-bait-fishing-spot",
+    "name": "North of Ardougne Lure/Bait fishing spot",
+    "x": 2561,
+    "y": 3374,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:north-of-seers-village-lure-bait-fishing-spot",
+    "name": "North of Seers' Village Lure/Bait fishing spot",
+    "x": 2714,
+    "y": 3532,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:observatory-lure-bait-fishing-spot_2461_3150_0",
+    "name": "Observatory Lure/Bait fishing spot",
+    "x": 2461,
+    "y": 3150,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:piscatoris-fishing-colony-small-net-fishing-spot_2326_3700_0",
+    "name": "Piscatoris Fishing Colony Small net fishing spot",
+    "x": 2326,
+    "y": 3699,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:south-of-baxtorian-falls-lure-bait-fishing-spot_2508_3421_0",
+    "name": "South of Baxtorian Falls Lure/Bait fishing spot",
+    "x": 2508,
+    "y": 3421,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:south-western-tree-gnome-stronghold-lure-bait-fishing-spot",
+    "name": "South-western Tree Gnome Stronghold Lure/Bait fishing spot",
+    "x": 2382,
+    "y": 3414,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-fishing-spots:southern-feldip-hills-small-net-bait-fishing-spot",
+    "name": "Southern Feldip Hills Small net/Bait fishing spot",
+    "x": 2509,
+    "y": 2839,
+    "plane": 0
+  }
+]

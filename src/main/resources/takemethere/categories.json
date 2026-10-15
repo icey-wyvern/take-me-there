@@ -16,6 +16,10 @@
     "displayName": "Cities"
   },
   {
+    "id": "construction-services",
+    "displayName": "Construction Services"
+  },
+  {
     "id": "dungeons",
     "displayName": "Dungeons"
   },
@@ -44,12 +48,88 @@
     "displayName": "Hunter Spots"
   },
   {
+    "id": "kandarin-bosses",
+    "displayName": "Kandarin Bosses"
+  },
+  {
+    "id": "kandarin-fishing-spots",
+    "displayName": "Kandarin Fishing Spots"
+  },
+  {
+    "id": "kandarin-general-pois",
+    "displayName": "Kandarin General POIs"
+  },
+  {
+    "id": "kandarin-mining-sites",
+    "displayName": "Kandarin Mining Sites"
+  },
+  {
+    "id": "kandarin-shops",
+    "displayName": "Kandarin Shops"
+  },
+  {
+    "id": "kandarin-slayer-monsters",
+    "displayName": "Kandarin Slayer Monsters"
+  },
+  {
+    "id": "kandarin-thieving-spots",
+    "displayName": "Kandarin Thieving Spots"
+  },
+  {
     "id": "mines",
     "displayName": "Mines"
   },
   {
     "id": "misc-farming-patches",
     "displayName": "Misc Farming Patches"
+  },
+  {
+    "id": "morytania-banks",
+    "displayName": "Morytania Banks"
+  },
+  {
+    "id": "morytania-bosses",
+    "displayName": "Morytania Bosses"
+  },
+  {
+    "id": "morytania-cities",
+    "displayName": "Morytania Cities"
+  },
+  {
+    "id": "morytania-dungeons",
+    "displayName": "Morytania Dungeons"
+  },
+  {
+    "id": "morytania-farming-patches",
+    "displayName": "Morytania Farming Patches"
+  },
+  {
+    "id": "morytania-general-pois",
+    "displayName": "Morytania General POIs"
+  },
+  {
+    "id": "morytania-hunter-locations",
+    "displayName": "Morytania Hunter Locations"
+  },
+  {
+    "id": "morytania-shop-locations",
+    "displayName": "Morytania Shop Locations"
+  },
+  {
+    "id": "morytania-slayer-locations",
+    "displayName": "Morytania Slayer Locations"
+  },
+  {
+    "id": "morytania-snail-locations",
+    "displayName": "Morytania Snail Locations"
+  },
+  {
+    "id": "morytania-thieving-spots",
+    "displayName": "Morytania Thieving Spots"
+  },
+  {
+    "id": "morytania-utilities",
+    "displayName": "Morytania Utilities"
   },
   {
     "id": "shooting-stars",
@@ -66,5 +146,45 @@
   {
     "id": "trees",
     "displayName": "Trees"
+  },
+  {
+    "id": "varlamore-fishing-spots",
+    "displayName": "Varlamore Fishing Spots"
+  },
+  {
+    "id": "varlamore-general-pois",
+    "displayName": "Varlamore General POIs"
+  },
+  {
+    "id": "varlamore-mining-sites",
+    "displayName": "Varlamore Mining Sites"
+  },
+  {
+    "id": "varlamore-shops",
+    "displayName": "Varlamore Shops"
+  },
+  {
+    "id": "varlamore-thieving-spots",
+    "displayName": "Varlamore Thieving Spots"
+  },
+  {
+    "id": "zeah-bosses",
+    "displayName": "Zeah Bosses"
+  },
+  {
+    "id": "zeah-fishing-spots",
+    "displayName": "Zeah Fishing Spots"
+  },
+  {
+    "id": "zeah-general-pois",
+    "displayName": "Zeah General POIs"
+  },
+  {
+    "id": "zeah-shops",
+    "displayName": "Zeah Shops"
+  },
+  {
+    "id": "zeah-thieving-spots",
+    "displayName": "Zeah Thieving Spots"
   }
 ]

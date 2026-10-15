@@ -1,0 +1,121 @@
+[
+  {
+    "id": "varlamore-fishing-spots:aldarin-small-net-bait-fishing-spot_1313_2962_0",
+    "name": "Aldarin Small net/Bait fishing spot",
+    "x": 1313,
+    "y": 2962,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:custodia-pass-lure-bait-fishing-spot_1288_3382_0",
+    "name": "Custodia Pass Lure/Bait fishing spot",
+    "x": 1288,
+    "y": 3382,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:east-of-stonecutter-outpost-big-net-harpoon-fishing-spot_1771_2966_0",
+    "name": "East of Stonecutter Outpost Big net/Harpoon fishing spot",
+    "x": 1770,
+    "y": 2966,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:east-of-stonecutter-outpost-small-net-bait-fishing-spot_1774_2989_0",
+    "name": "East of Stonecutter Outpost Small net/Bait fishing spot",
+    "x": 1773,
+    "y": 2989,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:east-of-sunset-coast-big-net-harpoon-fishing-spot_1575_2953_0",
+    "name": "East of Sunset Coast Big net/Harpoon fishing spot",
+    "x": 1575,
+    "y": 2953,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:east-of-sunset-coast-cage-harpoon-fishing-spot",
+    "name": "East of Sunset Coast Cage/Harpoon fishing spot",
+    "x": 1577,
+    "y": 2963,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:kastori-small-net-bait-fishing-spot_1336_3010_0",
+    "name": "Kastori Small net/Bait fishing spot",
+    "x": 1336,
+    "y": 3010,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:mistrock-cage-harpoon-fishing-spot_1370_2843_0",
+    "name": "Mistrock Cage/Harpoon fishing spot",
+    "x": 1370,
+    "y": 2844,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:nemus-retreat-lure-bait-fishing-spot_1394_3310_0",
+    "name": "Nemus Retreat Lure/Bait fishing spot",
+    "x": 1394,
+    "y": 3310,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:park-in-civitas-illa-fortis-big-net-fishing-spot",
+    "name": "Park in Civitas illa Fortis Big net fishing spot",
+    "x": 1738,
+    "y": 3101,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:shipwreck-cove-big-net-harpoon-fishing-spot_1588_3300_0",
+    "name": "Shipwreck Cove Big net/Harpoon fishing spot",
+    "x": 1588,
+    "y": 3299,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:shipwreck-cove-small-net-bait-fishing-spot_1565_3327_0",
+    "name": "Shipwreck Cove Small net/Bait fishing spot",
+    "x": 1565,
+    "y": 3327,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:stalker-den-lure-bait-fishing-spot_1317_9785_0",
+    "name": "Stalker Den Lure/Bait fishing spot",
+    "x": 1317,
+    "y": 9785,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:tal-teklan-big-net-harpoon-fishing-spot_1219_3147_0",
+    "name": "Tal Teklan Big net/Harpoon fishing spot",
+    "x": 1219,
+    "y": 3147,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:the-stranglewood-cast-fishing-spot",
+    "name": "The Stranglewood Cast fishing spot",
+    "x": 1108,
+    "y": 3356,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:tlati-rainforest-lure-bait-fishing-spot_1263_3131_0",
+    "name": "Tlati Rainforest Lure/Bait fishing spot",
+    "x": 1263,
+    "y": 3131,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-fishing-spots:varlamore-in-the-river-ortus-lure-bait-fishing-spot_1553_3188_0",
+    "name": "Varlamore in the river Ortus Lure/Bait fishing spot",
+    "x": 1553,
+    "y": 3188,
+    "plane": 0
+  }
+]

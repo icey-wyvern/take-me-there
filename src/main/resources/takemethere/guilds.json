@@ -10,7 +10,7 @@
     "id": "guilds:cooks-guild",
     "name": "Cooks' Guild",
     "x": 3143,
-    "y": 3449,
+    "y": 3443,
     "plane": 0
   },
   {
@@ -30,8 +30,8 @@
   {
     "id": "guilds:fishing-guild",
     "name": "Fishing Guild",
-    "x": 2609,
-    "y": 3424,
+    "x": 2611,
+    "y": 3393,
     "plane": 0
   },
   {

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "zeah-general-pois:arceuus-library",
+    "name": "Arceuus Library",
+    "x": 1632,
+    "y": 3810,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:battlefront",
+    "name": "Battlefront",
+    "x": 1368,
+    "y": 3716,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:blast-mine",
+    "name": "Blast mine",
+    "x": 1479,
+    "y": 3857,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:brimstone-chest",
+    "name": "Brimstone chest",
+    "x": 1309,
+    "y": 3785,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:chambers-of-xeric",
+    "name": "Chambers of Xeric",
+    "x": 1245,
+    "y": 3557,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:dark-altar",
+    "name": "Dark Altar",
+    "x": 1716,
+    "y": 3883,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:dense-essence-mine",
+    "name": "Dense essence mine",
+    "x": 1764,
+    "y": 3853,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:farming-guild",
+    "name": "Farming Guild",
+    "x": 1249,
+    "y": 3737,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:grubby-chest",
+    "name": "Grubby Chest",
+    "x": 1795,
+    "y": 9925,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:hosidius-kitchen",
+    "name": "Hosidius Kitchen",
+    "x": 1679,
+    "y": 3618,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:kourend-castle",
+    "name": "Kourend Castle",
+    "x": 1628,
+    "y": 3673,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:lake-molch",
+    "name": "Lake Molch",
+    "x": 1370,
+    "y": 3633,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:mount-karuulm",
+    "name": "Mount Karuulm",
+    "x": 1311,
+    "y": 3807,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:mount-quidamortem",
+    "name": "Mount Quidamortem",
+    "x": 1246,
+    "y": 3550,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:stealing-artefacts_1768_3751_0",
+    "name": "Stealing artefacts",
+    "x": 1768,
+    "y": 3751,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:tithe-farm",
+    "name": "Tithe Farm",
+    "x": 1823,
+    "y": 3497,
+    "plane": 0
+  },
+  {
+    "id": "zeah-general-pois:wintertodt",
+    "name": "Wintertodt",
+    "x": 1630,
+    "y": 3981,
+    "plane": 0
+  }
+]

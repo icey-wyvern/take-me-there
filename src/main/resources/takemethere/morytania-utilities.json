@@ -1,0 +1,51 @@
+[
+  {
+    "id": "morytania-utilities:burgh-de-rott-furnace",
+    "name": "Burgh de Rott Furnace",
+    "x": 3527,
+    "y": 3209,
+    "plane": 0
+  },
+  {
+    "id": "morytania-utilities:darkmeyer-anvil",
+    "name": "Darkmeyer Anvil",
+    "x": 3665,
+    "y": 3364,
+    "plane": 0
+  },
+  {
+    "id": "morytania-utilities:darkmeyer-furnace",
+    "name": "Darkmeyer Furnace",
+    "x": 3657,
+    "y": 3336,
+    "plane": 0
+  },
+  {
+    "id": "morytania-utilities:darkmeyer-potters-wheel",
+    "name": "Darkmeyer Potter's wheel",
+    "x": 3647,
+    "y": 3371,
+    "plane": 0
+  },
+  {
+    "id": "morytania-utilities:darkmeyer-pottery-oven",
+    "name": "Darkmeyer Pottery oven",
+    "x": 3646,
+    "y": 3368,
+    "plane": 0
+  },
+  {
+    "id": "morytania-utilities:port-phasmatys-furnace",
+    "name": "Port Phasmatys Furnace",
+    "x": 3688,
+    "y": 3480,
+    "plane": 0
+  },
+  {
+    "id": "morytania-utilities:ver-sinhaza-anvil",
+    "name": "Ver Sinhaza Anvil",
+    "x": 3754,
+    "y": 3321,
+    "plane": 0
+  }
+]

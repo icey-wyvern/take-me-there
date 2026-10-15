@@ -1,0 +1,72 @@
+[
+  {
+    "id": "morytania-cities:burgh-de-rott",
+    "name": "Burgh de Rott",
+    "x": 3502,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": "morytania-cities:canifis",
+    "name": "Canifis",
+    "x": 3493,
+    "y": 3488,
+    "plane": 0
+  },
+  {
+    "id": "morytania-cities:darkmeyer",
+    "name": "Darkmeyer",
+    "x": 3597,
+    "y": 3360,
+    "plane": 0
+  },
+  {
+    "id": "morytania-cities:harmony-island",
+    "name": "Harmony Island",
+    "x": 3805,
+    "y": 2844,
+    "plane": 0
+  },
+  {
+    "id": "morytania-cities:meiyerditch",
+    "name": "Meiyerditch",
+    "x": 3605,
+    "y": 3161,
+    "plane": 1
+  },
+  {
+    "id": "morytania-cities:mortton",
+    "name": "Mort'ton",
+    "x": 3487,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": "morytania-cities:mos-leharmless",
+    "name": "Mos Le'Harmless",
+    "x": 3735,
+    "y": 2999,
+    "plane": 0
+  },
+  {
+    "id": "morytania-cities:port-phasmatys",
+    "name": "Port Phasmatys",
+    "x": 3679,
+    "y": 3486,
+    "plane": 0
+  },
+  {
+    "id": "morytania-cities:slepe",
+    "name": "Slepe",
+    "x": 3724,
+    "y": 3335,
+    "plane": 0
+  },
+  {
+    "id": "morytania-cities:ver-sinhaza",
+    "name": "Ver Sinhaza",
+    "x": 3663,
+    "y": 3220,
+    "plane": 0
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "zeah-thieving-spots:bakery-stall_1638_3683_0",
+    "name": "Bakery stall (Kingstown)",
+    "x": 1638,
+    "y": 3683,
+    "plane": 0
+  },
+  {
+    "id": "zeah-thieving-spots:fruit-stall_1633_3662_0",
+    "name": "Fruit stall (Kingstown)",
+    "x": 1633,
+    "y": 3662,
+    "plane": 0
+  },
+  {
+    "id": "zeah-thieving-spots:gem-stall_1634_3684_0",
+    "name": "Gem stall (Kingstown)",
+    "x": 1634,
+    "y": 3684,
+    "plane": 0
+  },
+  {
+    "id": "zeah-thieving-spots:guard-hosidius_1743_3565_0",
+    "name": "Guard (Hosidius)",
+    "x": 1743,
+    "y": 3565,
+    "plane": 0
+  },
+  {
+    "id": "zeah-thieving-spots:kourend-guard-pickpocket_1469_3556_0",
+    "name": "Kourend Guard (Shayzien)",
+    "x": 1469,
+    "y": 3556,
+    "plane": 0
+  },
+  {
+    "id": "zeah-thieving-spots:master-farmer-farming-guild_1236_3727_0",
+    "name": "Master Farmer (Farming Guild)",
+    "x": 1236,
+    "y": 3727,
+    "plane": 0
+  },
+  {
+    "id": "zeah-thieving-spots:master-farmer-hosidius_1761_3633_0",
+    "name": "Master Farmer (Hosidius)",
+    "x": 1761,
+    "y": 3633,
+    "plane": 0
+  },
+  {
+    "id": "zeah-thieving-spots:silk-stall",
+    "name": "Silk stall (Kingstown)",
+    "x": 1626,
+    "y": 3681,
+    "plane": 0
+  },
+  {
+    "id": "zeah-thieving-spots:silver-stall",
+    "name": "Silver stall (Kingstown)",
+    "x": 1626,
+    "y": 3664,
+    "plane": 0
+  },
+  {
+    "id": "zeah-thieving-spots:tea-stall",
+    "name": "Tea stall (Kingstown)",
+    "x": 1648,
+    "y": 3683,
+    "plane": 0
+  }
+]

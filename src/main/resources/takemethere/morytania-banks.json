@@ -1,0 +1,44 @@
+[
+  {
+    "id": "morytania-banks:burgh-de-rott",
+    "name": "Burgh de Rott",
+    "x": 3496,
+    "y": 3211,
+    "plane": 0
+  },
+  {
+    "id": "morytania-banks:canifis",
+    "name": "Canifis",
+    "x": 3512,
+    "y": 3478,
+    "plane": 0
+  },
+  {
+    "id": "morytania-banks:darkmeyer",
+    "name": "Darkmeyer",
+    "x": 3602,
+    "y": 3366,
+    "plane": 0
+  },
+  {
+    "id": "morytania-banks:mos-le-harmless",
+    "name": "Mos Le’Harmless",
+    "x": 3680,
+    "y": 2982,
+    "plane": 0
+  },
+  {
+    "id": "morytania-banks:port-phasmatys",
+    "name": "Port Phasmatys",
+    "x": 3692,
+    "y": 3468,
+    "plane": 0
+  },
+  {
+    "id": "morytania-banks:ver-sinhaza",
+    "name": "Ver Sinhaza",
+    "x": 3651,
+    "y": 3206,
+    "plane": 0
+  }
+]

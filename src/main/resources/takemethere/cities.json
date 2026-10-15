@@ -37,8 +37,8 @@
   {
     "id": "cities:barbarian-village",
     "name": "Barbarian Village",
-    "x": 3078,
-    "y": 3426,
+    "x": 3080,
+    "y": 3427,
     "plane": 0
   },
   {
@@ -59,7 +59,7 @@
     "id": "cities:burgh-de-rott",
     "name": "Burgh de Rott",
     "x": 3502,
-    "y": 3210,
+    "y": 3220,
     "plane": 0
   },
   {
@@ -74,7 +74,7 @@
     "name": "Cam Torum",
     "x": 1453,
     "y": 9565,
-    "plane": 0
+    "plane": 1
   },
   {
     "id": "cities:camelot",
@@ -93,8 +93,8 @@
   {
     "id": "cities:castle-wars",
     "name": "Castle Wars",
-    "x": 2407,
-    "y": 3105,
+    "x": 2440,
+    "y": 3090,
     "plane": 0
   },
   {
@@ -149,8 +149,8 @@
   {
     "id": "cities:edgeville",
     "name": "Edgeville",
-    "x": 3080,
-    "y": 3492,
+    "x": 3099,
+    "y": 3491,
     "plane": 0
   },
   {
@@ -170,8 +170,8 @@
   {
     "id": "cities:fortis-colosseum",
     "name": "Fortis Colosseum",
-    "x": 1824,
-    "y": 3107,
+    "x": 1795,
+    "y": 3106,
     "plane": 0
   },
   {
@@ -184,8 +184,15 @@
   {
     "id": "cities:gutanoth",
     "name": "Gu'Tanoth",
-    "x": 2524,
+    "x": 2523,
     "y": 3035,
+    "plane": 0
+  },
+  {
+    "id": "cities:harmony-island",
+    "name": "Harmony Island",
+    "x": 3805,
+    "y": 2844,
     "plane": 0
   },
   {
@@ -219,7 +226,7 @@
   {
     "id": "cities:keldagrim",
     "name": "Keldagrim",
-    "x": 2879,
+    "x": 2875,
     "y": 10176,
     "plane": 0
   },
@@ -261,9 +268,9 @@
   {
     "id": "cities:meiyerditch",
     "name": "Meiyerditch",
-    "x": 3615,
-    "y": 3250,
-    "plane": 0
+    "x": 3605,
+    "y": 3161,
+    "plane": 1
   },
   {
     "id": "cities:miscellania",
@@ -284,6 +291,13 @@
     "name": "Mort'ton",
     "x": 3487,
     "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": "cities:mos-leharmless",
+    "name": "Mos Le'Harmless",
+    "x": 3735,
+    "y": 2999,
     "plane": 0
   },
   {
@@ -346,7 +360,7 @@
     "id": "cities:prifddinas",
     "name": "Prifddinas",
     "x": 3263,
-    "y": 6083,
+    "y": 6085,
     "plane": 0
   },
   {
@@ -395,7 +409,14 @@
     "id": "cities:shilo-village",
     "name": "Shilo Village",
     "x": 2849,
-    "y": 2972,
+    "y": 2971,
+    "plane": 0
+  },
+  {
+    "id": "cities:slepe",
+    "name": "Slepe",
+    "x": 3724,
+    "y": 3335,
     "plane": 0
   },
   {
@@ -417,13 +438,6 @@
     "name": "Taverley",
     "x": 2910,
     "y": 3451,
-    "plane": 0
-  },
-  {
-    "id": "cities:tempestus",
-    "name": "Tempestus",
-    "x": 1285,
-    "y": 3256,
     "plane": 0
   },
   {

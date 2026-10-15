@@ -1,0 +1,30 @@
+[
+  {
+    "id": "zeah-bosses:alchemical-hydra",
+    "name": "Alchemical Hydra",
+    "x": 1309,
+    "y": 3807,
+    "plane": 0
+  },
+  {
+    "id": "zeah-bosses:sarachnis",
+    "name": "Sarachnis",
+    "x": 1840,
+    "y": 9900,
+    "plane": 0
+  },
+  {
+    "id": "zeah-bosses:skotizo",
+    "name": "Skotizo",
+    "x": 1666,
+    "y": 10050,
+    "plane": 0
+  },
+  {
+    "id": "zeah-bosses:wintertodt",
+    "name": "Wintertodt",
+    "x": 1630,
+    "y": 3981,
+    "plane": 0
+  }
+]

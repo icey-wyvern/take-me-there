@@ -1,0 +1,44 @@
+[
+  {
+    "id": "morytania-general-pois:blisterwood-tree",
+    "name": "Blisterwood tree",
+    "x": 3633,
+    "y": 3359,
+    "plane": 0
+  },
+  {
+    "id": "morytania-general-pois:ectofuntus",
+    "name": "Ectofuntus",
+    "x": 3660,
+    "y": 3520,
+    "plane": 0
+  },
+  {
+    "id": "morytania-general-pois:hallowed-sepulchre",
+    "name": "Hallowed Sepulchre",
+    "x": 3654,
+    "y": 3386,
+    "plane": 0
+  },
+  {
+    "id": "morytania-general-pois:temple-trekking",
+    "name": "Temple Trekking",
+    "x": 3480,
+    "y": 3240,
+    "plane": 0
+  },
+  {
+    "id": "morytania-general-pois:theatre-of-blood",
+    "name": "Theatre of Blood",
+    "x": 3663,
+    "y": 3219,
+    "plane": 0
+  },
+  {
+    "id": "morytania-general-pois:trouble-brewing",
+    "name": "Trouble Brewing",
+    "x": 3801,
+    "y": 3015,
+    "plane": 0
+  }
+]

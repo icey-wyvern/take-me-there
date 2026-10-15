@@ -1,0 +1,58 @@
+[
+  {
+    "id": "construction-services:estate-agent-ardougne",
+    "name": "Estate Agent - Ardougne",
+    "x": 2639,
+    "y": 3291,
+    "plane": 0
+  },
+  {
+    "id": "construction-services:estate-agent-civitas-illa-fortis",
+    "name": "Estate Agent - Civitas illa Fortis",
+    "x": 1703,
+    "y": 3101,
+    "plane": 0
+  },
+  {
+    "id": "construction-services:estate-agent-falador",
+    "name": "Estate Agent - Falador",
+    "x": 2983,
+    "y": 3369,
+    "plane": 0
+  },
+  {
+    "id": "construction-services:estate-agent-hosidius",
+    "name": "Estate Agent - Hosidius",
+    "x": 1781,
+    "y": 3628,
+    "plane": 0
+  },
+  {
+    "id": "construction-services:estate-agent-prifddinas",
+    "name": "Estate Agent - Prifddinas",
+    "x": 3219,
+    "y": 6057,
+    "plane": 0
+  },
+  {
+    "id": "construction-services:estate-agent-seers-village",
+    "name": "Estate Agent - Seers' Village",
+    "x": 2737,
+    "y": 3502,
+    "plane": 0
+  },
+  {
+    "id": "construction-services:estate-agent-varrock",
+    "name": "Estate Agent - Varrock",
+    "x": 3240,
+    "y": 3476,
+    "plane": 0
+  },
+  {
+    "id": "construction-services:servants-guild-east-ardougne",
+    "name": "Servants' Guild - East Ardougne",
+    "x": 2667,
+    "y": 3332,
+    "plane": 0
+  }
+]

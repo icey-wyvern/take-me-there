@@ -1,0 +1,30 @@
+[
+  {
+    "id": "morytania-bosses:barrows",
+    "name": "Barrows",
+    "x": 3567,
+    "y": 3291,
+    "plane": 0
+  },
+  {
+    "id": "morytania-bosses:grotesque-guardians",
+    "name": "Grotesque Guardians",
+    "x": 3440,
+    "y": 3541,
+    "plane": 2
+  },
+  {
+    "id": "morytania-bosses:phosanis-nightmare",
+    "name": "Phosani's Nightmare",
+    "x": 3724,
+    "y": 3335,
+    "plane": 0
+  },
+  {
+    "id": "morytania-bosses:the-nightmare",
+    "name": "The Nightmare",
+    "x": 3724,
+    "y": 3335,
+    "plane": 0
+  }
+]

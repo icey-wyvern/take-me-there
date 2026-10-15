@@ -1,0 +1,121 @@
+[
+  {
+    "id": "zeah-fishing-spots:around-the-farming-guild-big-net-harpoon-fishing-spot_1199_3737_0",
+    "name": "Around the Farming Guild Big net/Harpoon fishing spot",
+    "x": 1199,
+    "y": 3737,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:east-of-lands-end-small-net-bait-fishing-spot",
+    "name": "East of Land's End Small net/Bait fishing spot",
+    "x": 1536,
+    "y": 3414,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:hosidius-big-net-harpoon-fishing-spot_1676_3489_0",
+    "name": "Hosidius Big net/Harpoon fishing spot",
+    "x": 1676,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:hosidius-cage-harpoon-fishing-spot_1668_3475_0",
+    "name": "Hosidius Cage/Harpoon fishing spot",
+    "x": 1669,
+    "y": 3475,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:hosidius-lure-bait-fishing-spot",
+    "name": "Hosidius Lure/Bait fishing spot",
+    "x": 1714,
+    "y": 3607,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:hosidius-small-net-bait-fishing-spot_1819_3603_0",
+    "name": "Hosidius Small net/Bait fishing spot",
+    "x": 1819,
+    "y": 3603,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:lake-molch-aerial-fishing-spot_1353_3628_0",
+    "name": "Lake Molch aerial fishing spot",
+    "x": 1369,
+    "y": 3639,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:port-piscarilius-cage-harpoon-fishing-spot",
+    "name": "Port Piscarilius Cage/Harpoon fishing spot",
+    "x": 1747,
+    "y": 3802,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:port-piscarilius-lure-bait-fishing-spot",
+    "name": "Port Piscarilius Lure/Bait fishing spot",
+    "x": 1720,
+    "y": 3683,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:port-piscarilius-rod-sandworms-fishing-spot",
+    "name": "Port Piscarilius Rod/Sandworms fishing spot",
+    "x": 1826,
+    "y": 3771,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:port-piscarilius-small-net-bait-fishing-spot",
+    "name": "Port Piscarilius Small net/Bait fishing spot",
+    "x": 1761,
+    "y": 3795,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:shayzien-lure-bait-fishing-spot",
+    "name": "Shayzien Lure/Bait fishing spot",
+    "x": 1581,
+    "y": 3563,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:south-of-watsons-house-lure-bait-fishing-spot",
+    "name": "South of Watson's house Lure/Bait fishing spot",
+    "x": 1644,
+    "y": 3558,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:south-east-of-the-farming-guild-lure-bait-fishing-spot",
+    "name": "South-east of the Farming Guild Lure/Bait fishing spot",
+    "x": 1271,
+    "y": 3707,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:west-of-lands-end-big-net-harpoon-fishing-spot",
+    "name": "West of Land's End Big net/Harpoon fishing spot",
+    "x": 1485,
+    "y": 3434,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:west-of-lands-end-cage-harpoon-fishing-spot",
+    "name": "West of Land's End Cage/Harpoon fishing spot",
+    "x": 1493,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": "zeah-fishing-spots:west-of-lands-end-small-net-bait-fishing-spot_1485_3431_0",
+    "name": "West of Land's End Small net/Bait fishing spot",
+    "x": 1486,
+    "y": 3431,
+    "plane": 0
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "kandarin-thieving-spots:bakery-stall_2655_3311_0",
+    "name": "Bakery stall (East Ardougne)",
+    "x": 2655,
+    "y": 3311,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:farmer-ardougne-farm_2645_3367_0",
+    "name": "Farmer (Ardougne farm)",
+    "x": 2645,
+    "y": 3367,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:fur-stall",
+    "name": "Fur stall (East Ardougne)",
+    "x": 2663,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:gem-stall",
+    "name": "Gem stall (East Ardougne)",
+    "x": 2668,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:gnome-pickpocket_2456_3467_0",
+    "name": "Gnome (Tree Gnome Stronghold)",
+    "x": 2456,
+    "y": 3467,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:guard-ardougne_2651_3307_0",
+    "name": "Guard (East Ardougne)",
+    "x": 2651,
+    "y": 3307,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:hero-pickpocket_2647_3306_0",
+    "name": "Hero (East Ardougne)",
+    "x": 2647,
+    "y": 3306,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:knight-of-ardougne-pickpocket_2538_3304_0",
+    "name": "Knight of Ardougne",
+    "x": 2538,
+    "y": 3304,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:master-farmer-north-of-east-ardougne-refn-group-note-the-medium-ardougne-diary-reward-does-not-apply-here",
+    "name": "Master Farmer (north of East Ardougne)",
+    "x": 2636,
+    "y": 3364,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:ogre-coffin-chest_2463_9424_2",
+    "name": "Ogre coffin (Jiggig)",
+    "x": 2463,
+    "y": 9424,
+    "plane": 2
+  },
+  {
+    "id": "kandarin-thieving-spots:paladin-pickpocket_2548_3298_0",
+    "name": "Paladin (Ardougne)",
+    "x": 2548,
+    "y": 3298,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:silk-stall_2656_3302_0",
+    "name": "Silk stall (East Ardougne)",
+    "x": 2656,
+    "y": 3302,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:silver-stall",
+    "name": "Silver stall (East Ardougne)",
+    "x": 2657,
+    "y": 3314,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:spice-stall",
+    "name": "Spice stall (East Ardougne)",
+    "x": 2658,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:warrior-pickpocket_2584_3305_0",
+    "name": "Warrior (Ardougne)",
+    "x": 2584,
+    "y": 3305,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-thieving-spots:watchman-pickpocket",
+    "name": "Watchman (Yanille)",
+    "x": 2544,
+    "y": 3112,
+    "plane": 1
+  }
+]

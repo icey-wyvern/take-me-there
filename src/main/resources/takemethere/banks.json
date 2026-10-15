@@ -21,13 +21,6 @@
     "plane": 0
   },
   {
-    "id": "banks:ancient-prison",
-    "name": "Ancient Prison",
-    "x": 2904,
-    "y": 5205,
-    "plane": 0
-  },
-  {
     "id": "banks:ape-atoll",
     "name": "Ape Atoll",
     "x": 2781,
@@ -59,21 +52,7 @@
     "id": "banks:auburnvale",
     "name": "Auburnvale",
     "x": 1416,
-    "y": 3353,
-    "plane": 0
-  },
-  {
-    "id": "banks:bank-boat",
-    "name": "Bank boat",
-    "x": 2280,
-    "y": 2546,
-    "plane": 0
-  },
-  {
-    "id": "banks:bank-chest-wreck",
-    "name": "Bank Chest-wreck",
-    "x": 3772,
-    "y": 3898,
+    "y": 3352,
     "plane": 0
   },
   {
@@ -93,8 +72,8 @@
   {
     "id": "banks:blast-mine-chests",
     "name": "Blast mine chests",
-    "x": 1489,
-    "y": 3864,
+    "x": 1479,
+    "y": 3857,
     "plane": 0
   },
   {
@@ -114,9 +93,9 @@
   {
     "id": "banks:cam-torum",
     "name": "Cam Torum",
-    "x": 1456,
+    "x": 1452,
     "y": 9568,
-    "plane": 0
+    "plane": 1
   },
   {
     "id": "banks:camdozaal-chest",
@@ -143,7 +122,7 @@
     "id": "banks:castle-wars-lobby-chest",
     "name": "Castle Wars lobby chest",
     "x": 2445,
-    "y": 3082,
+    "y": 3081,
     "plane": 0
   },
   {
@@ -156,42 +135,21 @@
   {
     "id": "banks:chambers-of-xeric-lobby-chest",
     "name": "Chambers of Xeric lobby chest",
-    "x": 3305,
-    "y": 5200,
+    "x": 1234,
+    "y": 3573,
     "plane": 0
   },
   {
     "id": "banks:charcoal-camp-chest",
     "name": "Charcoal camp chest",
     "x": 1717,
-    "y": 3464,
-    "plane": 0
-  },
-  {
-    "id": "banks:charred-island-chest",
-    "name": "Charred Island chest",
-    "x": 2655,
-    "y": 2389,
-    "plane": 0
-  },
-  {
-    "id": "banks:clan-hall",
-    "name": "Clan Hall",
-    "x": 1744,
-    "y": 5475,
-    "plane": 0
-  },
-  {
-    "id": "banks:clan-hall-bank",
-    "name": "Clan Hall bank",
-    "x": 1748,
-    "y": 5476,
+    "y": 3463,
     "plane": 0
   },
   {
     "id": "banks:cooks-guild",
     "name": "Cook's Guild",
-    "x": 3148,
+    "x": 3149,
     "y": 3448,
     "plane": 0
   },
@@ -211,16 +169,9 @@
   },
   {
     "id": "banks:culinaromancer-s-chest",
-    "name": "Culinaromancer\u2019s Chest",
+    "name": "Culinaromancer’s Chest",
     "x": 3219,
     "y": 9623,
-    "plane": 0
-  },
-  {
-    "id": "banks:daimons-crater-chests",
-    "name": "Daimon's Crater chests",
-    "x": 3426,
-    "y": 4064,
     "plane": 0
   },
   {
@@ -228,20 +179,6 @@
     "name": "Darkmeyer",
     "x": 3602,
     "y": 3366,
-    "plane": 0
-  },
-  {
-    "id": "banks:deepfin-mine-eastern-chest",
-    "name": "Deepfin Mine eastern chest",
-    "x": 2093,
-    "y": 9199,
-    "plane": 0
-  },
-  {
-    "id": "banks:deepfin-mine-western-chest",
-    "name": "Deepfin Mine western chest",
-    "x": 2011,
-    "y": 9187,
     "plane": 0
   },
   {
@@ -259,13 +196,6 @@
     "plane": 0
   },
   {
-    "id": "banks:deposit-pot",
-    "name": "Deposit pot",
-    "x": 3546,
-    "y": 5154,
-    "plane": 0
-  },
-  {
     "id": "banks:dorgesh-kaan",
     "name": "Dorgesh-Kaan",
     "x": 2702,
@@ -277,13 +207,6 @@
     "name": "Draynor",
     "x": 3093,
     "y": 3244,
-    "plane": 0
-  },
-  {
-    "id": "banks:dwarven-ferryman",
-    "name": "Dwarven Ferryman",
-    "x": 2847,
-    "y": 10136,
     "plane": 0
   },
   {
@@ -303,9 +226,9 @@
   {
     "id": "banks:emerald-benedicts",
     "name": "Emerald Benedict's",
-    "x": 3042,
-    "y": 4972,
-    "plane": 0
+    "x": 3040,
+    "y": 4969,
+    "plane": 1
   },
   {
     "id": "banks:emirs-arena",
@@ -324,8 +247,8 @@
   {
     "id": "banks:etceteria",
     "name": "Etceteria",
-    "x": 2620,
-    "y": 3895,
+    "x": 2619,
+    "y": 3894,
     "plane": 0
   },
   {
@@ -346,14 +269,14 @@
     "id": "banks:falador-west",
     "name": "Falador west",
     "x": 2946,
-    "y": 3367,
+    "y": 3368,
     "plane": 0
   },
   {
     "id": "banks:farming-guild",
     "name": "Farming Guild",
     "x": 1249,
-    "y": 3761,
+    "y": 3758,
     "plane": 0
   },
   {
@@ -422,8 +345,8 @@
   {
     "id": "banks:giants-foundry-chest",
     "name": "Giants' Foundry chest",
-    "x": 3462,
-    "y": 9588,
+    "x": 3361,
+    "y": 3149,
     "plane": 0
   },
   {
@@ -581,20 +504,6 @@
     "plane": 1
   },
   {
-    "id": "banks:mausoleum",
-    "name": "Mausoleum",
-    "x": 1927,
-    "y": 5004,
-    "plane": 0
-  },
-  {
-    "id": "banks:mine-cart",
-    "name": "mine cart",
-    "x": 3308,
-    "y": 12445,
-    "plane": 0
-  },
-  {
     "id": "banks:mining-guild-chest",
     "name": "Mining Guild chest",
     "x": 3012,
@@ -609,16 +518,9 @@
     "plane": 0
   },
   {
-    "id": "banks:mor-ul-rek-east",
-    "name": "Mor Ul Rek east",
-    "x": 2543,
-    "y": 5144,
-    "plane": 0
-  },
-  {
     "id": "banks:mos-le-harmless",
-    "name": "Mos Le\u2019Harmless",
-    "x": 3681,
+    "name": "Mos Le’Harmless",
+    "x": 3680,
     "y": 2982,
     "plane": 0
   },
@@ -672,17 +574,10 @@
     "plane": 0
   },
   {
-    "id": "banks:nutcracker-chest",
-    "name": "Nutcracker chest",
-    "x": 2190,
-    "y": 6227,
-    "plane": 0
-  },
-  {
     "id": "banks:ourania",
     "name": "Ourania",
-    "x": 3016,
-    "y": 5625,
+    "x": 2468,
+    "y": 3246,
     "plane": 0
   },
   {
@@ -724,7 +619,7 @@
     "id": "banks:port-roberts",
     "name": "Port Roberts",
     "x": 1883,
-    "y": 3316,
+    "y": 3315,
     "plane": 0
   },
   {
@@ -744,14 +639,14 @@
   {
     "id": "banks:prifddinas-south",
     "name": "Prifddinas south",
-    "x": 3297,
+    "x": 3295,
     "y": 6060,
     "plane": 0
   },
   {
     "id": "banks:quetzacalli-gorge",
     "name": "Quetzacalli Gorge",
-    "x": 1520,
+    "x": 1519,
     "y": 3229,
     "plane": 0
   },
@@ -771,7 +666,7 @@
   },
   {
     "id": "banks:seers-village",
-    "name": "Seers\u2019 Village",
+    "name": "Seers’ Village",
     "x": 2725,
     "y": 3492,
     "plane": 0
@@ -819,16 +714,9 @@
     "plane": 0
   },
   {
-    "id": "banks:sunbleak-island-chest",
-    "name": "Sunbleak Island chest",
-    "x": 2194,
-    "y": 2316,
-    "plane": 0
-  },
-  {
     "id": "banks:tal-teklan",
     "name": "Tal Teklan",
-    "x": 1244,
+    "x": 1243,
     "y": 3121,
     "plane": 0
   },
@@ -854,24 +742,10 @@
     "plane": 0
   },
   {
-    "id": "banks:the-node",
-    "name": "The Node",
-    "x": 3096,
-    "y": 3027,
-    "plane": 0
-  },
-  {
-    "id": "banks:the-onyx-crest-chest",
-    "name": "The Onyx Crest chest",
-    "x": 2985,
-    "y": 2270,
-    "plane": 0
-  },
-  {
     "id": "banks:the-pandemonium-bank-crab",
     "name": "The Pandemonium bank crab",
     "x": 3039,
-    "y": 3002,
+    "y": 3001,
     "plane": 0
   },
   {
@@ -886,13 +760,6 @@
     "name": "Trouble Brewing chest",
     "x": 3810,
     "y": 3020,
-    "plane": 0
-  },
-  {
-    "id": "banks:tutorial-island",
-    "name": "Tutorial Island",
-    "x": 3122,
-    "y": 3124,
     "plane": 0
   },
   {
@@ -953,7 +820,7 @@
   },
   {
     "id": "banks:warriors-guild",
-    "name": "Warriors\u2019 Guild",
+    "name": "Warriors’ Guild",
     "x": 2843,
     "y": 3543,
     "plane": 0

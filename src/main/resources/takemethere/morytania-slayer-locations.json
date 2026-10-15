@@ -1,0 +1,128 @@
+[
+  {
+    "id": "morytania-slayer-locations:aberrant-spectre-slayer-tower-floor-1_3423_3542_1",
+    "name": "Aberrant spectre - Slayer Tower (Floor 1)",
+    "x": 3423,
+    "y": 3542,
+    "plane": 1
+  },
+  {
+    "id": "morytania-slayer-locations:abyssal-demon-slayer-tower-floor-2_3408_3573_2",
+    "name": "Abyssal demon - Slayer Tower (Floor 2)",
+    "x": 3408,
+    "y": 3573,
+    "plane": 2
+  },
+  {
+    "id": "morytania-slayer-locations:araxxor-morytania-spider-cave",
+    "name": "Araxxor - Morytania Spider Cave",
+    "x": 3748,
+    "y": 9373,
+    "plane": 0
+  },
+  {
+    "id": "morytania-slayer-locations:araxyte-morytania-spider-cave_3673_9837_0",
+    "name": "Araxyte - Morytania Spider Cave",
+    "x": 3748,
+    "y": 9373,
+    "plane": 0
+  },
+  {
+    "id": "morytania-slayer-locations:banshee-slayer-tower-floor-0_3433_3552_0",
+    "name": "Banshee - Slayer Tower (Floor 0)",
+    "x": 3433,
+    "y": 3552,
+    "plane": 0
+  },
+  {
+    "id": "morytania-slayer-locations:bloodveld-slayer-tower-floor-1_3412_3560_1",
+    "name": "Bloodveld - Slayer Tower (Floor 1)",
+    "x": 3412,
+    "y": 3560,
+    "plane": 1
+  },
+  {
+    "id": "morytania-slayer-locations:cave-horror-mos-leharmless-cave_3756_9432_0",
+    "name": "Cave horror - Mos Le'Harmless Cave",
+    "x": 3756,
+    "y": 9432,
+    "plane": 0
+  },
+  {
+    "id": "morytania-slayer-locations:crawling-hand-slayer-tower-floor-0_3419_3574_0",
+    "name": "Crawling Hand - Slayer Tower (Floor 0)",
+    "x": 3419,
+    "y": 3574,
+    "plane": 0
+  },
+  {
+    "id": "morytania-slayer-locations:feral-vampyre-haunted-woods_3617_3477_0",
+    "name": "Feral Vampyre - Haunted Woods",
+    "x": 3617,
+    "y": 3477,
+    "plane": 0
+  },
+  {
+    "id": "morytania-slayer-locations:gargoyle-slayer-tower-top-floor_3443_3548_2",
+    "name": "Gargoyle - Slayer Tower top floor",
+    "x": 3443,
+    "y": 3548,
+    "plane": 2
+  },
+  {
+    "id": "morytania-slayer-locations:ghoul-south-of-the-slayer-tower",
+    "name": "Ghoul - South of the Slayer Tower",
+    "x": 3412,
+    "y": 3512,
+    "plane": 0
+  },
+  {
+    "id": "morytania-slayer-locations:infernal-mage-slayer-tower-floor-1_3434_3570_1",
+    "name": "Infernal Mage - Slayer Tower (Floor 1)",
+    "x": 3434,
+    "y": 3570,
+    "plane": 1
+  },
+  {
+    "id": "morytania-slayer-locations:jungle-horror-mos-leharmless_3739_3034_0",
+    "name": "Jungle horror - Mos Le'Harmless",
+    "x": 3739,
+    "y": 3034,
+    "plane": 0
+  },
+  {
+    "id": "morytania-slayer-locations:loar-shade-mortton_3492_3285_0",
+    "name": "Loar Shade - Mort'ton",
+    "x": 3492,
+    "y": 3285,
+    "plane": 0
+  },
+  {
+    "id": "morytania-slayer-locations:nechryael-slayer-tower-top-floor_3443_3570_2",
+    "name": "Nechryael - Slayer Tower Top Floor",
+    "x": 3443,
+    "y": 3570,
+    "plane": 2
+  },
+  {
+    "id": "morytania-slayer-locations:swamp-crab-slepe_3752_3358_0",
+    "name": "Swamp Crab - Slepe",
+    "x": 3752,
+    "y": 3358,
+    "plane": 0
+  },
+  {
+    "id": "morytania-slayer-locations:vyrewatch-sentinel-darkmeyer_3602_3363_0",
+    "name": "Vyrewatch Sentinel - Darkmeyer",
+    "x": 3602,
+    "y": 3363,
+    "plane": 0
+  },
+  {
+    "id": "morytania-slayer-locations:zombie-pirate-harmony-island_3803_2843_0",
+    "name": "Zombie pirate - Harmony Island",
+    "x": 3803,
+    "y": 2843,
+    "plane": 0
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "id": "morytania-thieving-spots:alek-constantine-pickpocket",
+    "name": "Alek Constantine - Pickpocket",
+    "x": 3598,
+    "y": 3356,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:caninelle-draynar-pickpocket",
+    "name": "Caninelle Draynar - Pickpocket",
+    "x": 3609,
+    "y": 3384,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:carnivus-belamorta-pickpocket",
+    "name": "Carnivus Belamorta - Pickpocket",
+    "x": 3613,
+    "y": 3390,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:crimsonette-van-marr-pickpocket",
+    "name": "Crimsonette van Marr - Pickpocket",
+    "x": 3600,
+    "y": 3392,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:diphylla-bechstein-pickpocket",
+    "name": "Diphylla Bechstein - Pickpocket",
+    "x": 3644,
+    "y": 3378,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:dr-fenkenstrain-pickpocket_3784_9225_0",
+    "name": "Dr Fenkenstrain - Pickpocket",
+    "x": 3784,
+    "y": 9225,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:draconis-sanguine-pickpocket",
+    "name": "Draconis Sanguine - Pickpocket",
+    "x": 3630,
+    "y": 3382,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:episcula-helsing-pickpocket",
+    "name": "Episcula Helsing - Pickpocket",
+    "x": 3599,
+    "y": 3337,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:grigor-rasputin-pickpocket",
+    "name": "Grigor Rasputin - Pickpocket",
+    "x": 3600,
+    "y": 3392,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:haemas-lamescus-pickpocket",
+    "name": "Haemas Lamescus - Pickpocket",
+    "x": 3598,
+    "y": 3362,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:lasenna-rasputin-pickpocket",
+    "name": "Lasenna Rasputin - Pickpocket",
+    "x": 3621,
+    "y": 3394,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:misdrievus-shadum-pickpocket",
+    "name": "Misdrievus Shadum - Pickpocket",
+    "x": 3610,
+    "y": 3345,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:mort-nightshade-pickpocket",
+    "name": "Mort Nightshade - Pickpocket",
+    "x": 3620,
+    "y": 3383,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:mortina-daubenton-pickpocket",
+    "name": "Mortina Daubenton - Pickpocket",
+    "x": 3598,
+    "y": 3382,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:nakasa-jovkai-pickpocket",
+    "name": "Nakasa Jovkai - Pickpocket",
+    "x": 3610,
+    "y": 3325,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:natalidae-shadum-pickpocket",
+    "name": "Natalidae Shadum - Pickpocket",
+    "x": 3610,
+    "y": 3340,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:noctillion-lugosi-pickpocket",
+    "name": "Noctillion Lugosi - Pickpocket",
+    "x": 3607,
+    "y": 3362,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:pipistrelle-draynar-pickpocket",
+    "name": "Pipistrelle Draynar - Pickpocket",
+    "x": 3609,
+    "y": 3384,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:remus-kaninus-pickpocket",
+    "name": "Remus Kaninus - Pickpocket",
+    "x": 3656,
+    "y": 3378,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:valentin-rasputin-pickpocket",
+    "name": "Valentin Rasputin - Pickpocket",
+    "x": 3621,
+    "y": 3394,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:valentina-diaemus-pickpocket",
+    "name": "Valentina Diaemus - Pickpocket",
+    "x": 3598,
+    "y": 3358,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:vallessia-dracyula-pickpocket",
+    "name": "Vallessia Dracyula - Pickpocket",
+    "x": 3631,
+    "y": 3391,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:vallessia-von-pitt-pickpocket",
+    "name": "Vallessia von Pitt - Pickpocket",
+    "x": 3664,
+    "y": 3379,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:vampyressa-van-von-pickpocket",
+    "name": "Vampyressa van Von - Pickpocket",
+    "x": 3657,
+    "y": 3378,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:vampyrus-diaemus-pickpocket",
+    "name": "Vampyrus Diaemus - Pickpocket",
+    "x": 3636,
+    "y": 3386,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:violetta-sanguine-pickpocket",
+    "name": "Violetta Sanguine - Pickpocket",
+    "x": 3630,
+    "y": 3382,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:vlad-bechstein-pickpocket",
+    "name": "Vlad Bechstein - Pickpocket",
+    "x": 3644,
+    "y": 3378,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:vlad-diaemus-pickpocket",
+    "name": "Vlad Diaemus - Pickpocket",
+    "x": 3611,
+    "y": 3393,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:von-van-von-pickpocket",
+    "name": "Von van Von - Pickpocket",
+    "x": 3600,
+    "y": 3327,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:vonnetta-varnis-pickpocket",
+    "name": "Vonnetta Varnis - Pickpocket",
+    "x": 3644,
+    "y": 3387,
+    "plane": 0
+  },
+  {
+    "id": "morytania-thieving-spots:vormar-vakan-pickpocket",
+    "name": "Vormar Vakan - Pickpocket",
+    "x": 3600,
+    "y": 3392,
+    "plane": 0
+  }
+]

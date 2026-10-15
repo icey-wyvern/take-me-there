@@ -1,0 +1,86 @@
+[
+  {
+    "id": "varlamore-mining-sites:avium-savannah-crevice",
+    "name": "Avium Savannah crevice",
+    "x": 1618,
+    "y": 2993,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-mining-sites:cam-torum-mine",
+    "name": "Cam Torum mine",
+    "x": 1508,
+    "y": 9541,
+    "plane": 1
+  },
+  {
+    "id": "varlamore-mining-sites:custodia-mountains-mine",
+    "name": "Custodia Mountains mine",
+    "x": 1282,
+    "y": 3412,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-mining-sites:east-salvager-overlook-mine",
+    "name": "East Salvager Overlook mine",
+    "x": 1672,
+    "y": 3284,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-mining-sites:east-tlati-rainforest-mine",
+    "name": "East Tlati Rainforest mine",
+    "x": 1353,
+    "y": 3113,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-mining-sites:mistrock-mine",
+    "name": "Mistrock mine",
+    "x": 1432,
+    "y": 2882,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-mining-sites:north-tlati-rainforest-mine",
+    "name": "North Tlati Rainforest mine",
+    "x": 1274,
+    "y": 3168,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-mining-sites:ralos-rise-mine",
+    "name": "Ralos' Rise mine",
+    "x": 1482,
+    "y": 3085,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-mining-sites:south-salvager-overlook-mine",
+    "name": "South Salvager Overlook mine",
+    "x": 1632,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-mining-sites:south-west-tlati-rainforest-mine",
+    "name": "South-west Tlati Rainforest mine",
+    "x": 1239,
+    "y": 3043,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-mining-sites:stonecutter-outpost",
+    "name": "Stonecutter Outpost",
+    "x": 1740,
+    "y": 2963,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-mining-sites:the-stranglewood-mine",
+    "name": "The Stranglewood mine",
+    "x": 1168,
+    "y": 3320,
+    "plane": 0
+  }
+]

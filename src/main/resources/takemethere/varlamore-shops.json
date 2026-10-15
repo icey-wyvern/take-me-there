@@ -1,0 +1,450 @@
+[
+  {
+    "id": "varlamore-shops:agelus-farm-shop-ortus-farm-farming-shop",
+    "name": "Agelus' Farm Shop - Ortus Farm (Farming shop)",
+    "x": 1593,
+    "y": 3106,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:aldarin-general-store",
+    "name": "Aldarin General Store",
+    "x": 1413,
+    "y": 2972,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:arcuanis-archery-supplies-tal-teklan",
+    "name": "Arcuani's Archery Supplies - Tal Teklan",
+    "x": 1210,
+    "y": 3096,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:artimas-crafting-supplies-civitas-illa-fortis",
+    "name": "Artima's Crafting Supplies - Civitas illa Fortis",
+    "x": 1764,
+    "y": 3104,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:atlazoras-rest-outer-fortis-pub",
+    "name": "Atlazora's Rest - Outer Fortis (Pub)",
+    "x": 1720,
+    "y": 3076,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:auburn-pub-auburnvale",
+    "name": "Auburn Pub - Auburnvale",
+    "x": 1395,
+    "y": 3354,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:auburnvale-general-store",
+    "name": "Auburnvale General Store",
+    "x": 1377,
+    "y": 3347,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:cam-torum-blacksmith-weapons-and-square-shields",
+    "name": "Cam Torum Blacksmith (Weapons and square shields)",
+    "x": 1449,
+    "y": 9584,
+    "plane": 1
+  },
+  {
+    "id": "varlamore-shops:cam-torum-general-store",
+    "name": "Cam Torum General Store",
+    "x": 1426,
+    "y": 9559,
+    "plane": 1
+  },
+  {
+    "id": "varlamore-shops:cobados-groceries-civitas-illa-fortis-cookery-shop",
+    "name": "Cobado's Groceries - Civitas illa Fortis (Cookery shop)",
+    "x": 1703,
+    "y": 3120,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:conaras-jewels-cam-torum-jewellery-shop",
+    "name": "Conara's Jewels - Cam Torum (Jewellery shop)",
+    "x": 1437,
+    "y": 9560,
+    "plane": 1
+  },
+  {
+    "id": "varlamore-shops:construction-supplies-auburnvale-sawmill",
+    "name": "Construction supplies - Auburnvale (Sawmill)",
+    "x": 1394,
+    "y": 3366,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:dyes-to-die-for-tal-teklan",
+    "name": "Dyes to Die For - Tal Teklan",
+    "x": 1203,
+    "y": 3119,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:emelios-kebab-shop-varlamore",
+    "name": "Emelio's Kebab Shop - Varlamore",
+    "x": 1754,
+    "y": 3075,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:faustus-fruit-and-veg-aldarin-food",
+    "name": "Faustus' Fruit and Veg - Aldarin (Food)",
+    "x": 1419,
+    "y": 2984,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:florias-fashion-civitas-illa-fortis-clothes-shop",
+    "name": "Floria's Fashion - Civitas illa Fortis (Clothes shop)",
+    "x": 1656,
+    "y": 3104,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:forestry-shop-nemus-retreat",
+    "name": "Forestry Shop - Nemus Retreat",
+    "x": 1352,
+    "y": 3298,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:fortis-bakers-stall-civitas-illa-fortis-food-shop",
+    "name": "Fortis Baker's Stall - Civitas illa Fortis (Food shop)",
+    "x": 1687,
+    "y": 3112,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:fortis-blacksmith-civitas-illa-fortis-sword-shop",
+    "name": "Fortis Blacksmith - Civitas illa Fortis (Sword shop)",
+    "x": 1656,
+    "y": 3143,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:fortis-fur-stall-civitas-illa-fortis-furs",
+    "name": "Fortis Fur Stall - Civitas illa Fortis (Furs)",
+    "x": 1675,
+    "y": 3112,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:fortis-gem-stall-civitas-illa-fortis",
+    "name": "Fortis Gem Stall - Civitas illa Fortis",
+    "x": 1675,
+    "y": 3101,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:fortis-general-store-civitas-illa-fortis",
+    "name": "Fortis General Store - Civitas illa Fortis",
+    "x": 1667,
+    "y": 3126,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:fortis-silk-stall-civitas-illa-fortis",
+    "name": "Fortis Silk Stall - Civitas illa Fortis",
+    "x": 1677,
+    "y": 3114,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:fortis-spice-stall-civitas-illa-fortis",
+    "name": "Fortis Spice Stall - Civitas illa Fortis",
+    "x": 1686,
+    "y": 3101,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:huitos-herbal-supplies-cam-torum-herbalist",
+    "name": "Huito's Herbal Supplies - Cam Torum (Herbalist)",
+    "x": 1437,
+    "y": 9553,
+    "plane": 1
+  },
+  {
+    "id": "varlamore-shops:imias-supplies-hunter-guild",
+    "name": "Imia's Supplies - Hunter Guild",
+    "x": 1562,
+    "y": 3060,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:kastori-farming-supplies",
+    "name": "Kastori Farming Supplies",
+    "x": 1357,
+    "y": 3061,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:kastori-general-store",
+    "name": "Kastori General Store",
+    "x": 1377,
+    "y": 3044,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:lunamis-axe-shop-auburnvale",
+    "name": "Lunami's Axe Shop - Auburnvale",
+    "x": 1402,
+    "y": 3344,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:mistrock-mining-supplies",
+    "name": "Mistrock Mining Supplies",
+    "x": 1398,
+    "y": 2870,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:mixology-rewards-mastering-mixology",
+    "name": "Mixology Rewards - Mastering Mixology",
+    "x": 1395,
+    "y": 9312,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:moonrise-wines-moonrise-brewery-and-winery",
+    "name": "Moonrise Wines - Moonrise Brewery and Winery",
+    "x": 1360,
+    "y": 2922,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:nemus-retreat-pub",
+    "name": "Nemus Retreat (Pub)",
+    "x": 1366,
+    "y": 3304,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:outer-fortis-general-store",
+    "name": "Outer Fortis General Store",
+    "x": 1720,
+    "y": 3060,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:pellems-fur-store-hunter-guild",
+    "name": "Pellem's Fur Store - Hunter Guild",
+    "x": 1565,
+    "y": 3034,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:picarias-fishing-shop-sunset-coast",
+    "name": "Picaria's Fishing Shop - Sunset Coast",
+    "x": 1557,
+    "y": 2962,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:quetzacalli-gorge-general-store",
+    "name": "Quetzacalli Gorge General Store",
+    "x": 1515,
+    "y": 3226,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:salius-armour-shop-salvager-overlook-platebodies",
+    "name": "Salius' Armour Shop - Salvager Overlook (Platebodies)",
+    "x": 1618,
+    "y": 3293,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:salvager-overlook-general-store",
+    "name": "Salvager Overlook General Store",
+    "x": 1625,
+    "y": 3291,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:sebamos-sublime-staffs-auburnvale",
+    "name": "Sebamo's Sublime Staffs - Auburnvale",
+    "x": 1412,
+    "y": 3343,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:shields-of-mistrock",
+    "name": "Shields of Mistrock",
+    "x": 1384,
+    "y": 2872,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:spikes-spikes-outer-fortis-mace-shop",
+    "name": "Spike's Spikes - Outer Fortis (Mace shop)",
+    "x": 1772,
+    "y": 3062,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:stick-your-ore-inn-mistrock-south-of-aldarin-pub",
+    "name": "Stick Your Ore Inn - Mistrock, South of Aldarin (Pub)",
+    "x": 1390,
+    "y": 2856,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:stonecutter-supplies-stonecutter-outpost-stonemason",
+    "name": "Stonecutter Supplies - Stonecutter Outpost (Stonemason)",
+    "x": 1742,
+    "y": 2977,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:sulisals-superb-fishing-store-kastori",
+    "name": "Sulisal's Superb Fishing Store - Kastori",
+    "x": 1375,
+    "y": 3037,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:sunlights-sanctum-aldarin-pub",
+    "name": "Sunlight's Sanctum - Aldarin (Pub)",
+    "x": 1382,
+    "y": 2931,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:sunset-coast-general-store",
+    "name": "Sunset Coast General Store",
+    "x": 1514,
+    "y": 2988,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:tal-teklan-general-store",
+    "name": "Tal Teklan General Store",
+    "x": 1241,
+    "y": 3109,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:tal-teklan-rune-shop-magic-shop",
+    "name": "Tal Teklan Rune Shop (Magic shop)",
+    "x": 1211,
+    "y": 3118,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:the-burrow-hunter-guild-trappers-tipple",
+    "name": "The Burrow - Hunter Guild (Trapper's tipple)",
+    "x": 1558,
+    "y": 9451,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:the-flaming-arrow-civitas-illa-fortis-pub",
+    "name": "The Flaming Arrow - Civitas illa Fortis (Pub)",
+    "x": 1711,
+    "y": 3121,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:the-kings-inn-tal-teklan-pub",
+    "name": "The King's Inn - Tal Teklan (Pub)",
+    "x": 1226,
+    "y": 3118,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:the-lost-pickaxe-cam-torum-pub",
+    "name": "The Lost Pickaxe - Cam Torum (Pub)",
+    "x": 1431,
+    "y": 9584,
+    "plane": 1
+  },
+  {
+    "id": "varlamore-shops:the-runic-emporium-cam-torum-magic-shop",
+    "name": "The Runic Emporium - Cam Torum (Magic shop)",
+    "x": 1426,
+    "y": 9571,
+    "plane": 1
+  },
+  {
+    "id": "varlamore-shops:the-windbreaker-quetzacalli-gorge-pub",
+    "name": "The Windbreaker - Quetzacalli Gorge (Pub)",
+    "x": 1496,
+    "y": 3223,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:thurids-brain-buckets-sunset-coast-helmet-shop",
+    "name": "Thurid's Brain Buckets - Sunset Coast (Helmet shop)",
+    "x": 1515,
+    "y": 2994,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:tizoros-pickaxes-cam-torum-mining-shop",
+    "name": "Tizoro's Pickaxes - Cam Torum (Mining Shop)",
+    "x": 1443,
+    "y": 9553,
+    "plane": 1
+  },
+  {
+    "id": "varlamore-shops:tocis-gem-store-aldarin",
+    "name": "Toci's Gem Store - Aldarin",
+    "x": 1430,
+    "y": 2975,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:trader-stans-trading-post-aldarin-general-store",
+    "name": "Trader Stan's Trading Post - Aldarin (General store)",
+    "x": 1455,
+    "y": 2968,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:trader-stans-trading-post-civitas-illa-fortis-general-store",
+    "name": "Trader Stan's Trading Post - Civitas illa Fortis (General store)",
+    "x": 1743,
+    "y": 3136,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:trader-stans-trading-post-sunset-coast-general-store",
+    "name": "Trader Stan's Trading Post - Sunset Coast (General store)",
+    "x": 1514,
+    "y": 2970,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:vale-research-exchange-auburnvale",
+    "name": "Vale Research Exchange - Auburnvale",
+    "x": 1366,
+    "y": 3367,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:worm-tongues-wares-colossal-wyrm-remains",
+    "name": "Worm Tongue's Wares - Colossal Wyrm Remains",
+    "x": 1639,
+    "y": 2923,
+    "plane": 0
+  },
+  {
+    "id": "varlamore-shops:yarnios-baked-goods-cam-torum-cookery-shop",
+    "name": "Yarnio's Baked Goods - Cam Torum (Cookery shop)",
+    "x": 1443,
+    "y": 9559,
+    "plane": 1
+  }
+]

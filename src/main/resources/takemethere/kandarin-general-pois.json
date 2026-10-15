@@ -1,0 +1,86 @@
+[
+  {
+    "id": "kandarin-general-pois:barbarian-outpost-agility-course",
+    "name": "Barbarian Outpost Agility Course",
+    "x": 2551,
+    "y": 3554,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-general-pois:coal-trucks",
+    "name": "Coal Trucks",
+    "x": 2597,
+    "y": 3490,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-general-pois:fishing-trawler",
+    "name": "Fishing Trawler",
+    "x": 2669,
+    "y": 3161,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-general-pois:gnome-stronghold-agility-course",
+    "name": "Gnome Stronghold Agility Course",
+    "x": 2480,
+    "y": 3428,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-general-pois:minnow-platform",
+    "name": "Minnow platform",
+    "x": 2606,
+    "y": 3426,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-general-pois:nightmare-zone",
+    "name": "Nightmare Zone",
+    "x": 2605,
+    "y": 3115,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-general-pois:port-khazard",
+    "name": "Port Khazard",
+    "x": 2653,
+    "y": 3159,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-general-pois:seers-village-rooftop-agility-course",
+    "name": "Seers' Village Rooftop Agility Course",
+    "x": 2729,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-general-pois:shrine-of-scorpius",
+    "name": "Shrine of Scorpius",
+    "x": 2464,
+    "y": 3228,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-general-pois:spirit-of-scorpius",
+    "name": "Spirit of Scorpius",
+    "x": 2464,
+    "y": 3227,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-general-pois:temple-of-marimbo",
+    "name": "Temple of Marimbo",
+    "x": 2797,
+    "y": 2789,
+    "plane": 0
+  },
+  {
+    "id": "kandarin-general-pois:tree-gnome-stronghold",
+    "name": "Tree Gnome Stronghold",
+    "x": 2440,
+    "y": 3460,
+    "plane": 0
+  }
+]
