@@ -8,6 +8,9 @@ import com.example.favourites.FavouritesStore;
 import com.example.model.CategoryDefinition;
 import com.example.model.LocationCatalog;
 import com.example.model.LocationDefinition;
+import com.example.search.SearchCandidate;
+import com.example.search.SearchResult;
+import com.example.search.SearchService;
 import net.runelite.api.coords.WorldPoint;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.FontManager;
@@ -25,11 +28,13 @@ import java.awt.*;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
-import java.util.Locale;
 import java.util.Map;
+import java.util.Set;
 
 public class TakeMeTherePanel extends PluginPanel
 {
@@ -52,6 +57,8 @@ public class TakeMeTherePanel extends PluginPanel
 	private final Map<String, Boolean> expandedByCategoryId = new LinkedHashMap<>();
 
 	private final LocationCatalog catalog;
+	private final SearchService searchService = new SearchService();
+	private final List<SearchCandidate> builtInCandidates = new ArrayList<>();
 	private final FavouritesStore favouritesStore;
 	private final DestinationService destinationService;
 	private final LinkedHashSet<String> favouriteIds = new LinkedHashSet<>();
@@ -86,6 +93,10 @@ public class TakeMeTherePanel extends PluginPanel
 		this.favouritesStore = favouritesStore;
 		this.destinationService = destinationService;
 		this.customLocationsStore = customLocationsStore;
+		for (LocationDefinition location : catalog.getLocationsById().values())
+		{
+			builtInCandidates.add(new SearchCandidate(location.getId(), location.getName()));
+		}
 
 		setLayout(new BorderLayout());
 		setBackground(ColorScheme.DARK_GRAY_COLOR);
@@ -361,18 +372,31 @@ public class TakeMeTherePanel extends PluginPanel
 	{
 		reloadCustomLocations();
 
-		String query = normalize(searchField.getText());
+		String query = SearchService.normalize(searchField.getText());
 		boolean searching = !query.isEmpty();
+		Set<String> matchingIds = new HashSet<>();
+		if (searching)
+		{
+			List<SearchCandidate> candidates = new ArrayList<>(builtInCandidates);
+			for (CustomLocation location : customLocationsById.values())
+			{
+				candidates.add(new SearchCandidate(location.getId(), location.getName()));
+			}
+			for (SearchResult result : searchService.search(query, candidates))
+			{
+				matchingIds.add(result.getId());
+			}
+		}
 
 		DefaultMutableTreeNode root = new DefaultMutableTreeNode("root");
 
-		DefaultMutableTreeNode favouritesNode = buildFavouritesNode(query, searching);
+		DefaultMutableTreeNode favouritesNode = buildFavouritesNode(matchingIds, searching);
 		if (favouritesNode != null)
 		{
 			root.add(favouritesNode);
 		}
 
-		DefaultMutableTreeNode customNode = buildCustomLocationsNode(query, searching);
+		DefaultMutableTreeNode customNode = buildCustomLocationsNode(matchingIds, searching);
 		if (customNode != null)
 		{
 			root.add(customNode);
@@ -387,7 +411,7 @@ public class TakeMeTherePanel extends PluginPanel
 
 			for (LocationDefinition location : locations)
 			{
-				if (searching && !normalize(location.getName()).contains(query))
+				if (searching && !matchingIds.contains(location.getId()))
 				{
 					continue;
 				}
@@ -419,7 +443,7 @@ public class TakeMeTherePanel extends PluginPanel
 		}
 	}
 
-	private DefaultMutableTreeNode buildCustomLocationsNode(String query, boolean searching)
+	private DefaultMutableTreeNode buildCustomLocationsNode(Set<String> matchingIds, boolean searching)
 	{
 		DefaultMutableTreeNode customNode = new DefaultMutableTreeNode(
 			new CategoryDefinition(CUSTOM_CATEGORY_ID, CUSTOM_CATEGORY_NAME)
@@ -427,7 +451,7 @@ public class TakeMeTherePanel extends PluginPanel
 
 		for (CustomLocation l : customLocationsById.values())
 		{
-			if (searching && !normalize(l.getName()).contains(query))
+			if (searching && !matchingIds.contains(l.getId()))
 			{
 				continue;
 			}
@@ -442,7 +466,7 @@ public class TakeMeTherePanel extends PluginPanel
 		return customNode;
 	}
 
-	private DefaultMutableTreeNode buildFavouritesNode(String query, boolean searching)
+	private DefaultMutableTreeNode buildFavouritesNode(Set<String> matchingIds, boolean searching)
 	{
 		DefaultMutableTreeNode favNode = new DefaultMutableTreeNode(
 			new CategoryDefinition(FAVOURITES_CATEGORY_ID, FAVOURITES_DISPLAY_NAME)
@@ -453,7 +477,7 @@ public class TakeMeTherePanel extends PluginPanel
 			LocationDefinition builtIn = catalog.getLocationsById().get(favId);
 			if (builtIn != null)
 			{
-				if (!searching || normalize(builtIn.getName()).contains(query))
+				if (!searching || matchingIds.contains(builtIn.getId()))
 				{
 					favNode.add(new DefaultMutableTreeNode(builtIn));
 				}
@@ -463,7 +487,7 @@ public class TakeMeTherePanel extends PluginPanel
 			CustomLocation custom = customLocationsById.get(favId);
 			if (custom != null)
 			{
-				if (!searching || normalize(custom.getName()).contains(query))
+				if (!searching || matchingIds.contains(custom.getId()))
 				{
 					favNode.add(new DefaultMutableTreeNode(custom));
 				}
@@ -522,7 +546,7 @@ public class TakeMeTherePanel extends PluginPanel
 
 	private void updateExpansionStateFromEvent(javax.swing.event.TreeExpansionEvent event, boolean expanded)
 	{
-		String query = normalize(searchField.getText());
+		String query = SearchService.normalize(searchField.getText());
 		if (!query.isEmpty())
 		{
 			return;
@@ -541,11 +565,6 @@ public class TakeMeTherePanel extends PluginPanel
 			expandedByCategoryId.put(((CategoryDefinition) userObject).getId(), expanded);
 			tree.repaint();
 		}
-	}
-
-	private static String normalize(String s)
-	{
-		return s == null ? "" : s.trim().toLowerCase(Locale.ROOT);
 	}
 
 	private final class TakeMeThereTreeCellRenderer extends JPanel implements javax.swing.tree.TreeCellRenderer
