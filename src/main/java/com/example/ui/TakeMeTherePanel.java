@@ -1,6 +1,7 @@
 package com.example.ui;
 
 import com.example.DestinationService;
+import com.example.DestinationSelectionService;
 import com.example.custom.CustomLocation;
 import com.example.custom.CustomLocationsStore;
 import com.example.custom.ui.CustomLocationsManagerDialog;
@@ -60,7 +61,7 @@ public class TakeMeTherePanel extends PluginPanel
 	private final SearchService searchService;
 	private final List<SearchCandidate> builtInCandidates = new ArrayList<>();
 	private final FavouritesStore favouritesStore;
-	private final DestinationService destinationService;
+	private final DestinationSelectionService selectionService;
 	private final LinkedHashSet<String> favouriteIds = new LinkedHashSet<>();
 
 	private final CustomLocationsStore customLocationsStore;
@@ -99,10 +100,21 @@ public class TakeMeTherePanel extends PluginPanel
 		CustomLocationsStore customLocationsStore,
 		SearchService searchService)
 	{
+		this(catalog, favouritesStore, customLocationsStore, searchService,
+			destinationService == null ? null : new DestinationSelectionService(destinationService, null));
+	}
+
+	public TakeMeTherePanel(
+		LocationCatalog catalog,
+		FavouritesStore favouritesStore,
+		CustomLocationsStore customLocationsStore,
+		SearchService searchService,
+		DestinationSelectionService selectionService)
+	{
 		this.catalog = catalog;
 		this.searchService = searchService;
 		this.favouritesStore = favouritesStore;
-		this.destinationService = destinationService;
+		this.selectionService = selectionService;
 		this.customLocationsStore = customLocationsStore;
 		for (CategoryDefinition category : catalog.getCategories())
 		{
@@ -282,7 +294,7 @@ public class TakeMeTherePanel extends PluginPanel
 						return;
 					}
 
-					setDestination(location.getX(), location.getY(), location.getPlane());
+					setDestination(location.getId(), location.getX(), location.getY(), location.getPlane());
 					tree.clearSelection();
 					return;
 				}
@@ -298,7 +310,7 @@ public class TakeMeTherePanel extends PluginPanel
 						return;
 					}
 
-					setDestination(location.getX(), location.getY(), location.getPlane());
+					setDestination(location.getId(), location.getX(), location.getY(), location.getPlane());
 					tree.clearSelection();
 				}
 			}
@@ -354,14 +366,14 @@ public class TakeMeTherePanel extends PluginPanel
 		rebuildTree();
 	}
 
-	private void setDestination(int x, int y, int plane)
+	private void setDestination(String id, int x, int y, int plane)
 	{
-		if (destinationService == null)
+		if (selectionService == null)
 		{
 			return;
 		}
 
-		destinationService.setDestination(new WorldPoint(x, y, plane));
+		selectionService.select(id, new WorldPoint(x, y, plane), searchField.getText());
 	}
 
 	private void reloadCustomLocations()

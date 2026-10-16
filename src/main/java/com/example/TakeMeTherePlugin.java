@@ -3,6 +3,7 @@ package com.example;
 import com.example.data.LocationCatalogLoader;
 import com.example.custom.CustomLocationsStore;
 import com.example.favourites.FavouritesStore;
+import com.example.history.LearnedHistoryStore;
 import com.example.ui.TakeMeTherePanel;
 import com.example.model.LocationCatalog;
 import com.example.search.SearchMetadata;
@@ -47,13 +48,15 @@ public class TakeMeTherePlugin extends Plugin
 			CustomLocationsStore customLocationsStore = new CustomLocationsStore(configManager, gson);
 
 			LocationCatalog catalog = new LocationCatalogLoader(gson).load();
-			SearchService searchService = new SearchService(SearchMetadata.load(gson, catalog));
+			LearnedHistoryStore historyStore = new LearnedHistoryStore(configManager, gson);
+			SearchService searchService = new SearchService(SearchMetadata.load(gson, catalog), historyStore);
+			DestinationSelectionService selectionService = new DestinationSelectionService(destinationService, historyStore);
 			TakeMeTherePanel panel = new TakeMeTherePanel(
 				catalog,
 				favouritesStore,
-				destinationService,
 				customLocationsStore,
-				searchService
+				searchService,
+				selectionService
 			);
 
 			BufferedImage icon = ImageUtil.loadImageResource(TakeMeTherePlugin.class, "/panel_icon.png");

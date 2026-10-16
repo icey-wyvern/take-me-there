@@ -1,5 +1,7 @@
 package com.example.search;
 
+import com.example.history.LearnedHistoryStore;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
@@ -10,6 +12,7 @@ import java.util.Objects;
 public final class SearchService
 {
 	private final SearchMetadata metadata;
+	private final LearnedHistoryStore historyStore;
 
 	public SearchService()
 	{
@@ -18,7 +21,13 @@ public final class SearchService
 
 	public SearchService(SearchMetadata metadata)
 	{
+		this(metadata, null);
+	}
+
+	public SearchService(SearchMetadata metadata, LearnedHistoryStore historyStore)
+	{
 		this.metadata = Objects.requireNonNull(metadata, "metadata");
+		this.historyStore = historyStore;
 	}
 
 	private static final Comparator<SearchResult> RESULT_ORDER = Comparator
@@ -51,7 +60,33 @@ public final class SearchService
 				results.add(new SearchResult(candidate, tier));
 			}
 		}
-		results.sort(RESULT_ORDER);
+		if (historyStore == null)
+		{
+			results.sort(RESULT_ORDER);
+		}
+		else
+		{
+			LearnedHistoryStore.RankingCounts counts = historyStore.countsFor(normalizedQuery);
+			results.sort((left, right) ->
+			{
+				int tier = left.getTier().compareTo(right.getTier());
+				if (tier != 0)
+				{
+					return tier;
+				}
+				int queryCount = Integer.compare(counts.queryCount(right.getId()), counts.queryCount(left.getId()));
+				if (queryCount != 0)
+				{
+					return queryCount;
+				}
+				int globalCount = Integer.compare(counts.globalCount(right.getId()), counts.globalCount(left.getId()));
+				if (globalCount != 0)
+				{
+					return globalCount;
+				}
+				return RESULT_ORDER.compare(left, right);
+			});
+		}
 		return results;
 	}
 

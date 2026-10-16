@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public final class DestinationService
 {
@@ -31,6 +32,13 @@ public final class DestinationService
 
 	public void setDestination(WorldPoint target)
 	{
+		setDestination(target, () -> {});
+	}
+
+	/** Calls onDispatched only after the Shortest Path path message was posted. */
+	public void setDestination(WorldPoint target, Runnable onDispatched)
+	{
+		Objects.requireNonNull(onDispatched, "onDispatched");
 		if (target == null)
 		{
 			return;
@@ -51,6 +59,7 @@ public final class DestinationService
 
 			log.debug("Posting Shortest Path destination. start={} target={}", localPlayer.getWorldLocation(), target);
 			eventBus.post(new PluginMessage("shortestpath", "path", data));
+			onDispatched.run();
 		});
 	}
 
