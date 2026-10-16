@@ -131,6 +131,11 @@ public final class LearnedHistoryStore
 		return List.copyOf(resolved);
 	}
 
+	public synchronized Map<String, Integer> globalDestinationCounts()
+	{
+		return Map.copyOf(state.globalCounts);
+	}
+
 	public synchronized void clear()
 	{
 		remove.run();

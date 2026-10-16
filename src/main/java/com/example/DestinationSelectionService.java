@@ -30,17 +30,32 @@ public final class DestinationSelectionService
 
 	public void select(String destinationId, WorldPoint target, String query)
 	{
+		select(destinationId, target, query, posted -> {});
+	}
+
+	/** Reports whether a Shortest Path path request was posted; completion runs on the EDT. */
+	public void select(String destinationId, WorldPoint target, String query, Consumer<Boolean> onComplete)
+	{
+		Objects.requireNonNull(onComplete, "onComplete");
 		if (destinationId == null || destinationId.isBlank() || target == null)
 		{
+			historyExecutor.accept(() -> onComplete.accept(false));
 			return;
 		}
 		String normalizedQuery = SearchService.normalize(query);
-		destinationService.setDestination(target, () ->
+		destinationService.setDestination(target, posted -> historyExecutor.accept(() ->
 		{
-			if (historyStore != null)
+			try
 			{
-				historyExecutor.accept(() -> historyStore.recordSelection(destinationId, normalizedQuery));
+				if (posted && historyStore != null)
+				{
+					historyStore.recordSelection(destinationId, normalizedQuery);
+				}
 			}
-		});
+			finally
+			{
+				onComplete.accept(posted);
+			}
+		}));
 	}
 }

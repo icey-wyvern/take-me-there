@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
+import java.util.function.Consumer;
 
 public final class DestinationService
 {
@@ -39,8 +40,22 @@ public final class DestinationService
 	public void setDestination(WorldPoint target, Runnable onDispatched)
 	{
 		Objects.requireNonNull(onDispatched, "onDispatched");
+		setDestination(target, posted ->
+		{
+			if (posted)
+			{
+				onDispatched.run();
+			}
+		});
+	}
+
+	/** Completes after the Shortest Path path message is posted, or when dispatch is rejected. */
+	public void setDestination(WorldPoint target, Consumer<Boolean> onComplete)
+	{
+		Objects.requireNonNull(onComplete, "onComplete");
 		if (target == null)
 		{
+			onComplete.accept(false);
 			return;
 		}
 
@@ -50,6 +65,7 @@ public final class DestinationService
 			if (localPlayer == null)
 			{
 				log.debug("Ignoring destination set because local player is null. target={}", target);
+				onComplete.accept(false);
 				return;
 			}
 
@@ -58,8 +74,16 @@ public final class DestinationService
 			data.put("target", target);
 
 			log.debug("Posting Shortest Path destination. start={} target={}", localPlayer.getWorldLocation(), target);
-			eventBus.post(new PluginMessage("shortestpath", "path", data));
-			onDispatched.run();
+			try
+			{
+				eventBus.post(new PluginMessage("shortestpath", "path", data));
+			}
+			catch (RuntimeException e)
+			{
+				onComplete.accept(false);
+				throw e;
+			}
+			onComplete.accept(true);
 		});
 	}
 

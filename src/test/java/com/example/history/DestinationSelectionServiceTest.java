@@ -65,13 +65,16 @@ public class DestinationSelectionServiceTest
 	public void invalidSelectionAndAbsentPlayerNeverRecord()
 	{
 		DestinationSelectionService selection = selection(playerClient());
-		selection.select("", target, "query");
-		selection.select("id", null, "query");
+		List<Boolean> completions = new ArrayList<>();
+		selection.select("", target, "query", completions::add);
+		selection.select("id", null, "query", completions::add);
 		assertNull(clientThread.pending);
-		selection(nullPlayerClient()).select("id", target, "query");
+		selection(nullPlayerClient()).select("id", target, "query", completions::add);
 		clientThread.runPending();
 		assertTrue(eventBus.events.isEmpty());
-		assertTrue(pendingHistory.isEmpty());
+		assertEquals(3, pendingHistory.size());
+		while (!pendingHistory.isEmpty()) pendingHistory.remove(0).run();
+		assertEquals(List.of(false, false, false), completions);
 		assertEquals(0, history.countsFor("query").globalCount("id"));
 	}
 
@@ -79,7 +82,8 @@ public class DestinationSelectionServiceTest
 	public void failedMessagePostNeverRecords()
 	{
 		eventBus.failPost = true;
-		selection(playerClient()).select("id", target, "query");
+		List<Boolean> completions = new ArrayList<>();
+		selection(playerClient()).select("id", target, "query", completions::add);
 		try
 		{
 			clientThread.runPending();
@@ -89,8 +93,27 @@ public class DestinationSelectionServiceTest
 		{
 			assertEquals("post failed", expected.getMessage());
 		}
-		assertTrue(pendingHistory.isEmpty());
+		assertEquals(1, pendingHistory.size());
+		pendingHistory.remove(0).run();
+		assertEquals(List.of(false), completions);
 		assertEquals(0, history.countsFor("query").globalCount("id"));
+	}
+
+	@Test
+	public void successfulSelectionCompletesOnceAfterHistoryIsRecorded()
+	{
+		List<Boolean> completions = new ArrayList<>();
+		selection(playerClient()).select("id", target, "search", posted ->
+		{
+			assertEquals(1, history.countsFor("search").globalCount("id"));
+			completions.add(posted);
+		});
+		clientThread.runPending();
+		assertTrue(completions.isEmpty());
+		assertEquals(1, pendingHistory.size());
+		pendingHistory.remove(0).run();
+		assertEquals(List.of(true), completions);
+		assertTrue(pendingHistory.isEmpty());
 	}
 
 	private DestinationSelectionService selection(Client client)

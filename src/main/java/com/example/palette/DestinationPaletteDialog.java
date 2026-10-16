@@ -1,0 +1,338 @@
+package com.example.palette;
+
+import com.example.DestinationSelectionService;
+import com.example.custom.CustomLocationsStore;
+import com.example.history.LearnedHistoryStore;
+import com.example.model.LocationCatalog;
+import com.example.search.SearchService;
+import net.runelite.client.ui.ColorScheme;
+import net.runelite.client.ui.FontManager;
+import net.runelite.client.ui.components.IconTextField;
+
+import javax.swing.AbstractAction;
+import javax.swing.ActionMap;
+import javax.swing.BorderFactory;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.DefaultListCellRenderer;
+import javax.swing.DefaultListModel;
+import javax.swing.InputMap;
+import javax.swing.JComponent;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.KeyStroke;
+import javax.swing.ListSelectionModel;
+import javax.swing.SwingUtilities;
+import javax.swing.WindowConstants;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Dimension;
+import java.awt.KeyboardFocusManager;
+import java.awt.Rectangle;
+import java.awt.Window;
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.util.Objects;
+
+/** Modeless Swing shell. A future hotkey can call open/closeWithoutSelection. */
+public final class DestinationPaletteDialog extends JDialog
+{
+	private static final Dimension PREFERRED_SIZE = new Dimension(560, 470);
+	private static final String RESULTS_CARD = "results";
+	private static final String MESSAGE_CARD = "message";
+
+	private final DestinationPaletteController controller;
+	private final IconTextField searchField = new IconTextField();
+	private final DefaultListModel<PaletteDestination> listModel = new DefaultListModel<>();
+	private final JList<PaletteDestination> results = new JList<PaletteDestination>(listModel)
+	{
+		@Override
+		public String getToolTipText(MouseEvent event)
+		{
+			int index = locationToIndex(event.getPoint());
+			Rectangle cell = index < 0 ? null : getCellBounds(index, index);
+			if (cell == null || !cell.contains(event.getPoint()))
+			{
+				return null;
+			}
+			PaletteDestination destination = listModel.get(index);
+			return destination.getName() + " — " + destination.getCategory();
+		}
+	};
+	private final java.awt.CardLayout cards = new java.awt.CardLayout();
+	private final JPanel resultContainer = new JPanel(cards);
+	private final JLabel message = new JLabel("", JLabel.CENTER);
+	private Component previousFocusOwner;
+
+	public DestinationPaletteDialog(Window owner, LocationCatalog catalog, CustomLocationsStore customStore,
+		SearchService searchService, LearnedHistoryStore historyStore,
+		DestinationSelectionService selectionService)
+	{
+		super(Objects.requireNonNull(owner, "owner"), "Search destinations", ModalityType.MODELESS);
+		Objects.requireNonNull(catalog, "catalog");
+		Objects.requireNonNull(selectionService, "selectionService");
+		controller = new DestinationPaletteController(
+			() -> PaletteDestinationSource.load(catalog, customStore), searchService, historyStore,
+			(destination, query, completion) -> selectionService.select(destination.getId(),
+				destination.getTarget(), query, completion), this::hideAndRestoreFocus);
+		setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
+		setSize(PREFERRED_SIZE);
+		buildUi();
+		bindKeys();
+		addWindowListener(new WindowAdapter()
+		{
+			@Override
+			public void windowClosing(WindowEvent event)
+			{
+				closeWithoutSelection();
+			}
+		});
+	}
+
+	private void buildUi()
+	{
+		JPanel content = new JPanel(new BorderLayout(0, 10));
+		content.setBorder(BorderFactory.createEmptyBorder(12, 12, 10, 12));
+		content.setBackground(ColorScheme.DARK_GRAY_COLOR);
+		setContentPane(content);
+
+		JPanel header = new JPanel();
+		header.setLayout(new BoxLayout(header, BoxLayout.Y_AXIS));
+		header.setBackground(ColorScheme.DARK_GRAY_COLOR);
+		JLabel title = new JLabel("Search destinations");
+		title.setFont(FontManager.getRunescapeBoldFont().deriveFont(16f));
+		title.setForeground(Color.WHITE);
+		title.setAlignmentX(Component.LEFT_ALIGNMENT);
+		header.add(title);
+		header.add(Box.createVerticalStrut(8));
+		searchField.setIcon(IconTextField.Icon.SEARCH);
+		searchField.setBackground(ColorScheme.DARKER_GRAY_COLOR);
+		searchField.setHoverBackgroundColor(ColorScheme.DARKER_GRAY_HOVER_COLOR);
+		searchField.getAccessibleContext().setAccessibleName("Search destinations");
+		searchField.setAlignmentX(Component.LEFT_ALIGNMENT);
+		header.add(searchField);
+		content.add(header, BorderLayout.NORTH);
+
+		results.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		results.setFixedCellHeight(38);
+		results.setVisibleRowCount(DestinationPaletteController.VISIBLE_RESULT_LIMIT);
+		results.setFocusable(false);
+		results.setBackground(ColorScheme.DARKER_GRAY_COLOR);
+		results.setCellRenderer(new DestinationRenderer());
+		results.getAccessibleContext().setAccessibleName("Destination results");
+		results.addMouseListener(new MouseAdapter()
+		{
+			@Override
+			public void mousePressed(MouseEvent event)
+			{
+				if (SwingUtilities.isLeftMouseButton(event))
+				{
+					selectMouseRow(event);
+				}
+			}
+
+			@Override
+			public void mouseClicked(MouseEvent event)
+			{
+				if (SwingUtilities.isLeftMouseButton(event) && event.getClickCount() == 2
+					&& selectMouseRow(event))
+				{
+					controller.confirm();
+				}
+			}
+		});
+		JScrollPane scroll = new JScrollPane(results);
+		scroll.setBorder(null);
+		resultContainer.add(scroll, RESULTS_CARD);
+		message.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
+		message.setBackground(ColorScheme.DARKER_GRAY_COLOR);
+		message.setOpaque(true);
+		resultContainer.add(message, MESSAGE_CARD);
+		content.add(resultContainer, BorderLayout.CENTER);
+
+		JLabel hint = new JLabel("↑↓ Select · Enter Route · Esc Close");
+		hint.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
+		hint.setFont(FontManager.getRunescapeFont().deriveFont(12f));
+		content.add(hint, BorderLayout.SOUTH);
+
+		searchField.getDocument().addDocumentListener(new DocumentListener()
+		{
+			@Override public void insertUpdate(DocumentEvent e) { updateSearch(); }
+			@Override public void removeUpdate(DocumentEvent e) { updateSearch(); }
+			@Override public void changedUpdate(DocumentEvent e) { updateSearch(); }
+		});
+		searchField.addClearListener(this::updateSearch);
+	}
+
+	private void bindKeys()
+	{
+		InputMap input = searchField.getInputMap(JComponent.WHEN_FOCUSED);
+		ActionMap actions = searchField.getActionMap();
+		input.put(KeyStroke.getKeyStroke(KeyEvent.VK_DOWN, 0), "paletteDown");
+		input.put(KeyStroke.getKeyStroke(KeyEvent.VK_UP, 0), "paletteUp");
+		input.put(KeyStroke.getKeyStroke(KeyEvent.VK_ENTER, 0), "paletteEnter");
+		input.put(KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), "paletteEscape");
+		actions.put("paletteDown", new AbstractAction()
+		{
+			@Override public void actionPerformed(ActionEvent event) { controller.moveSelection(1); render(); }
+		});
+		actions.put("paletteUp", new AbstractAction()
+		{
+			@Override public void actionPerformed(ActionEvent event) { controller.moveSelection(-1); render(); }
+		});
+		actions.put("paletteEnter", new AbstractAction()
+		{
+			@Override public void actionPerformed(ActionEvent event) { controller.confirm(); }
+		});
+		actions.put("paletteEscape", new AbstractAction()
+		{
+			@Override public void actionPerformed(ActionEvent event) { closeWithoutSelection(); }
+		});
+	}
+
+	private boolean selectMouseRow(MouseEvent event)
+	{
+		int index = results.locationToIndex(event.getPoint());
+		Rectangle cell = index < 0 ? null : results.getCellBounds(index, index);
+		if (cell == null || !cell.contains(event.getPoint()))
+		{
+			return false;
+		}
+		controller.selectIndex(index);
+		render();
+		return true;
+	}
+
+	private void updateSearch()
+	{
+		controller.queryChanged(searchField.getText());
+		render();
+	}
+
+	private void render()
+	{
+		listModel.clear();
+		for (PaletteDestination destination : controller.getVisible())
+		{
+			listModel.addElement(destination);
+		}
+		if (controller.getVisible().isEmpty())
+		{
+			message.setText(controller.getQuery().isEmpty() ? "Search for a destination" : "No destinations found");
+			cards.show(resultContainer, MESSAGE_CARD);
+		}
+		else
+		{
+			cards.show(resultContainer, RESULTS_CARD);
+			results.setSelectedIndex(controller.getSelectedIndex());
+			if (controller.getSelectedIndex() >= 0)
+			{
+				results.ensureIndexIsVisible(controller.getSelectedIndex());
+			}
+		}
+	}
+
+	public void open()
+	{
+		if (!SwingUtilities.isEventDispatchThread())
+		{
+			SwingUtilities.invokeLater(this::open);
+			return;
+		}
+		if (controller.isOpen())
+		{
+			searchField.requestFocusInWindow();
+			return;
+		}
+		previousFocusOwner = KeyboardFocusManager.getCurrentKeyboardFocusManager().getFocusOwner();
+		controller.open();
+		searchField.setText("");
+		render();
+		setBounds(PalettePositioning.boundsFor(PalettePositioning.usableBounds(getOwner()), PREFERRED_SIZE));
+		setVisible(true);
+		SwingUtilities.invokeLater(() ->
+		{
+			if (isVisible())
+			{
+				searchField.requestFocusInWindow();
+			}
+		});
+	}
+
+	public void closeWithoutSelection()
+	{
+		if (!SwingUtilities.isEventDispatchThread())
+		{
+			SwingUtilities.invokeLater(this::closeWithoutSelection);
+			return;
+		}
+		controller.closeWithoutSelection();
+	}
+
+	public boolean isOpen()
+	{
+		return controller.isOpen();
+	}
+
+	public void disposePalette()
+	{
+		if (!SwingUtilities.isEventDispatchThread())
+		{
+			SwingUtilities.invokeLater(this::disposePalette);
+			return;
+		}
+		controller.closeWithoutSelection();
+		dispose();
+	}
+
+	private void hideAndRestoreFocus()
+	{
+		setVisible(false);
+		Component focus = previousFocusOwner;
+		previousFocusOwner = null;
+		if (focus != null)
+		{
+			SwingUtilities.invokeLater(() ->
+			{
+				if (focus.isDisplayable())
+				{
+					focus.requestFocusInWindow();
+				}
+			});
+		}
+	}
+
+	private static final class DestinationRenderer extends DefaultListCellRenderer
+	{
+		@Override
+		public Component getListCellRendererComponent(JList<?> list, Object value, int index,
+			boolean selected, boolean hasFocus)
+		{
+			PaletteDestination destination = (PaletteDestination) value;
+			JPanel row = new JPanel(new BorderLayout());
+			row.setBorder(BorderFactory.createCompoundBorder(
+				BorderFactory.createMatteBorder(0, selected ? 3 : 0, 0, 0, Color.WHITE),
+				BorderFactory.createEmptyBorder(2, selected ? 7 : 10, 2, 8)));
+			row.setBackground(selected ? ColorScheme.DARKER_GRAY_HOVER_COLOR : ColorScheme.DARKER_GRAY_COLOR);
+			JLabel name = new JLabel(destination.getName());
+			name.setForeground(Color.WHITE);
+			name.setFont(FontManager.getRunescapeFont().deriveFont(13f));
+			JLabel category = new JLabel(destination.getCategory());
+			category.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
+			category.setFont(FontManager.getRunescapeFont().deriveFont(11f));
+			row.add(name, BorderLayout.CENTER);
+			row.add(category, BorderLayout.SOUTH);
+			return row;
+		}
+	}
+}
