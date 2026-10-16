@@ -7,7 +7,7 @@ public class TakeMeTherePluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(TakeMeTherePlugin.class);
+		ExternalPluginManager.loadBuiltin(DevTakeMeTherePlugin.class);
 		RuneLite.main(args);
 	}
 }

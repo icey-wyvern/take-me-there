@@ -9,21 +9,16 @@ import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.FontManager;
 import net.runelite.client.ui.components.IconTextField;
 
-import javax.swing.AbstractAction;
-import javax.swing.ActionMap;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.DefaultListCellRenderer;
 import javax.swing.DefaultListModel;
-import javax.swing.InputMap;
-import javax.swing.JComponent;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import javax.swing.KeyStroke;
 import javax.swing.ListSelectionModel;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
@@ -36,7 +31,6 @@ import java.awt.Dimension;
 import java.awt.KeyboardFocusManager;
 import java.awt.Rectangle;
 import java.awt.Window;
-import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -176,28 +170,11 @@ public final class DestinationPaletteDialog extends JDialog implements PaletteHo
 
 	private void bindKeys()
 	{
-		InputMap input = searchField.getInputMap(JComponent.WHEN_FOCUSED);
-		ActionMap actions = searchField.getActionMap();
-		input.put(KeyStroke.getKeyStroke(KeyEvent.VK_DOWN, 0), "paletteDown");
-		input.put(KeyStroke.getKeyStroke(KeyEvent.VK_UP, 0), "paletteUp");
-		input.put(KeyStroke.getKeyStroke(KeyEvent.VK_ENTER, 0), "paletteEnter");
-		input.put(KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), "paletteEscape");
-		actions.put("paletteDown", new AbstractAction()
-		{
-			@Override public void actionPerformed(ActionEvent event) { controller.moveSelection(1); render(); }
-		});
-		actions.put("paletteUp", new AbstractAction()
-		{
-			@Override public void actionPerformed(ActionEvent event) { controller.moveSelection(-1); render(); }
-		});
-		actions.put("paletteEnter", new AbstractAction()
-		{
-			@Override public void actionPerformed(ActionEvent event) { controller.confirm(); }
-		});
-		actions.put("paletteEscape", new AbstractAction()
-		{
-			@Override public void actionPerformed(ActionEvent event) { closeWithoutSelection(); }
-		});
+		// IconTextField forwards focus to its nested JTextField, not to the outer JPanel.
+		PaletteKeyBindings.install(searchField,
+			() -> { controller.moveSelection(1); render(); },
+			() -> { controller.moveSelection(-1); render(); },
+			controller::confirm, this::closeWithoutSelection);
 	}
 
 	private boolean selectMouseRow(MouseEvent event)
