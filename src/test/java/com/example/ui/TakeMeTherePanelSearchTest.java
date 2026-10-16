@@ -3,6 +3,8 @@ package com.example.ui;
 import com.example.model.CategoryDefinition;
 import com.example.model.LocationCatalog;
 import com.example.model.LocationDefinition;
+import com.example.search.SearchMetadata;
+import com.example.search.SearchService;
 import net.runelite.client.ui.components.IconTextField;
 import org.junit.Test;
 
@@ -40,7 +42,10 @@ public class TakeMeTherePanelSearchTest
 				byId.put(first.getId(), first);
 				byId.put(second.getId(), second);
 				byId.put(other.getId(), other);
-				TakeMeTherePanel panel = new TakeMeTherePanel(new LocationCatalog(categories, byCategory, byId));
+				SearchService searchService = new SearchService(new SearchMetadata(Map.of(
+					first.getId(), List.of("cox"), second.getId(), List.of("cox"))));
+				TakeMeTherePanel panel = new TakeMeTherePanel(
+					new LocationCatalog(categories, byCategory, byId), null, null, null, searchService);
 
 				Field favouriteField = TakeMeTherePanel.class.getDeclaredField("favouriteIds");
 				favouriteField.setAccessible(true);
@@ -50,7 +55,8 @@ public class TakeMeTherePanelSearchTest
 
 				Field searchField = TakeMeTherePanel.class.getDeclaredField("searchField");
 				searchField.setAccessible(true);
-				((IconTextField) searchField.get(panel)).setText("chambers xeric");
+				IconTextField input = (IconTextField) searchField.get(panel);
+				input.setText("chambers xeric");
 
 				Field treeField = TakeMeTherePanel.class.getDeclaredField("tree");
 				treeField.setAccessible(true);
@@ -62,6 +68,14 @@ public class TakeMeTherePanelSearchTest
 				DefaultMutableTreeNode catalogCategory = (DefaultMutableTreeNode) root.getChildAt(1);
 				assertEquals(first, ((DefaultMutableTreeNode) catalogCategory.getChildAt(0)).getUserObject());
 				assertEquals(second, ((DefaultMutableTreeNode) catalogCategory.getChildAt(1)).getUserObject());
+
+				input.setText("cox");
+				DefaultMutableTreeNode aliasRoot = (DefaultMutableTreeNode) tree.getModel().getRoot();
+				DefaultMutableTreeNode aliasCategory = (DefaultMutableTreeNode) aliasRoot.getChildAt(1);
+				assertEquals(first, ((DefaultMutableTreeNode) aliasCategory.getChildAt(0)).getUserObject());
+				assertEquals(second, ((DefaultMutableTreeNode) aliasCategory.getChildAt(1)).getUserObject());
+				input.setText("chmabers xeric");
+				assertEquals(2, ((DefaultMutableTreeNode) tree.getModel().getRoot()).getChildCount());
 			}
 			catch (ReflectiveOperationException e)
 			{

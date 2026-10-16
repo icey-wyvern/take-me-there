@@ -57,7 +57,7 @@ public class TakeMeTherePanel extends PluginPanel
 	private final Map<String, Boolean> expandedByCategoryId = new LinkedHashMap<>();
 
 	private final LocationCatalog catalog;
-	private final SearchService searchService = new SearchService();
+	private final SearchService searchService;
 	private final List<SearchCandidate> builtInCandidates = new ArrayList<>();
 	private final FavouritesStore favouritesStore;
 	private final DestinationService destinationService;
@@ -89,13 +89,27 @@ public class TakeMeTherePanel extends PluginPanel
 		DestinationService destinationService,
 		CustomLocationsStore customLocationsStore)
 	{
+		this(catalog, favouritesStore, destinationService, customLocationsStore, new SearchService());
+	}
+
+	public TakeMeTherePanel(
+		LocationCatalog catalog,
+		FavouritesStore favouritesStore,
+		DestinationService destinationService,
+		CustomLocationsStore customLocationsStore,
+		SearchService searchService)
+	{
 		this.catalog = catalog;
+		this.searchService = searchService;
 		this.favouritesStore = favouritesStore;
 		this.destinationService = destinationService;
 		this.customLocationsStore = customLocationsStore;
-		for (LocationDefinition location : catalog.getLocationsById().values())
+		for (CategoryDefinition category : catalog.getCategories())
 		{
-			builtInCandidates.add(new SearchCandidate(location.getId(), location.getName()));
+			for (LocationDefinition location : catalog.getLocationsByCategoryId().getOrDefault(category.getId(), List.of()))
+			{
+				builtInCandidates.add(new SearchCandidate(location.getId(), location.getName(), category.getDisplayName()));
+			}
 		}
 
 		setLayout(new BorderLayout());
@@ -380,7 +394,7 @@ public class TakeMeTherePanel extends PluginPanel
 			List<SearchCandidate> candidates = new ArrayList<>(builtInCandidates);
 			for (CustomLocation location : customLocationsById.values())
 			{
-				candidates.add(new SearchCandidate(location.getId(), location.getName()));
+				candidates.add(new SearchCandidate(location.getId(), location.getName(), CUSTOM_CATEGORY_NAME));
 			}
 			for (SearchResult result : searchService.search(query, candidates))
 			{

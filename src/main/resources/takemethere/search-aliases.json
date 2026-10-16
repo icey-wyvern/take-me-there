@@ -1,0 +1,46 @@
+[
+  {
+    "id": "dungeons:chambers-of-xeric",
+    "aliases": ["cox"]
+  },
+  {
+    "id": "zeah-general-pois:chambers-of-xeric",
+    "aliases": ["cox"]
+  },
+  {
+    "id": "banks:chambers-of-xeric-lobby-chest",
+    "aliases": ["cox bank", "cox lobby"]
+  },
+  {
+    "id": "hunter-spots:carnivorous-chinchompa-feldip-hunter-area-a-k-s",
+    "aliases": ["red chins", "red chinchompas"]
+  },
+  {
+    "id": "hunter-spots:carnivorous-chinchompa-gwenith-hunter-area",
+    "aliases": ["red chins", "red chinchompas"]
+  },
+  {
+    "id": "hunter-spots:carnivorous-chinchompa-the-great-conch-southern-hunting-area-c-j-q",
+    "aliases": ["red chins", "red chinchompas"]
+  },
+  {
+    "id": "hunter-spots:carnivorous-chinchompa-tlati-rainforest",
+    "aliases": ["red chins", "red chinchompas"]
+  },
+  {
+    "id": "varlamore-shops:construction-supplies-auburnvale-sawmill",
+    "aliases": ["sawmill"]
+  },
+  {
+    "id": "zeah-shops:construction-supplies-woodcutting-guild",
+    "aliases": ["sawmill"]
+  },
+  {
+    "id": "varlamore-shops:tal-teklan-rune-shop-magic-shop",
+    "aliases": ["rune shop", "magic shop"]
+  },
+  {
+    "id": "varlamore-shops:the-runic-emporium-cam-torum-magic-shop",
+    "aliases": ["rune shop", "magic shop"]
+  }
+]

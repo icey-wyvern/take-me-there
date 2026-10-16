@@ -4,6 +4,9 @@ import com.example.data.LocationCatalogLoader;
 import com.example.custom.CustomLocationsStore;
 import com.example.favourites.FavouritesStore;
 import com.example.ui.TakeMeTherePanel;
+import com.example.model.LocationCatalog;
+import com.example.search.SearchMetadata;
+import com.example.search.SearchService;
 import com.google.gson.Gson;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.plugins.Plugin;
@@ -43,11 +46,14 @@ public class TakeMeTherePlugin extends Plugin
 			FavouritesStore favouritesStore = new FavouritesStore(configManager, gson);
 			CustomLocationsStore customLocationsStore = new CustomLocationsStore(configManager, gson);
 
+			LocationCatalog catalog = new LocationCatalogLoader(gson).load();
+			SearchService searchService = new SearchService(SearchMetadata.load(gson, catalog));
 			TakeMeTherePanel panel = new TakeMeTherePanel(
-				new LocationCatalogLoader(gson).load(),
+				catalog,
 				favouritesStore,
 				destinationService,
-				customLocationsStore
+				customLocationsStore,
+				searchService
 			);
 
 			BufferedImage icon = ImageUtil.loadImageResource(TakeMeTherePlugin.class, "/panel_icon.png");

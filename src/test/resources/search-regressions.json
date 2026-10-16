@@ -1,0 +1,20 @@
+[
+  {"query":"Chambers of Xeric","topIds":["dungeons:chambers-of-xeric","zeah-general-pois:chambers-of-xeric"],"tier":"EXACT"},
+  {"query":"chambers","topIds":["dungeons:chambers-of-xeric","zeah-general-pois:chambers-of-xeric"],"tier":"PREFIX"},
+  {"query":"chambers xeric","topIds":["dungeons:chambers-of-xeric","zeah-general-pois:chambers-of-xeric"],"tier":"TOKEN"},
+  {"query":"ambers of xeric","topIds":["dungeons:chambers-of-xeric","zeah-general-pois:chambers-of-xeric"],"tier":"SUBSTRING"},
+  {"query":"cox","topIds":["dungeons:chambers-of-xeric","zeah-general-pois:chambers-of-xeric"],"tier":"ALIAS"},
+  {"query":"red chins","topIds":["hunter-spots:carnivorous-chinchompa-feldip-hunter-area-a-k-s","hunter-spots:carnivorous-chinchompa-gwenith-hunter-area"],"tier":"ALIAS"},
+  {"query":"sawmill","topIds":["varlamore-shops:construction-supplies-auburnvale-sawmill","zeah-shops:construction-supplies-woodcutting-guild"],"tier":"ALIAS"},
+  {"query":"rune shop","topIds":["varlamore-shops:tal-teklan-rune-shop-magic-shop","varlamore-shops:the-runic-emporium-cam-torum-magic-shop"],"tier":"TOKEN"},
+  {"query":"magic shop","topIds":["varlamore-shops:tal-teklan-rune-shop-magic-shop","varlamore-shops:the-runic-emporium-cam-torum-magic-shop"],"tier":"TOKEN"},
+  {"query":"cox lo","topIds":["banks:chambers-of-xeric-lobby-chest"],"tier":"ALIAS_PARTIAL"},
+  {"query":"COX!","topIds":["dungeons:chambers-of-xeric"],"tier":"ALIAS"},
+  {"query":"CHAMBERS, OF XERIC","topIds":["dungeons:chambers-of-xeric"],"tier":"EXACT"},
+  {"query":"chambrs","topIds":["dungeons:chambers-of-xeric"],"tier":"FUZZY"},
+  {"query":"chambars","topIds":["dungeons:chambers-of-xeric"],"tier":"FUZZY"},
+  {"query":"chmabers xeric","topIds":["dungeons:chambers-of-xeric"],"tier":"FUZZY"},
+  {"query":"chambers xerc","topIds":["dungeons:chambers-of-xeric"],"tier":"FUZZY"},
+  {"query":"zzzzqqqq","topIds":[]},
+  {"query":"  ","topIds":[]}
+]
