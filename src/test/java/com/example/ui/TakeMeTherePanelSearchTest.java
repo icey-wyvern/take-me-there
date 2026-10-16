@@ -18,9 +18,25 @@ import java.util.List;
 import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class TakeMeTherePanelSearchTest
 {
+	@Test
+	public void onboardingTipCanHideWithoutChangingSidebarSearch() throws Exception
+	{
+		SwingUtilities.invokeAndWait(() ->
+		{
+			TakeMeTherePanel panel = new TakeMeTherePanel(new LocationCatalog(List.of(), Map.of(), Map.of()));
+			assertFalse(panel.isPaletteTipVisible());
+			panel.setPaletteTipVisible(true);
+			assertTrue(panel.isPaletteTipVisible());
+			panel.setPaletteTipVisible(false);
+			assertFalse(panel.isPaletteTipVisible());
+		});
+	}
+
 	@Test
 	public void sharedMatcherFiltersWithoutChangingCategoryOrFavouriteOrder() throws Exception
 	{

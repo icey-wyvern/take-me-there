@@ -6,7 +6,11 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Consumer;
 import javax.swing.JPanel;
+import com.example.onboarding.PaletteTipState;
+import java.util.HashMap;
+import java.util.Map;
 import net.runelite.client.config.Keybind;
 import net.runelite.client.input.KeyListener;
 import org.junit.Test;
@@ -26,6 +30,7 @@ public class PaletteHotkeyControllerTest
 	private int unregisterCalls;
 	private int dispatcherAdds;
 	private int dispatcherRemoves;
+	private Consumer<Keybind> onOpened = ignored -> {};
 
 	@Test
 	public void globalHotkeyOpensOnceAndPaletteFocusedHotkeyClosesWithoutRouting()
@@ -141,9 +146,34 @@ public class PaletteHotkeyControllerTest
 		assertEquals(2, palette.disposals);
 	}
 
+	@Test
+	public void firstSuccessfulDefaultOpeningDismissesTipWithoutRouting()
+	{
+		Map<String, String> configValues = new HashMap<>();
+		PaletteTipState tip = new PaletteTipState(() -> configValues.get("paletteTipDismissed"),
+			value -> configValues.put("paletteTipDismissed", value));
+		onOpened = tip::openedWith;
+		PaletteHotkeyController controller = controller();
+		controller.start();
+		assertTrue(tip.shouldShow(configured.get()));
+		palette.failOpen = true;
+		registered.get(0).keyPressed(press(game, KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK));
+		assertTrue(tip.shouldShow(configured.get()));
+		assertFalse(configValues.containsKey("paletteTipDismissed"));
+		controller.configurationChanged(); // clear the synthetic failed press
+		palette.failOpen = false;
+		registered.get(0).keyPressed(press(game, KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK));
+		assertEquals(2, palette.opens);
+		assertEquals("true", configValues.get("paletteTipDismissed"));
+		assertFalse(tip.shouldShow(configured.get()));
+		assertFalse(new PaletteTipState(() -> configValues.get("paletteTipDismissed"),
+			value -> configValues.put("paletteTipDismissed", value)).shouldShow(configured.get()));
+		assertEquals(0, palette.routes);
+	}
+
 	private PaletteHotkeyController controller()
 	{
-		return new PaletteHotkeyController(configured::get, palette,
+		return new PaletteHotkeyController(configured::get, palette, onOpened,
 			listener -> { registerCalls++; registered.add(listener); },
 			listener -> { unregisterCalls++; registered.remove(listener); },
 			dispatcher -> { dispatcherAdds++; dispatchers.add(dispatcher); },
@@ -176,9 +206,10 @@ public class PaletteHotkeyControllerTest
 		private int closes;
 		private int disposals;
 		private int routes;
+		private boolean failOpen;
 
 		@Override public boolean isOpen() { return open; }
-		@Override public void open() { open = true; opens++; }
+		@Override public void open() { if (!failOpen) open = true; opens++; }
 		@Override public void closeWithoutSelection() { open = false; closes++; }
 		@Override public void disposePalette() { open = false; disposals++; }
 		@Override public boolean ownsKeyEvent(KeyEvent event) { return event.getSource() == searchField; }

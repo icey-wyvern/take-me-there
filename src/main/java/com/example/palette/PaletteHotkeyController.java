@@ -24,6 +24,7 @@ public final class PaletteHotkeyController
 
 	private final Supplier<Keybind> configuredKeybind;
 	private final PaletteWindow palette;
+	private final Consumer<Keybind> onOpened;
 	private final Consumer<KeyListener> register;
 	private final Consumer<KeyListener> unregister;
 	private final Consumer<KeyEventDispatcher> addDispatcher;
@@ -38,11 +39,13 @@ public final class PaletteHotkeyController
 	private int matchingGlobalEventCode;
 
 	public PaletteHotkeyController(Supplier<Keybind> configuredKeybind, PaletteWindow palette,
+		Consumer<Keybind> onOpened,
 		Consumer<KeyListener> register, Consumer<KeyListener> unregister,
 		Consumer<KeyEventDispatcher> addDispatcher, Consumer<KeyEventDispatcher> removeDispatcher)
 	{
 		this.configuredKeybind = Objects.requireNonNull(configuredKeybind, "configuredKeybind");
 		this.palette = Objects.requireNonNull(palette, "palette");
+		this.onOpened = Objects.requireNonNull(onOpened, "onOpened");
 		this.register = Objects.requireNonNull(register, "register");
 		this.unregister = Objects.requireNonNull(unregister, "unregister");
 		this.addDispatcher = Objects.requireNonNull(addDispatcher, "addDispatcher");
@@ -76,7 +79,12 @@ public final class PaletteHotkeyController
 					}
 					else
 					{
+						Keybind usedHotkey = keybind();
 						palette.open();
+						if (palette.isOpen())
+						{
+							onOpened.accept(usedHotkey);
+						}
 					}
 					// The release can land in the newly focused dialog, away from KeyManager.
 					SwingUtilities.invokeLater(() ->

@@ -5,6 +5,7 @@ import com.example.custom.CustomLocationsStore;
 import com.example.favourites.FavouritesStore;
 import com.example.history.LearnedHistoryStore;
 import com.example.model.LocationCatalog;
+import com.example.onboarding.PaletteTipState;
 import com.example.palette.DestinationPaletteDialog;
 import com.example.palette.PaletteHotkeyController;
 import com.example.search.SearchMetadata;
@@ -60,6 +61,8 @@ public class TakeMeTherePlugin extends Plugin
 	private NavigationButton navigationButton;
 	private DestinationPaletteDialog palette;
 	private PaletteHotkeyController paletteHotkeys;
+	private volatile PaletteTipState paletteTipState;
+	private TakeMeTherePanel panel;
 	private final AtomicInteger lifecycleGeneration = new AtomicInteger();
 
 	@Provides
@@ -86,13 +89,17 @@ public class TakeMeTherePlugin extends Plugin
 			LearnedHistoryStore historyStore = new LearnedHistoryStore(configManager, gson);
 			SearchService searchService = new SearchService(SearchMetadata.load(gson, catalog), historyStore);
 			DestinationSelectionService selectionService = new DestinationSelectionService(destinationService, historyStore);
-			TakeMeTherePanel panel = new TakeMeTherePanel(
+			PaletteTipState tipState = new PaletteTipState(configManager);
+			TakeMeTherePanel newPanel = new TakeMeTherePanel(
 				catalog,
 				favouritesStore,
 				customLocationsStore,
 				searchService,
 				selectionService
 			);
+			newPanel.setPaletteTipVisible(tipState.reconcile(config.paletteHotkey()));
+			paletteTipState = tipState;
+			panel = newPanel;
 			Window owner = SwingUtilities.getWindowAncestor((Component) client);
 			if (owner == null)
 			{
@@ -102,6 +109,11 @@ public class TakeMeTherePlugin extends Plugin
 				searchService, historyStore, selectionService);
 			KeyboardFocusManager focusManager = KeyboardFocusManager.getCurrentKeyboardFocusManager();
 			paletteHotkeys = new PaletteHotkeyController(config::paletteHotkey, palette,
+				usedHotkey ->
+				{
+					tipState.openedWith(usedHotkey);
+					newPanel.setPaletteTipVisible(tipState.shouldShow(config.paletteHotkey()));
+				},
 				keyManager::registerKeyListener, keyManager::unregisterKeyListener,
 				focusManager::addKeyEventDispatcher, focusManager::removeKeyEventDispatcher);
 
@@ -110,7 +122,7 @@ public class TakeMeTherePlugin extends Plugin
 			navigationButton = NavigationButton.builder()
 				.tooltip("Take Me There")
 				.icon(icon)
-				.panel(panel)
+				.panel(newPanel)
 				.build();
 
 			clientToolbar.addNavigation(navigationButton);
@@ -130,11 +142,21 @@ public class TakeMeTherePlugin extends Plugin
 	{
 		if ("takemethere".equals(event.getGroup()) && "paletteHotkey".equals(event.getKey()))
 		{
+			PaletteTipState tipState = paletteTipState;
+			if (tipState != null)
+			{
+				// ConfigManager posts this event after updating the config proxy.
+				tipState.reconcile(config.paletteHotkey());
+			}
 			SwingUtilities.invokeLater(() ->
 			{
 				if (paletteHotkeys != null)
 				{
 					paletteHotkeys.configurationChanged();
+				}
+				if (tipState != null && tipState == paletteTipState && panel != null)
+				{
+					panel.setPaletteTipVisible(tipState.shouldShow(config.paletteHotkey()));
 				}
 			});
 		}
@@ -158,5 +180,7 @@ public class TakeMeTherePlugin extends Plugin
 			clientToolbar.removeNavigation(navigationButton);
 			navigationButton = null;
 		}
+		panel = null;
+		paletteTipState = null;
 	}
 }

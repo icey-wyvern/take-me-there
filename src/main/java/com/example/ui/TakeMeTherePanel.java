@@ -51,6 +51,7 @@ public class TakeMeTherePanel extends PluginPanel
 	private static final int STAR_RIGHT_PADDING_PX = 8;
 
 	private final IconTextField searchField = new IconTextField();
+	private final JLabel paletteTip = new JLabel("Tip: Use Ctrl+T to search quickly");
 	private final JTree tree = new JTree();
 
 	private final JButton manageButton = new JButton("Manage Custom Locations");
@@ -174,6 +175,11 @@ public class TakeMeTherePanel extends PluginPanel
 		searchField.setIcon(IconTextField.Icon.SEARCH);
 		searchField.setBackground(ColorScheme.DARKER_GRAY_COLOR);
 		searchField.setHoverBackgroundColor(ColorScheme.DARKER_GRAY_HOVER_COLOR);
+		paletteTip.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
+		paletteTip.setFont(FontManager.getRunescapeFont().deriveFont(11f));
+		paletteTip.setAlignmentX(Component.LEFT_ALIGNMENT);
+		paletteTip.setBorder(new EmptyBorder(4, 0, 0, 0));
+		paletteTip.setVisible(false);
 
 		configureManageButton();
 
@@ -184,8 +190,21 @@ public class TakeMeTherePanel extends PluginPanel
 		header.add(manageButton);
 		header.add(Box.createVerticalStrut(8));
 		header.add(searchField);
+		header.add(paletteTip);
 
 		return header;
+	}
+
+	public void setPaletteTipVisible(boolean visible)
+	{
+		paletteTip.setVisible(visible);
+		paletteTip.revalidate();
+		paletteTip.repaint();
+	}
+
+	boolean isPaletteTipVisible()
+	{
+		return paletteTip.isVisible();
 	}
 
 	private void configureManageButton()

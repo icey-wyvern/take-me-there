@@ -10,6 +10,8 @@ import net.runelite.client.config.Keybind;
 @ConfigGroup("takemethere")
 public interface TakeMeThereConfig extends Config
 {
+	Keybind DEFAULT_PALETTE_HOTKEY = new Keybind(KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK);
+
 	@ConfigItem(
 		keyName = "paletteHotkey",
 		name = "Search palette hotkey",
@@ -18,6 +20,6 @@ public interface TakeMeThereConfig extends Config
 	)
 	default Keybind paletteHotkey()
 	{
-		return new Keybind(KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK);
+		return DEFAULT_PALETTE_HOTKEY;
 	}
 }
