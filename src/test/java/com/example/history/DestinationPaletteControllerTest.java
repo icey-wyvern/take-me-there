@@ -100,6 +100,19 @@ public class DestinationPaletteControllerTest
 	}
 
 	@Test
+	public void escapeStyleCloseRoutesNothingAndLeavesHistoryUntouched()
+	{
+		history.recordSelection("a", "");
+		DestinationPaletteController controller = controller();
+		controller.open();
+		controller.closeWithoutSelection();
+		assertFalse(controller.isOpen());
+		assertEquals(1, closes);
+		assertTrue(selections.isEmpty());
+		assertEquals(1, history.countsFor("").globalCount("a"));
+	}
+
+	@Test
 	public void searchUsesRankingAndNormalizedQueryThenClearingRestoresLast()
 	{
 		history.recordSelection("b", "magic");

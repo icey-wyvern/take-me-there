@@ -4,12 +4,19 @@ import com.example.data.LocationCatalogLoader;
 import com.example.custom.CustomLocationsStore;
 import com.example.favourites.FavouritesStore;
 import com.example.history.LearnedHistoryStore;
-import com.example.ui.TakeMeTherePanel;
 import com.example.model.LocationCatalog;
+import com.example.palette.DestinationPaletteDialog;
+import com.example.palette.PaletteHotkeyController;
 import com.example.search.SearchMetadata;
 import com.example.search.SearchService;
+import com.example.ui.TakeMeTherePanel;
 import com.google.gson.Gson;
+import com.google.inject.Provides;
+import net.runelite.api.Client;
 import net.runelite.client.config.ConfigManager;
+import net.runelite.client.eventbus.Subscribe;
+import net.runelite.client.events.ConfigChanged;
+import net.runelite.client.input.KeyManager;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.ClientToolbar;
@@ -18,7 +25,11 @@ import net.runelite.client.util.ImageUtil;
 
 import javax.inject.Inject;
 import javax.swing.SwingUtilities;
+import java.awt.Component;
+import java.awt.KeyboardFocusManager;
+import java.awt.Window;
 import java.awt.image.BufferedImage;
+import java.util.concurrent.atomic.AtomicInteger;
 
 @PluginDescriptor(
 	name = "Take Me There"
@@ -37,13 +48,37 @@ public class TakeMeTherePlugin extends Plugin
 	@Inject
 	private Gson gson;
 
+	@Inject
+	private Client client;
+
+	@Inject
+	private KeyManager keyManager;
+
+	@Inject
+	private TakeMeThereConfig config;
+
 	private NavigationButton navigationButton;
+	private DestinationPaletteDialog palette;
+	private PaletteHotkeyController paletteHotkeys;
+	private final AtomicInteger lifecycleGeneration = new AtomicInteger();
+
+	@Provides
+	TakeMeThereConfig provideConfig(ConfigManager manager)
+	{
+		return manager.getConfig(TakeMeThereConfig.class);
+	}
 
 	@Override
 	protected void startUp()
 	{
+		int generation = lifecycleGeneration.incrementAndGet();
 		SwingUtilities.invokeLater(() ->
 		{
+			if (generation != lifecycleGeneration.get())
+			{
+				return;
+			}
+			disposeUi();
 			FavouritesStore favouritesStore = new FavouritesStore(configManager, gson);
 			CustomLocationsStore customLocationsStore = new CustomLocationsStore(configManager, gson);
 
@@ -58,6 +93,17 @@ public class TakeMeTherePlugin extends Plugin
 				searchService,
 				selectionService
 			);
+			Window owner = SwingUtilities.getWindowAncestor((Component) client);
+			if (owner == null)
+			{
+				throw new IllegalStateException("RuneLite client window is unavailable");
+			}
+			palette = new DestinationPaletteDialog(owner, catalog, customLocationsStore,
+				searchService, historyStore, selectionService);
+			KeyboardFocusManager focusManager = KeyboardFocusManager.getCurrentKeyboardFocusManager();
+			paletteHotkeys = new PaletteHotkeyController(config::paletteHotkey, palette,
+				keyManager::registerKeyListener, keyManager::unregisterKeyListener,
+				focusManager::addKeyEventDispatcher, focusManager::removeKeyEventDispatcher);
 
 			BufferedImage icon = ImageUtil.loadImageResource(TakeMeTherePlugin.class, "/panel_icon.png");
 
@@ -68,19 +114,49 @@ public class TakeMeTherePlugin extends Plugin
 				.build();
 
 			clientToolbar.addNavigation(navigationButton);
+			paletteHotkeys.start();
 		});
 	}
 
 	@Override
 	protected void shutDown()
 	{
-		SwingUtilities.invokeLater(() ->
+		lifecycleGeneration.incrementAndGet();
+		SwingUtilities.invokeLater(this::disposeUi);
+	}
+
+	@Subscribe
+	public void onConfigChanged(ConfigChanged event)
+	{
+		if ("takemethere".equals(event.getGroup()) && "paletteHotkey".equals(event.getKey()))
 		{
-			if (navigationButton != null)
+			SwingUtilities.invokeLater(() ->
 			{
-				clientToolbar.removeNavigation(navigationButton);
-				navigationButton = null;
-			}
-		});
+				if (paletteHotkeys != null)
+				{
+					paletteHotkeys.configurationChanged();
+				}
+			});
+		}
+	}
+
+	private void disposeUi()
+	{
+		if (paletteHotkeys != null)
+		{
+			paletteHotkeys.stop();
+			paletteHotkeys = null;
+			palette = null;
+		}
+		else if (palette != null)
+		{
+			palette.disposePalette();
+			palette = null;
+		}
+		if (navigationButton != null)
+		{
+			clientToolbar.removeNavigation(navigationButton);
+			navigationButton = null;
+		}
 	}
 }

@@ -44,8 +44,8 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Objects;
 
-/** Modeless Swing shell. A future hotkey can call open/closeWithoutSelection. */
-public final class DestinationPaletteDialog extends JDialog
+/** Modeless Swing shell controlled by the plugin hotkey lifecycle. */
+public final class DestinationPaletteDialog extends JDialog implements PaletteHotkeyController.PaletteWindow
 {
 	private static final Dimension PREFERRED_SIZE = new Dimension(560, 470);
 	private static final String RESULTS_CARD = "results";
@@ -282,6 +282,13 @@ public final class DestinationPaletteDialog extends JDialog
 	public boolean isOpen()
 	{
 		return controller.isOpen();
+	}
+
+	@Override
+	public boolean ownsKeyEvent(KeyEvent event)
+	{
+		return event.getSource() instanceof Component
+			&& SwingUtilities.getWindowAncestor((Component) event.getSource()) == this;
 	}
 
 	public void disposePalette()
