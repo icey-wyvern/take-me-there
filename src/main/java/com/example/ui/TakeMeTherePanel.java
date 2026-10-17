@@ -51,7 +51,7 @@ public class TakeMeTherePanel extends PluginPanel
 	private static final int STAR_RIGHT_PADDING_PX = 8;
 
 	private final IconTextField searchField = new PlaceholderIconTextField("Search");
-	private final JLabel paletteTip = new JLabel("Tip: Use Ctrl+T to search quickly");
+	private final JLabel paletteTip = new JLabel("Tip: Ctrl+T for quick search");
 	private final JTree tree = new JTree();
 
 	private final JButton manageButton = new JButton("Manage Custom Locations");
