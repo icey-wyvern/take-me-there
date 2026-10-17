@@ -50,7 +50,7 @@ public class TakeMeTherePanel extends PluginPanel
 	private static final int STAR_HIT_WIDTH_PX = 26;
 	private static final int STAR_RIGHT_PADDING_PX = 8;
 
-	private final IconTextField searchField = new IconTextField();
+	private final IconTextField searchField = new PlaceholderIconTextField("Search");
 	private final JLabel paletteTip = new JLabel("Tip: Use Ctrl+T to search quickly");
 	private final JTree tree = new JTree();
 
@@ -172,7 +172,8 @@ public class TakeMeTherePanel extends PluginPanel
 		subtitle.setFont(FontManager.getRunescapeFont().deriveFont(12f));
 		subtitle.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-		searchField.setIcon(IconTextField.Icon.SEARCH);
+		// IconTextField resolves enum icons relative to getClass(); the hint subclass has a different package.
+		searchField.setIcon(new ImageIcon(IconTextField.class.getResource(IconTextField.Icon.SEARCH.getFile())));
 		searchField.setBackground(ColorScheme.DARKER_GRAY_COLOR);
 		searchField.setHoverBackgroundColor(ColorScheme.DARKER_GRAY_HOVER_COLOR);
 		paletteTip.setForeground(ColorScheme.LIGHT_GRAY_COLOR);

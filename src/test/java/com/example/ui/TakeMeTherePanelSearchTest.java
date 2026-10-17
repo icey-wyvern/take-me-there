@@ -38,6 +38,48 @@ public class TakeMeTherePanelSearchTest
 	}
 
 	@Test
+	public void sidebarPlaceholderIsVisualOnlyAndClearingRestoresBrowsing() throws Exception
+	{
+		SwingUtilities.invokeAndWait(() ->
+		{
+			try
+			{
+				CategoryDefinition category = new CategoryDefinition("places", "Places");
+				LocationDefinition location = new LocationDefinition("places:other", "Other Place", 1, 2, 0);
+				TakeMeTherePanel panel = new TakeMeTherePanel(new LocationCatalog(
+					List.of(category), Map.of(category.getId(), List.of(location)), Map.of(location.getId(), location)));
+				Field searchField = TakeMeTherePanel.class.getDeclaredField("searchField");
+				searchField.setAccessible(true);
+				PlaceholderIconTextField input = (PlaceholderIconTextField) searchField.get(panel);
+				Field treeField = TakeMeTherePanel.class.getDeclaredField("tree");
+				treeField.setAccessible(true);
+				JTree tree = (JTree) treeField.get(panel);
+
+				assertEquals("Search", input.getPlaceholder());
+				assertTrue(input.isPlaceholderVisible());
+				assertEquals("", input.getText());
+				assertEquals(0, input.getDocument().getLength());
+				assertEquals(3, ((DefaultMutableTreeNode) tree.getModel().getRoot()).getChildCount());
+
+				input.setText("Other");
+				assertFalse(input.isPlaceholderVisible());
+				assertEquals("Other", input.getText());
+				assertEquals(5, input.getDocument().getLength());
+				assertEquals(1, ((DefaultMutableTreeNode) tree.getModel().getRoot()).getChildCount());
+
+				input.setText("");
+				assertTrue(input.isPlaceholderVisible());
+				assertEquals(0, input.getDocument().getLength());
+				assertEquals(3, ((DefaultMutableTreeNode) tree.getModel().getRoot()).getChildCount());
+			}
+			catch (ReflectiveOperationException e)
+			{
+				throw new AssertionError(e);
+			}
+		});
+	}
+
+	@Test
 	public void sharedMatcherFiltersWithoutChangingCategoryOrFavouriteOrder() throws Exception
 	{
 		SwingUtilities.invokeAndWait(() ->
