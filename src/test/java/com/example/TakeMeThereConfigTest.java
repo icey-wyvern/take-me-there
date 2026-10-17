@@ -18,7 +18,8 @@ public class TakeMeThereConfigTest
 		assertEquals("takemethere", TakeMeThereConfig.class.getAnnotation(ConfigGroup.class).value());
 		ConfigItem item = TakeMeThereConfig.class.getMethod("paletteHotkey").getAnnotation(ConfigItem.class);
 		assertEquals("paletteHotkey", item.keyName());
-		assertEquals("Search palette hotkey", item.name());
+		assertEquals("Quick search hotkey", item.name());
+		assertEquals("Open or close quick destination search.", item.description());
 		assertEquals(new Keybind(KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK),
 			new TakeMeThereConfig() {}.paletteHotkey());
 		assertFalse(Keybind.NOT_SET.matches(new KeyEvent(new javax.swing.JPanel(),

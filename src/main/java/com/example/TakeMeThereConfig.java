@@ -14,8 +14,8 @@ public interface TakeMeThereConfig extends Config
 
 	@ConfigItem(
 		keyName = "paletteHotkey",
-		name = "Search palette hotkey",
-		description = "Open or close the destination search palette.",
+		name = "Quick search hotkey",
+		description = "Open or close quick destination search.",
 		position = 0
 	)
 	default Keybind paletteHotkey()
