@@ -27,7 +27,6 @@ import net.runelite.client.util.ImageUtil;
 import javax.inject.Inject;
 import javax.swing.SwingUtilities;
 import java.awt.Component;
-import java.awt.KeyboardFocusManager;
 import java.awt.Window;
 import java.awt.image.BufferedImage;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -107,15 +106,13 @@ public class TakeMeTherePlugin extends Plugin
 			}
 			palette = new DestinationPaletteDialog(owner, catalog, customLocationsStore,
 				searchService, historyStore, selectionService);
-			KeyboardFocusManager focusManager = KeyboardFocusManager.getCurrentKeyboardFocusManager();
 			paletteHotkeys = new PaletteHotkeyController(config::paletteHotkey, palette,
 				usedHotkey ->
 				{
 					tipState.openedWith(usedHotkey);
 					newPanel.setPaletteTipVisible(tipState.shouldShow(config.paletteHotkey()));
 				},
-				keyManager::registerKeyListener, keyManager::unregisterKeyListener,
-				focusManager::addKeyEventDispatcher, focusManager::removeKeyEventDispatcher);
+				keyManager::registerKeyListener, keyManager::unregisterKeyListener);
 
 			BufferedImage icon = ImageUtil.loadImageResource(TakeMeTherePlugin.class, "/panel_icon.png");
 

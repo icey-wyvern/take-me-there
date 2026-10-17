@@ -5,6 +5,7 @@ import com.example.history.TestHistoryStore;
 import com.example.search.SearchMetadata;
 import com.example.search.SearchService;
 import java.awt.event.ActionEvent;
+import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,6 +18,7 @@ import javax.swing.JTextField;
 import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 import net.runelite.api.coords.WorldPoint;
+import net.runelite.client.config.Keybind;
 import net.runelite.client.ui.components.IconTextField;
 import org.junit.Test;
 
@@ -35,6 +37,61 @@ public class PaletteKeyBindingsTest
 	private DestinationPaletteController controller;
 	private IconTextField searchField;
 	private JTextField focusedInput;
+	private PaletteKeyBindings bindings;
+
+	@Test
+	public void focusedDefaultHotkeyClosesWithoutSelecting() throws Exception
+	{
+		onEdt(() ->
+		{
+			open();
+			bindings.updateHotkey(new Keybind(KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK));
+			assertEquals("paletteHotkeyClose", binding(KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK));
+			press(KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK);
+			assertEquals(1, closes);
+			assertFalse(controller.isOpen());
+			assertTrue(selections.isEmpty());
+		});
+	}
+
+	@Test
+	public void remapReplacesLocalBindingAndUnsetKeepsEscape() throws Exception
+	{
+		onEdt(() ->
+		{
+			open();
+			bindings.updateHotkey(new Keybind(KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK));
+			bindings.updateHotkey(new Keybind(KeyEvent.VK_G, InputEvent.CTRL_DOWN_MASK));
+			assertNotEquals("paletteHotkeyClose", binding(KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK));
+			assertEquals("paletteHotkeyClose", binding(KeyEvent.VK_G, InputEvent.CTRL_DOWN_MASK));
+			press(KeyEvent.VK_G, InputEvent.CTRL_DOWN_MASK);
+			assertEquals(1, closes);
+			assertTrue(selections.isEmpty());
+
+			open();
+			bindings.updateHotkey(new Keybind(KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK));
+			bindings.updateHotkey(Keybind.NOT_SET);
+			assertNotEquals("paletteHotkeyClose", binding(KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK));
+			press(KeyEvent.VK_ESCAPE);
+			assertEquals(2, closes);
+			assertTrue(selections.isEmpty());
+		});
+	}
+
+	@Test
+	public void remappingAwayFromAnActionKeyRestoresItsOriginalAction() throws Exception
+	{
+		onEdt(() ->
+		{
+			open();
+			bindings.updateHotkey(new Keybind(KeyEvent.VK_ENTER, 0));
+			assertEquals("paletteHotkeyClose", binding(KeyEvent.VK_ENTER, 0));
+			bindings.updateHotkey(new Keybind(KeyEvent.VK_T, InputEvent.CTRL_DOWN_MASK));
+			assertEquals("paletteEnter", binding(KeyEvent.VK_ENTER, 0));
+			bindings.updateHotkey(new Keybind(KeyEvent.VK_CONTROL, InputEvent.CTRL_DOWN_MASK));
+			assertEquals("paletteHotkeyClose", binding(KeyEvent.VK_CONTROL, InputEvent.CTRL_DOWN_MASK));
+		});
+	}
 
 	@Test
 	public void focusedEnterSelectsHighlightedResultOnceWithNormalizedQuery() throws Exception
@@ -128,7 +185,7 @@ public class PaletteKeyBindingsTest
 			(destination, query, complete) -> selections.add(new Selection(destination, query, complete)),
 			() -> closes++);
 		searchField = new IconTextField();
-		PaletteKeyBindings.install(searchField, () -> controller.moveSelection(1),
+		bindings = PaletteKeyBindings.install(searchField, () -> controller.moveSelection(1),
 			() -> controller.moveSelection(-1), controller::confirm, controller::closeWithoutSelection);
 		focusedInput = PaletteKeyBindings.findTextInput(searchField);
 		assertNotNull(focusedInput);
@@ -138,8 +195,18 @@ public class PaletteKeyBindingsTest
 
 	private void press(int keyCode)
 	{
-		KeyStroke stroke = KeyStroke.getKeyStroke(keyCode, 0);
-		Object key = focusedInput.getInputMap(JComponent.WHEN_FOCUSED).get(stroke);
+		press(keyCode, 0);
+	}
+
+	private Object binding(int keyCode, int modifiers)
+	{
+		return focusedInput.getInputMap(JComponent.WHEN_FOCUSED)
+			.get(KeyStroke.getKeyStroke(keyCode, modifiers));
+	}
+
+	private void press(int keyCode, int modifiers)
+	{
+		Object key = binding(keyCode, modifiers);
 		assertNotNull("No focused-input binding for " + keyCode, key);
 		Action action = focusedInput.getActionMap().get(key);
 		assertNotNull(action);

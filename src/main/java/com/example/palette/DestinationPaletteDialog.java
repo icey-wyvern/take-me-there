@@ -28,7 +28,6 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
-import java.awt.KeyboardFocusManager;
 import java.awt.Rectangle;
 import java.awt.Window;
 import java.awt.event.KeyEvent;
@@ -37,6 +36,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Objects;
+import net.runelite.client.config.Keybind;
 
 /** Modeless Swing shell controlled by the plugin hotkey lifecycle. */
 public final class DestinationPaletteDialog extends JDialog implements PaletteHotkeyController.PaletteWindow
@@ -66,7 +66,7 @@ public final class DestinationPaletteDialog extends JDialog implements PaletteHo
 	private final java.awt.CardLayout cards = new java.awt.CardLayout();
 	private final JPanel resultContainer = new JPanel(cards);
 	private final JLabel message = new JLabel("", JLabel.CENTER);
-	private Component previousFocusOwner;
+	private PaletteKeyBindings keyBindings;
 
 	public DestinationPaletteDialog(Window owner, LocationCatalog catalog, CustomLocationsStore customStore,
 		SearchService searchService, LearnedHistoryStore historyStore,
@@ -171,7 +171,7 @@ public final class DestinationPaletteDialog extends JDialog implements PaletteHo
 	private void bindKeys()
 	{
 		// IconTextField forwards focus to its nested JTextField, not to the outer JPanel.
-		PaletteKeyBindings.install(searchField,
+		keyBindings = PaletteKeyBindings.install(searchField,
 			() -> { controller.moveSelection(1); render(); },
 			() -> { controller.moveSelection(-1); render(); },
 			controller::confirm, this::closeWithoutSelection);
@@ -231,7 +231,6 @@ public final class DestinationPaletteDialog extends JDialog implements PaletteHo
 			searchField.requestFocusInWindow();
 			return;
 		}
-		previousFocusOwner = KeyboardFocusManager.getCurrentKeyboardFocusManager().getFocusOwner();
 		controller.open();
 		searchField.setText("");
 		render();
@@ -268,6 +267,12 @@ public final class DestinationPaletteDialog extends JDialog implements PaletteHo
 			&& SwingUtilities.getWindowAncestor((Component) event.getSource()) == this;
 	}
 
+	@Override
+	public void configureHotkey(Keybind keybind)
+	{
+		keyBindings.updateHotkey(keybind);
+	}
+
 	public void disposePalette()
 	{
 		if (!SwingUtilities.isEventDispatchThread())
@@ -282,15 +287,14 @@ public final class DestinationPaletteDialog extends JDialog implements PaletteHo
 	private void hideAndRestoreFocus()
 	{
 		setVisible(false);
-		Component focus = previousFocusOwner;
-		previousFocusOwner = null;
-		if (focus != null)
+		Window owner = getOwner();
+		if (owner != null)
 		{
 			SwingUtilities.invokeLater(() ->
 			{
-				if (focus.isDisplayable())
+				if (owner.isDisplayable())
 				{
-					focus.requestFocusInWindow();
+					owner.requestFocus();
 				}
 			});
 		}
