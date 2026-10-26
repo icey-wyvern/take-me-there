@@ -25,6 +25,7 @@ import javax.swing.WindowConstants;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import java.awt.BorderLayout;
+import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
@@ -36,6 +37,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Objects;
+import java.util.function.Supplier;
 import net.runelite.client.config.Keybind;
 
 /** Modeless Swing shell controlled by the plugin hotkey lifecycle. */
@@ -46,6 +48,7 @@ public final class DestinationPaletteDialog extends JDialog implements PaletteHo
 	private static final String MESSAGE_CARD = "message";
 
 	private final DestinationPaletteController controller;
+	private final Supplier<Canvas> gameCanvas;
 	private final IconTextField searchField = new IconTextField();
 	private final DefaultListModel<PaletteDestination> listModel = new DefaultListModel<>();
 	private final JList<PaletteDestination> results = new JList<PaletteDestination>(listModel)
@@ -68,11 +71,12 @@ public final class DestinationPaletteDialog extends JDialog implements PaletteHo
 	private final JLabel message = new JLabel("", JLabel.CENTER);
 	private PaletteKeyBindings keyBindings;
 
-	public DestinationPaletteDialog(Window owner, LocationCatalog catalog, CustomLocationsStore customStore,
-		SearchService searchService, LearnedHistoryStore historyStore,
+	public DestinationPaletteDialog(Window owner, Supplier<Canvas> gameCanvas, LocationCatalog catalog,
+		CustomLocationsStore customStore, SearchService searchService, LearnedHistoryStore historyStore,
 		DestinationSelectionService selectionService)
 	{
 		super(Objects.requireNonNull(owner, "owner"), "Search destinations", ModalityType.MODELESS);
+		this.gameCanvas = Objects.requireNonNull(gameCanvas, "gameCanvas");
 		Objects.requireNonNull(catalog, "catalog");
 		Objects.requireNonNull(selectionService, "selectionService");
 		controller = new DestinationPaletteController(
@@ -287,17 +291,14 @@ public final class DestinationPaletteDialog extends JDialog implements PaletteHo
 	private void hideAndRestoreFocus()
 	{
 		setVisible(false);
-		Window owner = getOwner();
-		if (owner != null)
+		SwingUtilities.invokeLater(() ->
 		{
-			SwingUtilities.invokeLater(() ->
+			Canvas canvas = gameCanvas.get();
+			if (canvas != null && canvas.isShowing())
 			{
-				if (owner.isDisplayable())
-				{
-					owner.requestFocus();
-				}
-			});
-		}
+				canvas.requestFocusInWindow();
+			}
+		});
 	}
 
 	private static final class DestinationRenderer extends DefaultListCellRenderer

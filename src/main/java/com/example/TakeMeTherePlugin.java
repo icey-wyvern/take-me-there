@@ -104,7 +104,7 @@ public class TakeMeTherePlugin extends Plugin
 			{
 				throw new IllegalStateException("RuneLite client window is unavailable");
 			}
-			palette = new DestinationPaletteDialog(owner, catalog, customLocationsStore,
+			palette = new DestinationPaletteDialog(owner, client::getCanvas, catalog, customLocationsStore,
 				searchService, historyStore, selectionService);
 			paletteHotkeys = new PaletteHotkeyController(config::paletteHotkey, palette,
 				usedHotkey ->
